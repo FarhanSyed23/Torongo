@@ -1,0 +1,7 @@
+.eael-google-map.eael-google-map-marker canvas {
+  height: 50px !important;
+  width: 30px !important;
+}
+.eael-google-map.eael-google-map-marker .gm-style-iw-t {
+  right: -90px !important;
+}

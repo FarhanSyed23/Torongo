@@ -1,0 +1,338 @@
+.xoo-el-opac {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.2s ease-out
+}
+
+.xoo-el-modal {
+    top: 0;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 10000000000;
+    overflow: auto;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+}
+
+.xoo-el-inmodal .scroll-content{
+    height: 100%;
+}
+
+.xoo-el-inmodal {
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    vertical-align: middle;
+    width: 90%;
+    text-align: left;
+    border-radius: 5px;
+    height: 90%; 
+}
+
+.xoo-el-srcont {
+    flex-grow: 1;
+    height: 100%;
+    overflow: auto;
+}
+
+.xoo-el-popup-active .xoo-el-modal{
+    opacity: 1;
+    transform: scale(1);
+}
+.xoo-el-popup-active .xoo-el-opac{
+    opacity: 0.7;
+}
+
+.xoo-el-popup-active.xoo-el-container{
+    visibility: visible!important;
+    font-size: 15px;
+}
+.xoo-el-container{
+    visibility: hidden;
+}
+
+
+span.xoo-el-close {
+    font-size: 23px;
+    position: absolute;
+    right: -11px;
+    top: -11px;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 400;
+    cursor: pointer;
+    z-index: 100;
+    border: 4px solid #fff;
+}
+
+span.xoo-el-close:hover{
+    color: #e63030;
+}
+
+.xoo-el-head span {
+    display:  block;
+}
+
+.xoo-el-head {
+    display:  table;
+    margin: 0 auto;
+    text-align:  center;
+    text-transform:  uppercase;
+    margin-bottom: 15px;
+}
+
+
+
+button.button.btn.xoo-el-action-btn {
+    clear:  both;
+    width: calc(100% - 20px);
+    text-transform: uppercase;
+    display: inline-block;
+    min-height: 35px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+body.xoo-el-popup-active{
+    overflow-y: hidden;
+}
+
+
+.xoo-el-notice-error{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.xoo-el-notice-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.xoo-el-notice{
+    display: none;
+    width: calc(100% - 20px);
+}
+
+.xoo-el-notice-error , .xoo-el-notice-success{
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+}
+
+
+
+.xoo-aff-group.xoo-el-login-btm-fields{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+
+.xoo-el-section{
+    display: none;
+}
+.xoo-el-section.xoo-el-active{
+    display: block;
+}
+.xoo-el-switch{
+    cursor: pointer;
+}
+
+
+.xoo-el-lostpw-tgr , .xoo-el-login-tgr , .xoo-el-reg-tgr{
+    cursor: pointer;
+}
+
+.xoo-el-head-nav{
+    text-decoration: underline;
+}
+
+
+.xoo-el-form-txt{
+    margin-bottom: 10px;
+    display: block;
+}
+.xoo-el-head-action a{
+    margin: 0 5px;
+}
+.xoo-el-action-form > a.xoo-el-lostpw-tgr{
+    display: table;
+    float:  right;
+    margin-top: -5px;
+    clear:  both;
+    text-transform:  uppercase;
+    font-size:  13px;
+    cursor:  pointer;
+    margin-bottom:  5px;
+}
+.xoo-el-head-action a:hover{
+    text-decoration: underline;
+}
+.xoo-el-notice a.xoo-el-lostpw-tgr {
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.xoo-el-lostpw-success .woocommerce-message{
+    margin: 0 0 10px 0;
+}
+.xoo-el-sidebar{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+.xoo-el-wrap {
+    min-height:  100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.xoo-el-main {
+    padding: 30px 25px;
+    position: relative;
+    vertical-align: top;
+}
+.xoo-el-footer-note{
+   display: block;
+   position: absolute;
+   bottom: 10px;
+   left: 15px;
+   padding-right: 20px;
+}
+
+.xoo-el-form-inline span.xoo-el-footer-note {
+    display: none;
+}
+@media only screen and (max-width: 769px) {
+   .xoo-el-sidebar{
+        display: none;
+    }
+     .xoo-el-wrap , .xoo-el-main{
+        display: block;
+        width: 100%;
+    }
+
+    .xoo-el-footer-note{
+        position: relative;
+    }
+}
+
+label.xoo-el-form-label {
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+a.xoo-el-lostpw-tgr {
+    margin: 0 0 0 auto;
+}
+
+.xoo-el-header-icon{
+    position: absolute;
+    font-size: 56px;
+    top: -30px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.xoo-el-fields {
+    position: relative;
+    z-index: 1;
+}
+.xoo-el-section.xoo-el-section-lostpw {
+    padding-right: 20px;
+}
+/* Header */
+.xoo-el-header {padding: 0 15px 15px;}
+
+.xoo-el-form-container ul.xoo-el-tabs {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.xoo-el-form-container ul.xoo-el-tabs li {
+    padding: 12px 20px;
+    flex-grow: 1;
+    flex-basis: auto;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+}
+
+.xoo-el-form-container ul.xoo-el-tabs li.xoo-el-active {
+    font-weight: 600;
+}
+
+.xoo-el-section {
+    padding-left: 20px;
+}
+
+.xoo-el-form-inline .xoo-el-header {
+}
+
+.xoo-el-form-inline .xoo-aff-group {
+    margin-bottom: 30px;
+}
+
+.xoo-el-username-menu img.avatar, .xoo-el-firstname-menu img.avatar {
+    width: 15px;
+    margin-right: 6px;
+    height: auto;
+    display: inline;
+    vertical-align: middle;
+}
+/** -- */
+.xoo-el-form-container{
+   margin-bottom: 50px;
+}
+
+form.xoo-el-action-form {
+    padding-top: 15px;
+}
+
+
+.xoo-el-form-container.xoo-el-form-inline {
+    max-width: 750px;
+    margin: 10px auto;
+}
+.xoo-el-processing{
+    pointer-events: none;
+}
+
+.xoo-el-login-btm-fields label input {
+    margin-right: 4px;
+}
+
+.xoo-el-login-btm-fields label{
+    margin: 0 auto 0 0;
+}
+
+.xoo-aff-input-group svg.xoo-aff-input-icon {
+    padding: 10px;
+    max-width: 35px;
+    min-width: 35px;
+}

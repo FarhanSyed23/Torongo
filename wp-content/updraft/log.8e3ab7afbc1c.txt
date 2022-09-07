@@ -1,0 +1,610 @@
+0000.001 (0) Opened log file at time: Tue, 06 Sep 2022 18:21:10 +0000 on http://localhost/Torongo
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.26 WP: 5.4.11 PHP: 7.4.7 (apache2handler, Windows NT DESKTOP-PA13LJQ 10.0 build 19044 (Windows 10) AMD64) MySQL: 10.4.13-MariaDB WPLANG: en_US Server: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.7 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.2M | 22M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 11758.2 MB
+0000.011 (0) Deleting old log file: log.a633be2b032a.txt
+0000.013 (0) Deleting old log file: log.c7d195d8ed45.txt
+0000.014 (0) Deleting old log file: log.f96f490e06c6.txt
+0000.015 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.017 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.184 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1597801553, seconds_ago=64686918)
+0000.192 (0) Set semaphore last lock (fd) time to 2022-09-06 18:21:11
+0000.195 (0) Semaphore lock (fd) complete
+0000.203 (0) Backup run: resumption=0, nonce=8e3ab7afbc1c, file_nonce=8e3ab7afbc1c begun at=1662488470 (1s ago), job type=backup
+0000.207 (0) Scheduling a resumption (1) after 300 seconds (1662488771) in case this run gets aborted
+0000.263 (0) Checking if we have a zip executable available
+0000.268 (0) Creation of backups of directories: beginning
+0000.276 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0008.477 (0) Total entities for the zip file: 2538 directories, 11881 files (0 skipped as non-modified), 203.2 MB
+0008.495 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0010.112 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 100 files added (on-disk size: 456.3 KB)
+0010.924 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 200 files added (on-disk size: 456.3 KB)
+0011.132 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.6 MB, 218 (219) files added so far); re-opening (prior size: 456.3 KB)
+0012.751 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 300 files added (on-disk size: 2186.1 KB)
+0013.962 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 400 files added (on-disk size: 2186.1 KB)
+0014.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 194 (413) files added so far); re-opening (prior size: 2186.1 KB)
+0015.820 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 500 files added (on-disk size: 2597.8 KB)
+0016.368 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 600 files added (on-disk size: 2597.8 KB)
+0017.130 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.8 MB, 270 (683) files added so far); re-opening (prior size: 2597.8 KB)
+0017.521 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 700 files added (on-disk size: 4519.2 KB)
+0018.311 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 800 files added (on-disk size: 4519.2 KB)
+0019.409 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 900 files added (on-disk size: 4519.2 KB)
+0019.888 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1000 files added (on-disk size: 4519.2 KB)
+0020.132 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.5 MB, 355 (1038) files added so far); re-opening (prior size: 4519.2 KB)
+0020.776 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1100 files added (on-disk size: 6447.3 KB)
+0021.444 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1200 files added (on-disk size: 6447.3 KB)
+0022.524 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1300 files added (on-disk size: 6447.3 KB)
+0023.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 337 (1375) files added so far); re-opening (prior size: 6447.3 KB)
+0023.679 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1400 files added (on-disk size: 7135.9 KB)
+0025.211 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1500 files added (on-disk size: 7135.9 KB)
+0026.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 217 (1592) files added so far); re-opening (prior size: 7135.9 KB)
+0026.425 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1600 files added (on-disk size: 7404.4 KB)
+0027.390 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1700 files added (on-disk size: 7404.4 KB)
+0028.589 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1800 files added (on-disk size: 7404.4 KB)
+0029.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 271 (1863) files added so far); re-opening (prior size: 7404.4 KB)
+0029.923 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 1900 files added (on-disk size: 7764.7 KB)
+0030.782 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2000 files added (on-disk size: 7764.7 KB)
+0032.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 233 (2096) files added so far); re-opening (prior size: 7764.7 KB)
+0032.522 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2100 files added (on-disk size: 8233 KB)
+0033.504 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2200 files added (on-disk size: 8233 KB)
+0034.821 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2300 files added (on-disk size: 8233 KB)
+0035.129 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 259 (2355) files added so far); re-opening (prior size: 8233 KB)
+0037.534 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2400 files added (on-disk size: 9221.8 KB)
+0038.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 85 (2440) files added so far); re-opening (prior size: 9221.8 KB)
+0039.331 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2500 files added (on-disk size: 11044.3 KB)
+0040.883 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2600 files added (on-disk size: 11044.3 KB)
+0041.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.9 MB, 186 (2626) files added so far); re-opening (prior size: 11044.3 KB)
+0042.744 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2700 files added (on-disk size: 13698.5 KB)
+0043.316 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2800 files added (on-disk size: 13698.5 KB)
+0043.714 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 2900 files added (on-disk size: 13698.5 KB)
+0044.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.7 MB, 367 (2993) files added so far); re-opening (prior size: 13698.5 KB)
+0045.196 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3000 files added (on-disk size: 16375.9 KB)
+0045.899 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3100 files added (on-disk size: 16375.9 KB)
+0046.592 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3200 files added (on-disk size: 16375.9 KB)
+0046.824 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3300 files added (on-disk size: 16375.9 KB)
+0047.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.6 MB, 351 (3344) files added so far); re-opening (prior size: 16375.9 KB)
+0048.457 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3400 files added (on-disk size: 17299.4 KB)
+0049.041 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3500 files added (on-disk size: 17299.4 KB)
+0050.052 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3600 files added (on-disk size: 17299.4 KB)
+0050.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 267 (3611) files added so far); re-opening (prior size: 17299.4 KB)
+0051.071 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3700 files added (on-disk size: 18197 KB)
+0051.749 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3800 files added (on-disk size: 18197 KB)
+0052.992 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 3900 files added (on-disk size: 18197 KB)
+0053.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (13.5 MB, 304 (3915) files added so far); re-opening (prior size: 18197 KB)
+0054.579 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4000 files added (on-disk size: 24211.5 KB)
+0055.164 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4100 files added (on-disk size: 24211.5 KB)
+0056.085 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4200 files added (on-disk size: 24211.5 KB)
+0057.135 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (12.8 MB, 359 (4274) files added so far); re-opening (prior size: 24211.5 KB)
+0059.329 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4300 files added (on-disk size: 30625.5 KB)
+0059.542 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4400 files added (on-disk size: 30625.5 KB)
+0060.135 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.9 MB, 226 (4500) files added so far); re-opening (prior size: 30625.5 KB)
+0060.616 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4500 files added (on-disk size: 31391.2 KB)
+0061.944 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4600 files added (on-disk size: 31391.2 KB)
+0063.038 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4700 files added (on-disk size: 31391.2 KB)
+0063.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 208 (4708) files added so far); re-opening (prior size: 31391.2 KB)
+0065.553 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4800 files added (on-disk size: 33002.1 KB)
+0066.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.9 MB, 165 (4873) files added so far); re-opening (prior size: 33002.1 KB)
+0067.779 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 4900 files added (on-disk size: 37692.7 KB)
+0069.011 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5000 files added (on-disk size: 37692.7 KB)
+0070.045 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5100 files added (on-disk size: 37692.7 KB)
+0070.140 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.3 MB, 235 (5108) files added so far); re-opening (prior size: 37692.7 KB)
+0073.129 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 12 (5120) files added so far); re-opening (prior size: 39252.8 KB)
+0077.811 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 31 (5151) files added so far); re-opening (prior size: 39318.1 KB)
+0082.374 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 9 (5160) files added so far); re-opening (prior size: 39413.3 KB)
+0085.136 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 39 (5199) files added so far); re-opening (prior size: 39444.3 KB)
+0085.656 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5200 files added (on-disk size: 39650.1 KB)
+0088.140 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 94 (5293) files added so far); re-opening (prior size: 39650.1 KB)
+0088.785 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5300 files added (on-disk size: 39792.5 KB)
+0091.134 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 66 (5359) files added so far); re-opening (prior size: 39792.5 KB)
+0091.949 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5400 files added (on-disk size: 40273.5 KB)
+0092.755 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5500 files added (on-disk size: 40273.5 KB)
+0093.974 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5600 files added (on-disk size: 40273.5 KB)
+0094.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.4 MB, 251 (5610) files added so far); re-opening (prior size: 40273.5 KB)
+0096.852 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5700 files added (on-disk size: 43148.5 KB)
+0097.541 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5800 files added (on-disk size: 43148.5 KB)
+0098.166 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.4 MB, 253 (5863) files added so far); re-opening (prior size: 43148.5 KB)
+0099.495 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 5900 files added (on-disk size: 44107.6 KB)
+0100.709 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6000 files added (on-disk size: 44107.6 KB)
+0101.130 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 175 (6038) files added so far); re-opening (prior size: 44107.6 KB)
+0102.373 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6100 files added (on-disk size: 44307.3 KB)
+0103.638 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6200 files added (on-disk size: 44307.3 KB)
+0104.140 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 201 (6239) files added so far); re-opening (prior size: 44307.3 KB)
+0105.571 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6300 files added (on-disk size: 44645 KB)
+0106.624 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6400 files added (on-disk size: 44645 KB)
+0107.125 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.5 MB, 196 (6435) files added so far); re-opening (prior size: 44645 KB)
+0109.100 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6500 files added (on-disk size: 45859.3 KB)
+0110.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 161 (6596) files added so far); re-opening (prior size: 45859.3 KB)
+0110.856 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6600 files added (on-disk size: 46041.5 KB)
+0112.052 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6700 files added (on-disk size: 46041.5 KB)
+0113.155 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 195 (6791) files added so far); re-opening (prior size: 46041.5 KB)
+0113.890 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6800 files added (on-disk size: 46436 KB)
+0114.518 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 6900 files added (on-disk size: 46436 KB)
+0115.389 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7000 files added (on-disk size: 46436 KB)
+0116.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5 MB, 283 (7074) files added so far); re-opening (prior size: 46436 KB)
+0117.221 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7100 files added (on-disk size: 48809.2 KB)
+0118.472 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7200 files added (on-disk size: 48809.2 KB)
+0119.136 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 182 (7256) files added so far); re-opening (prior size: 48809.2 KB)
+0120.403 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7300 files added (on-disk size: 49171.7 KB)
+0121.953 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7400 files added (on-disk size: 49171.7 KB)
+0122.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 160 (7416) files added so far); re-opening (prior size: 49171.7 KB)
+0125.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 68 (7484) files added so far); re-opening (prior size: 49672.5 KB)
+0126.151 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7500 files added (on-disk size: 50069.7 KB)
+0127.268 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7600 files added (on-disk size: 50069.7 KB)
+0128.151 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 169 (7653) files added so far); re-opening (prior size: 50069.7 KB)
+0129.544 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7700 files added (on-disk size: 50599.1 KB)
+0131.177 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.2 MB, 90 (7743) files added so far); re-opening (prior size: 50599.1 KB)
+0133.059 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7800 files added (on-disk size: 52803.7 KB)
+0134.047 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 7900 files added (on-disk size: 52803.7 KB)
+0134.869 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8000 files added (on-disk size: 52803.7 KB)
+0135.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.7 MB, 279 (8022) files added so far); re-opening (prior size: 52803.7 KB)
+0137.178 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8100 files added (on-disk size: 53753.8 KB)
+0138.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 149 (8171) files added so far); re-opening (prior size: 53753.8 KB)
+0139.391 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8200 files added (on-disk size: 54060.5 KB)
+0140.608 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8300 files added (on-disk size: 54060.5 KB)
+0141.130 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 153 (8324) files added so far); re-opening (prior size: 54060.5 KB)
+0143.189 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8400 files added (on-disk size: 54432.7 KB)
+0144.183 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 135 (8459) files added so far); re-opening (prior size: 54432.7 KB)
+0145.545 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8500 files added (on-disk size: 54530.1 KB)
+0146.430 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8600 files added (on-disk size: 54530.1 KB)
+0147.127 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.5 MB, 237 (8696) files added so far); re-opening (prior size: 54530.1 KB)
+0148.308 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8700 files added (on-disk size: 56959.9 KB)
+0149.017 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8800 files added (on-disk size: 56959.9 KB)
+0150.641 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 8900 files added (on-disk size: 56959.9 KB)
+0151.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4 MB, 242 (8938) files added so far); re-opening (prior size: 56959.9 KB)
+0152.931 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9000 files added (on-disk size: 58396.8 KB)
+0154.110 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9100 files added (on-disk size: 58396.8 KB)
+0154.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (14.9 MB, 163 (9101) files added so far); re-opening (prior size: 58396.8 KB)
+0158.576 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9200 files added (on-disk size: 62244.3 KB)
+0159.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 146 (9247) files added so far); re-opening (prior size: 62244.3 KB)
+0160.448 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9300 files added (on-disk size: 62424.1 KB)
+0161.568 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9400 files added (on-disk size: 62424.1 KB)
+0162.132 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 207 (9454) files added so far); re-opening (prior size: 62424.1 KB)
+0163.449 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9500 files added (on-disk size: 62665.4 KB)
+0164.472 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9600 files added (on-disk size: 62665.4 KB)
+0165.139 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 208 (9662) files added so far); re-opening (prior size: 62665.4 KB)
+0166.455 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9700 files added (on-disk size: 63037.1 KB)
+0167.753 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9800 files added (on-disk size: 63037.1 KB)
+0168.132 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 179 (9841) files added so far); re-opening (prior size: 63037.1 KB)
+0169.547 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 9900 files added (on-disk size: 63464.3 KB)
+0170.597 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10000 files added (on-disk size: 63464.3 KB)
+0171.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 223 (10064) files added so far); re-opening (prior size: 63464.3 KB)
+0172.368 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10100 files added (on-disk size: 63774.6 KB)
+0174.146 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.7 MB, 123 (10187) files added so far); re-opening (prior size: 63774.6 KB)
+0177.434 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 10 (10197) files added so far); re-opening (prior size: 64615.1 KB)
+0178.173 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10200 files added (on-disk size: 64632.9 KB)
+0179.730 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10300 files added (on-disk size: 64632.9 KB)
+0180.138 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 135 (10332) files added so far); re-opening (prior size: 64632.9 KB)
+0181.922 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10400 files added (on-disk size: 64837.3 KB)
+0183.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 166 (10498) files added so far); re-opening (prior size: 64837.3 KB)
+0183.983 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10500 files added (on-disk size: 65076 KB)
+0185.487 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10600 files added (on-disk size: 65076 KB)
+0186.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 142 (10640) files added so far); re-opening (prior size: 65076 KB)
+0188.057 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10700 files added (on-disk size: 65471.6 KB)
+0189.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 131 (10771) files added so far); re-opening (prior size: 65471.6 KB)
+0190.321 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10800 files added (on-disk size: 65765.4 KB)
+0190.957 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 10900 files added (on-disk size: 65765.4 KB)
+0191.968 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11000 files added (on-disk size: 65765.4 KB)
+0192.135 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.2 MB, 271 (11042) files added so far); re-opening (prior size: 65765.4 KB)
+0193.604 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11100 files added (on-disk size: 68620.6 KB)
+0194.181 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11200 files added (on-disk size: 68620.6 KB)
+0194.633 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11300 files added (on-disk size: 68620.6 KB)
+0196.214 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.5 MB, 329 (11371) files added so far); re-opening (prior size: 68620.6 KB)
+0197.924 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11400 files added (on-disk size: 73027.6 KB)
+0199.718 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11500 files added (on-disk size: 73027.6 KB)
+0200.133 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 174 (11545) files added so far); re-opening (prior size: 73027.6 KB)
+0201.657 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11600 files added (on-disk size: 73363.1 KB)
+0202.565 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11700 files added (on-disk size: 73363.1 KB)
+0203.128 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 243 (11788) files added so far); re-opening (prior size: 73363.1 KB)
+0204.577 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip.tmp: 11800 files added (on-disk size: 74576.6 KB)
+0207.303 (0) Created plugins zip (0) - 75284.1 KB in 207 s (363.7 KB/s) (sha1: be40543e742b15046e41495b8fcb4c8db8e86d67, sha256: a1744f57920ad9639f0634224f38bf2f58e20f862cb7a84d2d16712356d0e96d)
+0207.309 (0) Beginning creation of dump of themes (split every: 400 MB)
+0207.580 (0) Total entities for the zip file: 170 directories, 632 files (0 skipped as non-modified), 8.3 MB
+0208.106 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0208.610 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0209.315 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0210.083 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0210.126 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.5 MB, 406 (406) files added so far); re-opening (prior size: 0 KB)
+0211.198 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 500 files added (on-disk size: 1002.8 KB)
+0212.405 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip.tmp: 600 files added (on-disk size: 1002.8 KB)
+0213.311 (0) Created themes zip (0) - 3164.6 KB in 6 s (527.7 KB/s) (sha1: 5c90a2d6a9caf68433b9ce3739e5a394dca144fe, sha256: 5cde964957eec70183bdbfce2f6616f20de0b6a2be363e9834462374a1a28c88)
+0213.316 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0213.319 (0) Looking for candidates to backup in: C:\xampp\htdocs\Torongo/wp-content/uploads
+0213.322 (0) finding files: 2018: adding to list (1)
+0213.324 (0) finding files: 2019: adding to list (2)
+0213.326 (0) finding files: 2020: adding to list (3)
+0213.328 (0) finding files: 2022: adding to list (4)
+0213.331 (0) finding files: ac_assets: adding to list (5)
+0213.333 (0) finding files: ai1ec_static: adding to list (6)
+0213.335 (0) finding files: astra-sites: adding to list (7)
+0213.337 (0) finding files: elementor: adding to list (8)
+0213.339 (0) finding files: essential-addons-elementor: adding to list (9)
+0213.341 (0) finding files: wc-logs: adding to list (10)
+0213.343 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (11)
+0213.345 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (12)
+0213.347 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (13)
+0213.349 (0) finding files: woocommerce-placeholder-300x400.png: adding to list (14)
+0213.350 (0) finding files: woocommerce-placeholder-391x260.png: adding to list (15)
+0213.352 (0) finding files: woocommerce-placeholder-474x324.png: adding to list (16)
+0213.354 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (17)
+0213.356 (0) finding files: woocommerce-placeholder.png: adding to list (18)
+0213.358 (0) finding files: woocommerce_uploads: adding to list (19)
+0213.360 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0213.546 (0) Total entities for the zip file: 21 directories, 516 files (0 skipped as non-modified), 31.9 MB
+0213.730 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0213.793 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0213.840 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0213.925 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0213.937 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 516 files batched, 412 (412) added so far); re-opening (prior size: 0 KB)
+0214.377 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20468.1 KB/s)
+0214.382 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2516870498657, normalised_time=1.2507278582435, max_time=214.3780579567, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0214.553 (0) Zip: backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip.tmp: 500 files added (on-disk size: 25692.6 KB)
+0215.521 (0) Created uploads zip (0) - 31029 KB in 2.2 s (14385.5 KB/s) (sha1: 2151e3b225673310a6f26113a24b11f1e6393acb, sha256: 2d07ce81fec3611c49eb1f155b7ff3aca6933cc9fefeb452426aed6b7438ac93)
+0215.527 (0) Beginning backup of other directories found in the content directory (index: 0)
+0215.529 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0215.531 (0) Looking for candidates to backup in: C:\xampp\htdocs\Torongo/wp-content
+0215.533 (0) finding files: index.php: adding to list (1)
+0215.535 (0) finding files: plugins: skipping: this is the plugins directory
+0215.537 (0) finding files: themes: skipping: this is the themes directory
+0215.539 (0) finding files: updraft: skipping: this is the updraft directory
+0215.541 (0) finding files: upgrade: skipping: excluded by options
+0215.543 (0) finding files: uploads: skipping: this is the uploads directory
+0215.551 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0215.577 (0) Created others zip (0) - 0.1 KB in 0 s (4.7 KB/s) (sha1: 76f91e7e5f3aa0f797d8234f4569c2faca7c44d1, sha256: 3dd5f2faa2eb1f358ce70ae1b4904fc58c06f6de62da1a960561cebd03b167cb)
+0215.587 (0) Saving backup status to database (elements: 8)
+0215.592 (0) Beginning creation of database dump (WordPress DB)
+0215.880 (0) Table wp_options: Total expected rows (approximate): 537
+0215.961 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 543 in 0.08 seconds
+0215.963 (0) Table wp_options: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_options.table.gz - 174.9 KB)
+0215.975 (0) Table wp_users: Total expected rows (approximate): 3
+0215.982 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 3 in 0.01 seconds
+0215.985 (0) Table wp_users: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_users.table.gz - 0.7 KB)
+0215.996 (0) Table wp_usermeta: Total expected rows (approximate): 64
+0216.004 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 71 in 0.01 seconds
+0216.006 (0) Table wp_usermeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_usermeta.table.gz - 1.8 KB)
+0216.018 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 6
+0216.025 (0) Table wp_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 6 in 0.01 seconds
+0216.028 (0) Table wp_actionscheduler_actions: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_actions.table.gz - 0.8 KB)
+0216.040 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0216.047 (0) Table wp_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.049 (0) Table wp_actionscheduler_claims: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0216.069 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0216.075 (0) Table wp_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0216.078 (0) Table wp_actionscheduler_groups: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0216.090 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 18
+0216.098 (0) Table wp_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 18 in 0.01 seconds
+0216.101 (0) Table wp_actionscheduler_logs: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_logs.table.gz - 0.7 KB)
+0216.113 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0216.120 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.122 (0) Table wp_commentmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0216.135 (0) Table wp_comments: Total expected rows (approximate): 4
+0216.146 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 5 in 0.01 seconds
+0216.148 (0) Table wp_comments: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_comments.table.gz - 0.8 KB)
+0216.164 (0) Table wp_links: Total expected rows (approximate): 0
+0216.170 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.172 (0) Table wp_links: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_links.table.gz - 0.4 KB)
+0216.184 (0) Table wp_postmeta: Total expected rows (approximate): 2517
+0216.378 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 2715 in 0.19 seconds
+0216.381 (0) Table wp_postmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_postmeta.table.gz - 380 KB)
+0216.392 (0) Table wp_posts: Total expected rows (approximate): 417
+0216.451 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 444 in 0.06 seconds
+0216.454 (0) Table wp_posts: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_posts.table.gz - 72.6 KB)
+0216.466 (0) Table wp_term_relationships: Total expected rows (approximate): 26
+0216.474 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 23 in 0.01 seconds
+0216.477 (0) Table wp_term_relationships: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0216.489 (0) Table wp_term_taxonomy: Total expected rows (approximate): 25
+0216.496 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 26 in 0.01 seconds
+0216.498 (0) Table wp_term_taxonomy: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0216.510 (0) Table wp_termmeta: Total expected rows (approximate): 14
+0216.518 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 14 in 0.01 seconds
+0216.520 (0) Table wp_termmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_termmeta.table.gz - 0.5 KB)
+0216.532 (0) Table wp_terms: Total expected rows (approximate): 25
+0216.539 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 26 in 0.01 seconds
+0216.542 (0) Table wp_terms: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_terms.table.gz - 0.7 KB)
+0216.559 (0) Table wp_addonlibrary_addons: Total expected rows (approximate): 0
+0216.565 (0) Table wp_addonlibrary_addons: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.568 (0) Table wp_addonlibrary_addons: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_addonlibrary_addons.table.gz - 0.4 KB)
+0216.583 (0) Table wp_addonlibrary_categories: Total expected rows (approximate): 0
+0216.589 (0) Table wp_addonlibrary_categories: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.591 (0) Table wp_addonlibrary_categories: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_addonlibrary_categories.table.gz - 0.4 KB)
+0216.606 (0) Table wp_ai1ec_event_category_meta: Total expected rows (approximate): 0
+0216.612 (0) Table wp_ai1ec_event_category_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.615 (0) Table wp_ai1ec_event_category_meta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_event_category_meta.table.gz - 0.3 KB)
+0216.630 (0) Table wp_ai1ec_event_instances: Total expected rows (approximate): 0
+0216.636 (0) Table wp_ai1ec_event_instances: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.638 (0) Table wp_ai1ec_event_instances: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_event_instances.table.gz - 0.3 KB)
+0216.653 (0) Table wp_ai1ec_events: Total expected rows (approximate): 0
+0216.663 (0) Table wp_ai1ec_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0216.665 (0) Table wp_ai1ec_events: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_events.table.gz - 0.5 KB)
+0216.680 (0) Table wp_give_commentmeta: Total expected rows (approximate): 11
+0216.692 (0) Table wp_give_commentmeta: Rows added in this batch (start page: 0; next: finished): 12 in 0.01 seconds
+0216.703 (0) Table wp_give_commentmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_commentmeta.table.gz - 0.5 KB)
+0216.715 (0) Table wp_give_comments: Total expected rows (approximate): 83
+0216.724 (0) Table wp_give_comments: Rows added in this batch (start page: 0; next: finished): 93 in 0.01 seconds
+0216.726 (0) Table wp_give_comments: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_comments.table.gz - 2.1 KB)
+0216.745 (0) Table wp_give_donationmeta: Total expected rows (approximate): 0
+0216.751 (0) Table wp_give_donationmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.753 (0) Table wp_give_donationmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donationmeta.table.gz - 0.3 KB)
+0216.765 (0) Table wp_give_donormeta: Total expected rows (approximate): 5
+0216.772 (0) Table wp_give_donormeta: Rows added in this batch (start page: 0; next: finished): 7 in 0.00 seconds
+0216.775 (0) Table wp_give_donormeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donormeta.table.gz - 0.5 KB)
+0216.786 (0) Table wp_give_donors: Total expected rows (approximate): 0
+0216.793 (0) Table wp_give_donors: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0216.795 (0) Table wp_give_donors: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donors.table.gz - 0.6 KB)
+0216.807 (0) Table wp_give_formmeta: Total expected rows (approximate): 280
+0216.817 (0) Table wp_give_formmeta: Rows added in this batch (start page: 0; next: finished): 292 in 0.01 seconds
+0216.820 (0) Table wp_give_formmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_formmeta.table.gz - 4.2 KB)
+0216.836 (0) Table wp_give_logmeta: Total expected rows (approximate): 24
+0216.843 (0) Table wp_give_logmeta: Rows added in this batch (start page: 0; next: finished): 28 in 0.00 seconds
+0216.845 (0) Table wp_give_logmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_logmeta.table.gz - 0.6 KB)
+0216.861 (0) Table wp_give_logs: Total expected rows (approximate): 8
+0216.868 (0) Table wp_give_logs: Rows added in this batch (start page: 0; next: finished): 14 in 0.01 seconds
+0216.870 (0) Table wp_give_logs: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_logs.table.gz - 0.6 KB)
+0216.884 (0) Table wp_give_paymentmeta: Total expected rows (approximate): 884
+0216.904 (0) Table wp_give_paymentmeta: Rows added in this batch (start page: 0; next: finished): 889 in 0.02 seconds
+0216.908 (0) Table wp_give_paymentmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_paymentmeta.table.gz - 8.5 KB)
+0216.920 (0) Table wp_give_sequential_ordering: Total expected rows (approximate): 0
+0216.927 (0) Table wp_give_sequential_ordering: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.929 (0) Table wp_give_sequential_ordering: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_sequential_ordering.table.gz - 0.3 KB)
+0216.941 (0) Table wp_give_sessions: Total expected rows (approximate): 0
+0216.948 (0) Table wp_give_sessions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0216.950 (0) Table wp_give_sessions: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_sessions.table.gz - 0.4 KB)
+0216.966 (0) Table wp_mec_dates: Total expected rows (approximate): 10237
+0217.079 (0) Table wp_mec_dates: Rows added in this batch (start page: 0; next: finished): 10327 in 0.11 seconds
+0217.082 (0) Table wp_mec_dates: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mec_dates.table.gz - 123.4 KB)
+0217.098 (0) Table wp_mec_events: Total expected rows (approximate): 7
+0217.105 (0) Table wp_mec_events: Rows added in this batch (start page: 0; next: finished): 8 in 0.00 seconds
+0217.107 (0) Table wp_mec_events: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mec_events.table.gz - 0.7 KB)
+0217.123 (0) Table wp_mp_timetable_data: Total expected rows (approximate): 0
+0217.134 (0) Table wp_mp_timetable_data: Rows added in this batch (start page: 0; next: finished): 2 in 0.01 seconds
+0217.136 (0) Table wp_mp_timetable_data: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mp_timetable_data.table.gz - 0.5 KB)
+0217.153 (0) Table wp_nd_donations_donations: Total expected rows (approximate): 0
+0217.160 (0) Table wp_nd_donations_donations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.163 (0) Table wp_nd_donations_donations: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_nd_donations_donations.table.gz - 0.4 KB)
+0217.178 (0) Table wp_noptin_automation_rules: Total expected rows (approximate): 0
+0217.185 (0) Table wp_noptin_automation_rules: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.188 (0) Table wp_noptin_automation_rules: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_automation_rules.table.gz - 0.4 KB)
+0217.200 (0) Table wp_noptin_subscriber_meta: Total expected rows (approximate): 2
+0217.208 (0) Table wp_noptin_subscriber_meta: Rows added in this batch (start page: 0; next: finished): 2 in 0.01 seconds
+0217.210 (0) Table wp_noptin_subscriber_meta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_subscriber_meta.table.gz - 0.4 KB)
+0217.226 (0) Table wp_noptin_subscribers: Total expected rows (approximate): 2
+0217.232 (0) Table wp_noptin_subscribers: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0217.235 (0) Table wp_noptin_subscribers: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_subscribers.table.gz - 0.5 KB)
+0217.251 (0) Table wp_volunteer_emails: Total expected rows (approximate): 0
+0217.257 (0) Table wp_volunteer_emails: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.260 (0) Table wp_volunteer_emails: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_volunteer_emails.table.gz - 0.3 KB)
+0217.276 (0) Table wp_volunteer_rsvps: Total expected rows (approximate): 2
+0217.282 (0) Table wp_volunteer_rsvps: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0217.285 (0) Table wp_volunteer_rsvps: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_volunteer_rsvps.table.gz - 0.4 KB)
+0217.300 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 3
+0217.306 (0) Table wp_wc_admin_note_actions: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0217.309 (0) Table wp_wc_admin_note_actions: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_admin_note_actions.table.gz - 0.6 KB)
+0217.325 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 3
+0217.331 (0) Table wp_wc_admin_notes: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0217.334 (0) Table wp_wc_admin_notes: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_admin_notes.table.gz - 0.8 KB)
+0217.350 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0217.356 (0) Table wp_wc_category_lookup: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0217.358 (0) Table wp_wc_category_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0217.373 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0217.379 (0) Table wp_wc_customer_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.381 (0) Table wp_wc_customer_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_customer_lookup.table.gz - 0.4 KB)
+0217.397 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0217.403 (0) Table wp_wc_download_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.405 (0) Table wp_wc_download_log: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0217.420 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0217.426 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.428 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0217.443 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0217.449 (0) Table wp_wc_order_product_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.451 (0) Table wp_wc_order_product_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0217.466 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0217.473 (0) Table wp_wc_order_stats: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.476 (0) Table wp_wc_order_stats: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0217.490 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0217.496 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.498 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0217.513 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 0
+0217.520 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.522 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_product_meta_lookup.table.gz - 0.5 KB)
+0217.537 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0217.543 (0) Table wp_wc_reserved_stock: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.545 (0) Table wp_wc_reserved_stock: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_reserved_stock.table.gz - 0.3 KB)
+0217.560 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0217.566 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0217.569 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0217.584 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0217.590 (0) Table wp_wc_webhooks: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.592 (0) Table wp_wc_webhooks: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0217.606 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0217.612 (0) Table wp_woocommerce_api_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.614 (0) Table wp_woocommerce_api_keys: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0217.629 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0217.636 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.638 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0217.653 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0217.659 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.661 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0217.676 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0217.682 (0) Table wp_woocommerce_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.685 (0) Table wp_woocommerce_log: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0217.700 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0217.706 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.709 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0217.739 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0217.754 (0) Table wp_woocommerce_order_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.757 (0) Table wp_woocommerce_order_items: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0217.773 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0217.779 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.782 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0217.797 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0217.804 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.807 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0217.822 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 0
+0217.829 (0) Table wp_woocommerce_sessions: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0217.832 (0) Table wp_woocommerce_sessions: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0217.848 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0217.854 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.857 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0217.872 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0217.879 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.882 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0217.898 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0217.904 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.909 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0217.926 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0217.933 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.937 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0217.954 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0217.960 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.962 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0217.978 (0) Table wp_wpbkash: Total expected rows (approximate): 0
+0217.984 (0) Table wp_wpbkash: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0217.987 (0) Table wp_wpbkash: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpbkash.table.gz - 0.4 KB)
+0218.002 (0) Table wp_wpforms_entries: Total expected rows (approximate): 0
+0218.009 (0) Table wp_wpforms_entries: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0218.012 (0) Table wp_wpforms_entries: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entries.table.gz - 0.4 KB)
+0218.027 (0) Table wp_wpforms_entry_fields: Total expected rows (approximate): 0
+0218.034 (0) Table wp_wpforms_entry_fields: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0218.036 (0) Table wp_wpforms_entry_fields: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entry_fields.table.gz - 0.4 KB)
+0218.052 (0) Table wp_wpforms_entry_meta: Total expected rows (approximate): 0
+0218.059 (0) Table wp_wpforms_entry_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0218.061 (0) Table wp_wpforms_entry_meta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entry_meta.table.gz - 0.4 KB)
+0218.078 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 12
+0218.086 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (start page: 0; next: finished): 14 in 0.00 seconds
+0218.088 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_tasks_meta.table.gz - 0.6 KB)
+0218.104 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (approximate): 0
+0218.110 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0218.113 (0) Table wp_wpmailsmtp_tasks_meta: finishing file (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpmailsmtp_tasks_meta.table.gz - 0.3 KB)
+0218.119 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_options.table.gz (1/74): adding to final database dump
+0218.162 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_users.table.gz (2/74): adding to final database dump
+0218.165 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_usermeta.table.gz (3/74): adding to final database dump
+0218.168 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_actions.table.gz (4/74): adding to final database dump
+0218.171 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_claims.table.gz (5/74): adding to final database dump
+0218.173 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_groups.table.gz (6/74): adding to final database dump
+0218.175 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_actionscheduler_logs.table.gz (7/74): adding to final database dump
+0218.177 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_commentmeta.table.gz (8/74): adding to final database dump
+0218.180 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_comments.table.gz (9/74): adding to final database dump
+0218.182 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_links.table.gz (10/74): adding to final database dump
+0218.184 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_postmeta.table.gz (11/74): adding to final database dump
+0218.264 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_posts.table.gz (12/74): adding to final database dump
+0218.282 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_term_relationships.table.gz (13/74): adding to final database dump
+0218.285 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_term_taxonomy.table.gz (14/74): adding to final database dump
+0218.287 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_termmeta.table.gz (15/74): adding to final database dump
+0218.289 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_terms.table.gz (16/74): adding to final database dump
+0218.291 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_addonlibrary_addons.table.gz (17/74): adding to final database dump
+0218.293 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_addonlibrary_categories.table.gz (18/74): adding to final database dump
+0218.295 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_event_category_meta.table.gz (19/74): adding to final database dump
+0218.317 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_event_instances.table.gz (20/74): adding to final database dump
+0218.328 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_ai1ec_events.table.gz (21/74): adding to final database dump
+0218.331 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_commentmeta.table.gz (22/74): adding to final database dump
+0218.333 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_comments.table.gz (23/74): adding to final database dump
+0218.336 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donationmeta.table.gz (24/74): adding to final database dump
+0218.338 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donormeta.table.gz (25/74): adding to final database dump
+0218.340 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_donors.table.gz (26/74): adding to final database dump
+0218.343 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_formmeta.table.gz (27/74): adding to final database dump
+0218.346 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_logmeta.table.gz (28/74): adding to final database dump
+0218.348 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_logs.table.gz (29/74): adding to final database dump
+0218.350 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_paymentmeta.table.gz (30/74): adding to final database dump
+0218.354 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_sequential_ordering.table.gz (31/74): adding to final database dump
+0218.357 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_give_sessions.table.gz (32/74): adding to final database dump
+0218.359 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mec_dates.table.gz (33/74): adding to final database dump
+0218.391 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mec_events.table.gz (34/74): adding to final database dump
+0218.394 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_mp_timetable_data.table.gz (35/74): adding to final database dump
+0218.396 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_nd_donations_donations.table.gz (36/74): adding to final database dump
+0218.398 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_automation_rules.table.gz (37/74): adding to final database dump
+0218.401 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_subscriber_meta.table.gz (38/74): adding to final database dump
+0218.403 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_noptin_subscribers.table.gz (39/74): adding to final database dump
+0218.405 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_volunteer_emails.table.gz (40/74): adding to final database dump
+0218.407 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_volunteer_rsvps.table.gz (41/74): adding to final database dump
+0218.409 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_admin_note_actions.table.gz (42/74): adding to final database dump
+0218.411 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_admin_notes.table.gz (43/74): adding to final database dump
+0218.413 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_category_lookup.table.gz (44/74): adding to final database dump
+0218.415 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_customer_lookup.table.gz (45/74): adding to final database dump
+0218.417 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_download_log.table.gz (46/74): adding to final database dump
+0218.419 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_coupon_lookup.table.gz (47/74): adding to final database dump
+0218.421 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_product_lookup.table.gz (48/74): adding to final database dump
+0218.423 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_stats.table.gz (49/74): adding to final database dump
+0218.425 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_order_tax_lookup.table.gz (50/74): adding to final database dump
+0218.428 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_product_meta_lookup.table.gz (51/74): adding to final database dump
+0218.430 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_reserved_stock.table.gz (52/74): adding to final database dump
+0218.432 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_tax_rate_classes.table.gz (53/74): adding to final database dump
+0218.434 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wc_webhooks.table.gz (54/74): adding to final database dump
+0218.436 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_api_keys.table.gz (55/74): adding to final database dump
+0218.438 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_attribute_taxonomies.table.gz (56/74): adding to final database dump
+0218.441 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (57/74): adding to final database dump
+0218.443 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_log.table.gz (58/74): adding to final database dump
+0218.444 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_order_itemmeta.table.gz (59/74): adding to final database dump
+0218.447 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_order_items.table.gz (60/74): adding to final database dump
+0218.449 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_payment_tokenmeta.table.gz (61/74): adding to final database dump
+0218.451 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_payment_tokens.table.gz (62/74): adding to final database dump
+0218.453 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_sessions.table.gz (63/74): adding to final database dump
+0218.456 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zone_locations.table.gz (64/74): adding to final database dump
+0218.458 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zone_methods.table.gz (65/74): adding to final database dump
+0218.460 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_shipping_zones.table.gz (66/74): adding to final database dump
+0218.462 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_tax_rate_locations.table.gz (67/74): adding to final database dump
+0218.464 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_woocommerce_tax_rates.table.gz (68/74): adding to final database dump
+0218.466 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpbkash.table.gz (69/74): adding to final database dump
+0218.468 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entries.table.gz (70/74): adding to final database dump
+0218.471 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entry_fields.table.gz (71/74): adding to final database dump
+0218.473 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_entry_meta.table.gz (72/74): adding to final database dump
+0218.475 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpforms_tasks_meta.table.gz (73/74): adding to final database dump
+0218.477 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db-table-wp_wpmailsmtp_tasks_meta.table.gz (74/74): adding to final database dump
+0218.502 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db.gz: finished writing out complete database file (760 KB)
+0218.537 (0) Total database tables backed up: 74 (backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db.gz, size: 796825, sha1: 08b07e35ee9b71845d4a491a610a7d67380b0758, sha256: 65874113149157e8c61720feb1ec9c99b6c6c9225a7a9e5aa4b6e6d295ffe05f)
+0218.547 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0218.549 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0218.551 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0218.553 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0218.555 (0) backup_2022-09-06-1821_Torongo_8e3ab7afbc1c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0218.557 (0) Saving backup history. Total backup size: 107.7 MB
+0218.561 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0218.567 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0218.570 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7facf61741e46a35cbaffba4fa83100b)
+0219.015 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0219.027 (0) An error condition has occurred for the first time during this job
+0219.032 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0219.034 (0) Number of backup sets in history: 3; groups (db): 1
+0219.036 (0) Examining (for databases) backup set with group_id=0, nonce=8e3ab7afbc1c, datestamp=1662488470 (Sep 06 2022 18:21:10)
+0219.038 (0) This backup set is the backup set just made, so will not be deleted.
+0219.039 (0) Examining (for databases) backup set with group_id=0, nonce=a633be2b032a, datestamp=1597801553 (Aug 19 2020 01:45:53)
+0219.039 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0219.040 (0) Examining (for databases) backup set with group_id=0, nonce=f96f490e06c6, datestamp=1597187670 (Aug 11 2020 23:14:30)
+0219.040 (0) 1597187670: db: this set includes a database (backup_2020-08-11-2314_Torongo_f96f490e06c6-db.gz); db count is now 2
+0219.040 (0) 1597187670: db: over retain limit (2); will delete this database
+0219.041 (0) Delete file: backup_2020-08-11-2314_Torongo_f96f490e06c6-db.gz, service=googledrive
+0219.043 (0) Deleting local copy (backup_2020-08-11-2314_Torongo_f96f490e06c6-db.gz)
+0219.375 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0219.377 (0) Google Drive: delete: failed due to storage error: no_refresh_token (Invalid request (refresh token not present).)
+0219.381 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0219.383 (0) Number of backup sets in history: 3; groups (files): 1
+0219.385 (0) Examining (for files) backup set with nonce=8e3ab7afbc1c, datestamp=1662488470 (Sep 06 2022 18:21:10)
+0219.385 (0) This backup set is the backup set just made, so will not be deleted.
+0219.387 (0) This backup set is the backup set just made, so will not be deleted.
+0219.387 (0) This backup set is the backup set just made, so will not be deleted.
+0219.387 (0) This backup set is the backup set just made, so will not be deleted.
+0219.387 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0219.389 (0) Examining (for files) backup set with nonce=a633be2b032a, datestamp=1597801553 (Aug 19 2020 01:45:53)
+0219.389 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0219.389 (0) Examining (for files) backup set with nonce=f96f490e06c6, datestamp=1597187670 (Aug 11 2020 23:14:30)
+0219.389 (0) plugins: over retain limit (2); will delete this file entity
+0219.389 (0) themes: over retain limit (2); will delete this file entity
+0219.389 (0) uploads: over retain limit (2); will delete this file entity
+0219.389 (0) others: over retain limit (2); will delete this file entity
+0219.389 (0) Delete file: backup_2020-08-11-2314_Torongo_f96f490e06c6-plugins.zip, service=googledrive
+0219.391 (0) Deleting local copy (backup_2020-08-11-2314_Torongo_f96f490e06c6-plugins.zip)
+0219.394 (0) Delete file: backup_2020-08-11-2314_Torongo_f96f490e06c6-themes.zip, service=googledrive
+0219.396 (0) Deleting local copy (backup_2020-08-11-2314_Torongo_f96f490e06c6-themes.zip)
+0219.398 (0) Delete file: backup_2020-08-11-2314_Torongo_f96f490e06c6-uploads.zip, service=googledrive
+0219.400 (0) Deleting local copy (backup_2020-08-11-2314_Torongo_f96f490e06c6-uploads.zip)
+0219.402 (0) Delete file: backup_2020-08-11-2314_Torongo_f96f490e06c6-others.zip, service=googledrive
+0219.404 (0) Deleting local copy (backup_2020-08-11-2314_Torongo_f96f490e06c6-others.zip)
+0219.746 (0) Google Drive: ERROR: Have not yet obtained an access token from Google (has the user authorised?) (Invalid request (refresh token not present).) (no_refresh_token)
+0219.748 (0) Google Drive: delete: failed due to storage error: no_refresh_token (Invalid request (refresh token not present).)
+0219.752 (0) This backup set is now empty; will remove from history
+0219.755 (0) Corresponding log file (log.f96f490e06c6.txt) not found - must have already been deleted
+0219.757 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0219.763 (0) Resume backup (8e3ab7afbc1c, 0): finish run
+0219.769 (0) Decremented the semaphore (fd) by 1
+0219.773 (0) Semaphore (fd) unlocked
+0219.775 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0219.877 (0) Rescheduling resumption 1: moving to 100 seconds from now (1662488790)
+0219.883 (0) No email will/can be sent - the user has not configured an email address.
+0219.885 (0) The backup has not finished; a resumption is scheduled

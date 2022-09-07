@@ -1,0 +1,46 @@
+<iframe id="timely-iframe" src="https://dashboard.time.ly/wordpress" frameborder="0"></iframe>
+
+<script>
+   (function () {
+       var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+       var eventer = window[eventMethod];
+       var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+       // Listen to message from child window
+       eventer(messageEvent, function (e) {
+           try {
+               var response = JSON.parse(decodeURI(e.data));
+               if (!response || !response.timely_activate || !response.email || !response.auth_token) {
+                   return;
+               }
+           } catch (e) {
+               return;
+           }
+           var form = document.createElement('form');
+           form.method = 'post';
+           form.action = window.location.href;
+
+           var actionField = document.createElement('input');
+           actionField.type = 'hidden';
+           actionField.name = 'ai1ec_save_login';
+           actionField.value = '1';
+           form.appendChild(actionField);
+
+           var emailField = document.createElement('input');
+           emailField.type = 'hidden';
+           emailField.name = 'ai1ec_email';
+           emailField.value = response.email;
+           form.appendChild(emailField);
+
+           var authtokenField = document.createElement('input');
+           authtokenField.type = 'hidden';
+           authtokenField.name = 'ai1ec_auth_token';
+           authtokenField.value = response.auth_token;
+           form.appendChild(authtokenField);
+
+           document.body.appendChild(form);
+           form.submit();
+       }, false);
+   })();
+</script>
+

@@ -1,0 +1,92 @@
+/**
+ * Wired Impact Volunteer Management
+ * All of the CSS for the public-facing functionality of the plugin.
+ */
+
+/* General Volunteer Opp Styles */
+.volunteer-opp-info {
+	padding: 0 0 1em;
+}
+.volunteer-opp-info span {
+	display: block;
+	padding: 2px 0;
+}
+
+
+/* Volunteer Opp List Styles */
+.volunteer-opps .volunteer_opp {
+	border-bottom: 1px solid #bebebe;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+}
+
+.volunteer-opps .volunteer_opp + .volunteer_opp {
+	margin-top: 0;
+}
+
+.volunteer-opps .volunteer_opp header,
+.volunteer-opps .volunteer_opp .entry-title {
+	padding: 0;
+}
+
+.volunteer-opps .volunteer_opp .entry-title {
+	margin-top: 1.1em;
+}
+
+.volunteer-opps .entry-content {
+	padding: 0 0 2em;
+}
+
+.volunteer-opps .navigation div {
+	padding-top: 1em;
+}
+
+/* Sign Up Form Styles */
+#wivm-sign-up-form label {
+	margin-top: .5em;
+	display: block;
+}
+
+#wivm-sign-up-form label:first-child {
+	margin-top: 0;
+}
+
+#wivm-sign-up-form input[type=text],
+#wivm-sign-up-form input[type=email] {
+	display: block;
+}
+
+#wivm-sign-up-form input[type=submit] {
+	margin-top: 1em;
+	float: right;
+}
+
+.volunteer-opp-message {
+	display: none;
+	font-size: .9em;
+	font-style: italic;
+}
+
+.volunteer-opp-message.error,
+.volunteer-opp-message.already-rsvped,
+.volunteer-opp-message.rsvp-closed {
+	color: #990000;
+}
+
+.volunteer-opp-message.success {
+	color: #21732a;
+}
+
+#wivm-sign-up-form .field-error {
+	border: 2px solid #990000;
+}
+
+/* Widget Styles */
+.widget_wi_volunteer_management_widget ul li span {
+	display: block;
+}
+
+.widget_wi_volunteer_management_widget li strong {
+	font-weight: normal;
+}

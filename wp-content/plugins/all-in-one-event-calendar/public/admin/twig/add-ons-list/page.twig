@@ -1,0 +1,34 @@
+<div class="wrap" id="ai1ec-add-ons">
+	<h2>
+		{{ labels.title }}
+	</h2>
+	<p>{{ labels.paragraph_content }}</p>
+	{% if is_error %}
+		<div class="error"><p>{{ labels.error }}</p></div>
+	{% else %}
+		<div class="row" style="max-width: 450px; text-align: center; margin-top: 40px;">
+			<div class="col-sm-6 timely-activate-ev">
+				<div class="timely-activate-ev-title"
+					style="font-weight: bold; font-size: 18px; margin-bottom: 22px;">
+					Extended Views
+				</div>
+				<div class="timely-activate-ev-desc">
+					Add beautiful views to your calendar with this great add-on.<br />
+					Download the add-on, install and activate it, and you’re set.
+				</div>
+				<div class="timely-activate-ev-img"></div>
+				<a href="https://dashboard.time.ly/checkout/extended_views"
+				   target="_blank"
+				   class="btn btn-success timely-activate-ev-button">
+					GET IT NOW
+				</a>
+				<br />
+				<a href="https://time.ly/wordpress-extended-visual-views-add-on/"
+				   target="_blank"
+				   class="timely-activate-learn">
+					Learn more
+				</a>
+			</div>
+		</div>
+	{% endif %}
+</div>

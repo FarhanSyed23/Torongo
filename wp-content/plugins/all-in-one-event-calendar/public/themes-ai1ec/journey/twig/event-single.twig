@@ -1,0 +1,149 @@
+<div class="timely ai1ec-single-event
+	ai1ec-event-id-{{ post_id }}
+	ai1ec-event-instance-id-{{ instance_id }}
+	{% if event.is_multiday %}ai1ec-multiday{% endif %}
+	{% if event.is_allday %}ai1ec-allday{% endif %}">
+
+<a id="ai1ec-event"></a>
+
+<div class="ai1ec-event-header">
+	<div class="ai1ec-event-image">
+		{% if not hide_featured_image %}
+			{% if content_img_url is empty %}
+				{{ event | avatar( [
+					'post_image',
+					'post_thumbnail',
+					'location_avatar',
+					'category_avatar'
+				], 'timely alignleft', false ) | raw }}
+			{% endif %}
+		{% endif %}
+	</div>
+	<div class="ai1ec-title-container">
+		<div class="ai1ec-event-header-date">
+			<div class="ai1ec-event-month">
+				{{ start | date('M') }}
+			</div>
+			<div class="ai1ec-event-day">
+				{{ start | date('d') }}
+			</div>
+		</div>
+		<div class="ai1ec-event-title">
+			{{ title }}
+		</div>
+	</div>
+</div>
+	{% if ticket_url is not empty %}
+	<div class="ai1ec-event-buttons">
+		<a href="{{ ticket_url | e( 'html_attr' ) }}" target="_blank"
+		   class="ai1ec-tickets ai1ec-btn ai1ec-btn-sm ai1ec-btn-primary
+					ai1ec-tooltip-trigger"
+		   title="{{ tickets_url_label | e( 'html_attr' ) }}"
+		   data-placement="left">
+			<i class="ai1ec-fa ai1ec-fa-ticket ai1ec-fa-fw"></i>
+			<span class="ai1ec-hidden-xs">
+				{{ tickets_url_label }}
+			</span>
+		</a>
+	</div>
+{% endif %}
+<div class="ai1ec-event-extra">
+	<div class="ai1ec-event-body">
+		<div class="ai1ec-event-description">
+			<div class="ai1ec-description-body">
+				{{ description | raw }}
+			</div>
+		</div>
+	</div>
+	<div class="ai1ec-event-details">
+		<div class="ai1ec-event-details-row">
+			<div class="ai1ec-event-heading">
+				Date and Time
+			</div>
+			<div class="ai1ec-event-details-value">
+				<div>{{ event | timespan | raw }}
+					{% if timezone_info.show_timezone %}
+						{% if timezone_info.using_calendar_tz %}
+							<span>{{ timezone_info.calendar_timezone }}</span>
+						{% else %}
+							<span>{{ timezone_info.event_timezone }}</span>
+						{% endif %}
+					{% endif %}
+					{% include 'recurrence.twig' %}</div>
+			</div>
+		</div>
+		{% if location is not empty %}
+			<div class="ai1ec-event-details-row">
+				<div class="ai1ec-event-heading">
+					Location
+				</div>
+				<div class="ai1ec-event-details-value">
+					{{ location | raw }}
+				</div>
+			</div>
+		{% endif %}
+		{% if tags is not empty %}
+			<div class="ai1ec-event-details-row">
+				<div class="ai1ec-event-heading">
+					Tags
+				</div>
+				<div class="ai1ec-event-details-value">
+					{{ tags | raw }}
+				</div>
+			</div>
+		{% endif %}
+		{% if categories is not empty %}
+			<div class="ai1ec-event-details-row">
+				<div class="ai1ec-event-heading">
+					Categories
+				</div>
+				<div class="ai1ec-event-details-value">
+					{{ categories | raw }}
+				</div>
+			</div>
+		{% endif %}
+		{% if contact is not empty %}
+			<div class="ai1ec-event-details-row">
+				<div class="ai1ec-event-heading">
+					Contact
+				</div>
+				<div class="ai1ec-event-details-value">
+					{{ contact | raw }}
+				</div>
+			</div>
+		{% endif %}
+
+		{% if filter_groups is not empty %}
+			{% for filter_group in filter_groups %}
+				<div class="ai1ec-event-details-row">
+					<div class="ai1ec-event-heading">
+						{{ filter_group.text }}
+					</div>
+					<div class="ai1ec-event-details-value">
+						{{ filter_group.html_value | raw }}
+					</div>
+				</div>
+			{% endfor %}
+		{% endif %}
+
+		<div class="ai1ec-event-details-row">
+			{% if show_subscribe_buttons %}
+				{% include 'subscribe-buttons.twig' with {
+					'export_url':             subscribe_url,
+					'export_url_no_html':     subscribe_url_no_html,
+					'subscribe_label':        text_add_calendar,
+					'text':                   subscribe_buttons_text,
+				} %}
+			{% endif %}
+		</div>
+		<div class="ai1ec-event-details-row">
+			{{ back_to_calendar | raw }}
+		</div>
+		<br /><br/><br/>
+	</div>
+</div>
+
+
+</div>
+
+<div class="ai1ec-hide">

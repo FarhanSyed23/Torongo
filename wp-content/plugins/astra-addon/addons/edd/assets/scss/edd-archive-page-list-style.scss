@@ -1,0 +1,46 @@
+/**
+ * Shop Page List Style
+ */
+
+.ast-edd-archive-page-list-style{
+		.ast-edd-container {
+			display: flex;
+			flex-wrap: wrap;
+
+			.ast-edd-archive-article{
+				display: flex;
+				padding-bottom: 0;
+				/**
+				 * Shope page list wrapper
+				 */
+				.ast-edd-archive-block-wrap {
+					padding: .8em 1.2em;
+					flex:1;
+					align-self: center;
+				}
+
+				/**
+				 * Shope page image and sale wrapper
+				 */
+				 .edd_download_image{
+				 	overflow: hidden;
+				 }
+				.edd_download_image{
+					overflow: initial;
+					flex:1;
+				}
+
+				/**
+				 * No box shadow and no box hover shadow
+				 */
+				&.box-shadow-0{
+					&.box-shadow-0-hover{
+						padding-bottom: 0;
+						.ast-edd-archive-block-wrap {
+							padding: 0 1.2em 0;
+						}
+					}
+				}
+		}
+	}
+}

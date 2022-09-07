@@ -1,0 +1,88 @@
+/**
+ * Common Header Sections
+ */
+ .ast-header-break-point{
+	.ast-header-sections-navigation {
+		border-top: 1px solid #eaeaea;
+		background-color: #f9f9f9;
+
+		.ast-above-header-menu-items,
+		.ast-below-header-menu-items{
+			 li a {
+	                padding: 0 20px;
+	                display: inline-block;
+	                width: 100%;
+	            }
+	            .sub-menu li a {
+	                padding-left: 30px;
+	                &:before{
+	                    content: "\e900";
+	                    font-family: 'Astra';
+	                    font-size: .65em;
+	                    text-decoration: inherit;
+	                    display: inline-block;
+	                    transform: translate(0, -2px) rotateZ(270deg);
+	                    margin-right: 5px;
+	                }
+	            }
+	            .sub-menu li li a {
+	                padding-left: 40px;
+	            }
+	            .sub-menu li li li a {
+	                padding-left: 50px;
+	            }
+	            .sub-menu li li li li a {
+	                padding-left: 60px;
+	            }   
+
+	            > li:first-child {
+	                border-top: 0;
+	            }
+
+	            ul {
+	                left: auto;
+	                right: auto;
+	            }
+	        }
+		}
+		.ast-swap-above-header-sections {
+			.ast-above-header-section-1 {
+				order: 2;
+				justify-content: flex-end;
+			}
+			.ast-above-header-section-2 {
+				order: 1;
+				justify-content: flex-start;
+			}
+		}
+		.ast-swap-below-header-sections {
+			.below-header-section-1 {
+				order: 2;
+				justify-content: flex-end;
+			}
+			.below-header-section-2 {
+				order: 1;
+				justify-content: flex-start;
+			}
+		}
+ }
+
+.ast-fullscreen-menu-enable {
+	&.ast-header-break-point {
+		.main-navigation {
+            ul.sub-menu li a {
+                padding-left: 0;
+            }
+            ul.sub-menu li li a {
+                padding-left: 0;
+            }
+            ul.sub-menu li li li a {
+                padding-left: 0;
+            }
+            ul.sub-menu li li li li a {
+                padding-left: 0;
+            }
+        }     
+    }
+}
+

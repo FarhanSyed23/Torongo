@@ -1,0 +1,448 @@
+/**
+ * Wired Impact Volunteer Management
+ * All of the CSS for the admin-facing functionality of the plugin.
+ */
+
+/* Settings Pages */
+#wivm-tabs .dashicons {
+	margin-top: 2px;
+}
+
+.wivmtab {
+	display: none;
+	margin-top: 15px;
+}
+
+.wivmtab.active {
+	display: block;
+}
+
+.wivmtab th p {
+	font-weight: normal;
+}
+
+/* Volunteer Opportunity Edit Screen and Meta Boxes */
+p.editor-help {
+	margin-top: .5em;
+}
+
+#volunteer-opportunity-details table h3 {
+	padding: 20px 0 5px;
+}
+
+#volunteer-opportunity-details .flexible-field td:first-child,
+#volunteer-opportunity-details .one-time-field td:first-child  {
+	width: 195px;
+}
+
+/* Hide admin fields if not needed */
+.one-time-field.flexible,
+.flexible-field.one-time,
+.volunteer-limit-field.no-volunteer-limit {
+	display: none;
+}
+
+/* jQuery Timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 40%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+.ui-timepicker-div .ui_tpicker_unit_hide{ display: none; }
+.ui-priority-secondary.ui-datepicker-current { opacity: 1; filter: Alpha(Opacity=100); }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 40% 10px 10px; }
+
+/* Shortened version style */
+.ui-timepicker-div.ui-timepicker-oneLine { padding-right: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time, 
+.ui-timepicker-div.ui-timepicker-oneLine dt { display: none; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_time_label { display: block; padding-top: 2px; }
+.ui-timepicker-div.ui-timepicker-oneLine dl { text-align: right; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd, 
+.ui-timepicker-div.ui-timepicker-oneLine dl dd > div { display:inline-block; margin:0; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_minute:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_second:before { content:':'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_millisec:before,
+.ui-timepicker-div.ui-timepicker-oneLine dl dd.ui_tpicker_microsec:before { content:'.'; display:inline-block; }
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide,
+.ui-timepicker-div.ui-timepicker-oneLine .ui_tpicker_unit_hide:before{ display: none; }
+
+#volunteer-opportunity-rsvps .num {
+	float: right;
+	display: inline-block;
+	margin: 2px 2px 0 0;
+	color: #555;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 2.5;
+}
+
+#volunteer-opportunity-email-form .open-volunteer-email {
+	float: left;
+	cursor: pointer;
+	line-height: 2.5;
+}
+
+#volunteer-opportunity-email-form .volunteer-email-editor {
+	padding: 1em 0;
+}
+
+#volunteer-opportunity-email-form #wp-volunteer-email-editor-wrap {
+	margin-bottom: 15px;
+}
+
+.volunteer-email-subject-field {
+	display: table;
+	padding-top: 25px;
+}
+
+.volunteer-email-subject-field label,
+.volunteer-email-subject-field .field {
+	display: table-cell;
+}
+
+.volunteer-email-subject-field label {
+	width: 195px;
+}
+
+@media only screen and (max-width: 782px) {
+	.volunteer-email-subject-field,
+	.volunteer-email-subject-field label,
+	.volunteer-email-subject-field .field {
+		display: block;
+	}
+
+	.volunteer-email-subject-field {
+		margin-bottom: 15px;
+	}
+
+	.volunteer-email-subject-field label {
+		margin-bottom: 10px;
+	}
+
+	.volunteer-email-subject-field .field,
+	.volunteer-email-subject-field input {
+		width: 100%;
+	}
+}
+
+.volunteer-email-editor .helper-text {
+	margin: 0;
+}
+
+.volunteer-email-editor .has-error {
+	border-color: #fb3048;
+}
+
+.volunteer-email-editor .volunteer-email-footer .button {
+	float: right;
+}
+
+.volunteer-email-response-message {
+	display: none;
+	opacity: 0;
+	margin-bottom: 15px;
+	padding: 0 12px;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.volunteer-email-success {
+	border-left: 4px solid #46b450;
+}
+
+.volunteer-email-failure {
+	border-left: 4px solid #dc3232;
+}
+
+#volunteer-opportunity-emails th {
+	font-size: 13px;
+}
+
+#volunteer-opportunity-emails th:first-child {
+	width: 60%;
+}
+
+#volunteer-opportunity-emails th:last-child {
+	width: 40%;
+}
+
+/**
+ * Volunteers list
+ */
+.column-name img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+#volunteer-opportunity-rsvps .rsvp-list-table {
+	padding: 8px 0 15px 0;
+	max-height: 500px;
+	overflow: auto;
+	overflow-y: auto;
+}
+
+@media only screen and (max-width: 782px) {
+	.rsvp-list-table thead tr,
+	.rsvp-list-table tfoot tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	.rsvp-list-table tr { 
+		display: block;
+	}
+
+	.rsvp-list-table td { 
+		padding-left: 35%; 
+		border: none;
+		border-bottom: 1px solid #e5e5e5;
+		position: relative;
+	}
+
+	.rsvp-list-table td::before {
+		font-weight: bold;
+		width: 32% !important;
+	}
+
+	.rsvp-list-table .remove-rsvp-column::before {
+		padding-top: 9px;
+	}
+
+	.rsvp-list-table tr:last-child td:last-child {
+		border: none;
+	}
+}
+
+/**
+ * Individual Volunteer page
+ */
+.wi-volunteer .volunteer-info {
+	padding-top: 1em;
+}
+
+@media only screen and (min-width: 1024px) {
+	.wi-volunteer .volunteer-info {
+		width: 40%;
+		float: left;
+	}
+
+	.wi-volunteer .volunteer-opps-wrapper {
+		margin-left: 45%;
+		padding-top: 1em;
+	}
+}
+
+.wi-volunteer .contact-info,
+.wi-volunteer .volunteer-notes,
+.wi-volunteer .volunteer-opps-wrapper h1 {
+	background-color: #fff; /* TO DO: Update with color from design */
+	padding: 15px;
+}
+
+.wi-volunteer .contact-info {
+	padding-left: 95px;
+	min-height: 65px;
+	position: relative;
+}
+
+.wi-volunteer .contact-info h1 {
+	word-wrap: break-word;
+}
+
+.wi-volunteer .avatar {
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.wi-volunteer .contact-info h1,
+.wi-volunteer .volunteer-opps-wrapper h1,
+.wi-volunteer .volunteer-notes h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.wi-volunteer .contact-info span {
+	word-wrap: break-word;
+	display: block;
+	margin-bottom: 2px;
+}
+
+.wi-volunteer .volunteer-notes {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.wi-volunteer .contact-footer {
+		margin-bottom: 40px;
+	}
+}
+
+.wi-volunteer .edit-volunteer {
+	float: right;
+	margin-top: 10px;
+}
+
+.wi-volunteer .volunteer-opps-wrapper h1 {
+	padding: 15px 10px 17px;
+	margin: 0;
+}
+
+.wi-volunteer .volunteer-opps-wrapper h1 span {
+	color: #999; /* TO DO: Update with color from design */
+}
+
+.wi-volunteer .opps {
+	border-left: 2px solid #fff;
+	margin-left: 5%;
+	padding-top: 1.33em;
+}
+
+.wi-volunteer .opps > h2 {
+	margin: 10px 0 0 20px;
+}
+
+.wi-volunteer .opp {
+	margin-left: 20px;
+	padding-right: 7.5em;
+	position: relative;
+}
+
+@media only screen and (max-width: 782px) {
+	.wi-volunteer .opp {
+		padding-right: 9.9em;
+	}
+}
+
+.wi-volunteer .opp .circle {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -31px;
+	width: 20px;
+	height: 20px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.wi-volunteer .opp .circle:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 6px;
+	height: 6px;
+	margin: -3px 0 0 -3px;
+	background-color: #0073aa;
+	border-radius: 50%;
+	transition: all .75s;
+}
+
+.wi-volunteer .opp:hover .circle:before {
+	background-color: #00a0d2;
+}
+
+.wi-volunteer .opp h3 {
+	margin-bottom: 0;
+}
+
+.wi-volunteer .opp h3.removed,
+#volunteer-opportunity-rsvps td.removed {
+	text-decoration: line-through;
+}
+
+.wi-volunteer .opp .button {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.admin_page_wi-volunteer-management-volunteer .wp-pointer-arrow,
+body.post-type-volunteer_opp .wp-pointer-arrow {
+	right: 10px;
+	left: initial;
+}
+
+.admin_page_wi-volunteer-management-volunteer .wp-pointer .button-primary.error {
+	background: red;
+	border: 1px solid red;
+}
+
+.wi-volunteer .today {
+	font-size: 15px;
+	margin: 20px 0;
+	position: relative;
+	text-align: center;
+	z-index: 1;  
+	color: #999;  
+}
+
+.wi-volunteer .today:before {
+	border-top: 1px solid #999;
+	content:"";
+	margin: 0 auto;
+	position: absolute;
+	top: 11px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 95%;
+	z-index: -1;
+}
+
+.wi-volunteer .today span { background: #f1f1f1; padding: 0 10px; }
+
+/**
+ * Sent Emails Table
+ */
+.sent-emails-table {
+	max-height: 412px;
+	overflow: auto;
+	overflow-y: auto;
+}
+
+@media only screen and (max-width: 782px) {
+	.sent-emails-table tr { 
+		display: table-row !important;
+	}
+
+	.sent-emails-table td { 
+		display: table-cell !important;
+	}
+
+	.sent-emails-table td::before {
+		display: none !important;
+	}
+}
+
+/**
+* Widget styling
+*/
+.wi-widget-block-label:after {
+   content: "\a";
+   white-space: pre;
+}
+
+/**
+ * Globals
+ */
+.clear:before,
+.clear:after {
+	content: " ";
+	display: table;
+}
+
+.clear:after {
+	clear: both;
+}

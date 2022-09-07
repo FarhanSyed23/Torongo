@@ -1,0 +1,124 @@
+//
+// @file
+//
+// Used for single and multiple event pages (not calendar views).
+//
+
+@import "bootstrap/mixins.less";
+@import "timely-mixins.less";
+
+// ================
+// = Events pages =
+// ================
+
+@event-font-size: @font-size-base * 1.1;
+@event-line-height: @line-height-computed * 1.25;
+
+.ai1ec-single-event,
+.ai1ec-multi-event {
+	font-family: "Poppins", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	line-height: 1.42857143;
+	font-size: 14px;
+	max-width: 960px !important;
+	margin: 0 auto;
+	min-height: 100%;
+	display: block;
+	background: #fff;
+	.ai1ec-event-avatar {
+		margin: 0;
+		box-shadow: none;
+		img {
+			max-width: 100%;
+		}
+	}
+	.ai1ec-event-header {
+		display: flex;
+		background: #ecede8;
+		border-bottom: 1px solid #e0e0e0;
+		.ai1ec-event-image {
+			flex-basis: 66%;
+			background-color: #111;
+		}
+		.ai1ec-title-container {
+			flex-basis: 34%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: flex-start;
+			width: 100%;
+			height: 100%;
+			padding: 12px 20px 12px 40px;
+			overflow: hidden;
+			font-size: 14px;
+			.ai1ec-event-title {
+				font-size: 28px;
+				margin-top: 2px;
+				margin-bottom: 10px;
+				word-break: break-word;
+				font-weight: 500;
+				line-height: 1.1;
+			}
+			.ai1ec-event-header-date {
+				margin: 20px 0;
+				display: inline-flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				opacity: .7;
+				.ai1ec-event-month {
+					font-size: 12px;
+					text-transform: uppercase;
+					margin: 0;
+					line-height: 1;
+				}
+				.ai1ec-event-day {
+					font-size: 24px;
+					margin: 0;
+					line-height: 1;
+				}
+			}
+		}
+	}
+	.ai1ec-event-extra {
+		overflow: auto;
+		display: flex;
+		.ai1ec-event-body {
+			opacity: .8;
+			padding: 40px 20px;
+			flex-basis: 64%;
+			.ai1ec-event-description {
+				font-size: 14px;
+				padding-left: 30px;
+				display: block;
+			}
+		}
+		.ai1ec-event-details {
+			vertical-align: top;
+			flex-basis: 36%;
+			padding: 40px 20px 40px 40px;
+			overflow: hidden;
+			font-size: 14px;
+			.ai1ec-event-details-row {
+				padding-top: 15px;
+				padding-bottom: 25px;
+				.ai1ec-event-heading {
+					text-transform: uppercase;
+					margin: 0 0 10px 0;
+					font-size: 12px;
+					font-weight: bold;
+					opacity: .5;
+				}
+				.ai1ec-event-details-value {
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+}
+
+.ai1ec-single-event .ai1ec-event-extra .ai1ec-event-body .ai1ec-event-description,
+.ai1ec-multi-event .ai1ec-event-extra .ai1ec-event-body .ai1ec-event-description {
+	font-size: 14px;
+}

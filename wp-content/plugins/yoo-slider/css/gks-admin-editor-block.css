@@ -1,0 +1,22 @@
+.wp-block-yooslider-yooslider-block {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 20px 20px 12px 20px;
+}
+
+.wp-block-yooslider-yooslider-block .gks-block-label {
+    float: left;
+}
+
+.wp-block-yooslider-yooslider-block .gks-block-logo {
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: url('../images/admin/block_icon.png') no-repeat center;
+    background-size: contain;
+    margin-top: -4px;
+}
+
+.wp-block-yooslider-yooslider-block select {
+    width: 100%;
+}

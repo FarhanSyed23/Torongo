@@ -1,0 +1,51 @@
+// WooCommerce quantity button.
+.woocommerce {
+	.product {
+		.cart {
+			.quantity {
+				&.buttons_added {
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+	form {
+		.quantity {
+			&.buttons_added {
+				display: inline-flex;
+			}
+			.qty {
+				width: 2.631em;
+			}
+			.minus,
+			.plus {
+				width: 38px;
+				display: flex;
+				justify-content: center;
+				background-color: transparent;
+				border: 1px solid #e4e4e4;
+				align-items: center;
+				outline: 0;
+			}
+			.minus {
+				border-right-width: 0;	
+			}
+			.plus {
+				border-left-width: 0;
+				margin-right: 6px;
+			}
+		}
+		input[type=number] {
+			&.qty::-webkit-inner-spin-button,
+			&.qty::-webkit-outer-spin-button {
+				-webkit-appearance: none;
+			}
+			&.qty {
+				-webkit-appearance: none;
+				-moz-appearance: textfield;		
+			}
+			max-width: 58px;
+			min-height: 36px;
+		}
+	}
+}

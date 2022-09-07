@@ -1,0 +1,15 @@
+.gks-menu-badge {
+    background-color: #e41515;
+    padding: 1px;
+    min-width: 19px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    border-radius: 13px;
+    color: white;
+    line-height: 19px!important;
+}
+
+.gks-menu-badge:hover {
+    color: white!important;
+}

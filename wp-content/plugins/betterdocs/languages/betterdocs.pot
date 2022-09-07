@@ -1,0 +1,751 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BetterDocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-11 14:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3"
+
+#. Name of the plugin
+#: includes/class-betterdocs-docs-post-type.php:68
+#: public/partials/template-single/layout-1.php:155
+msgid "BetterDocs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:69
+msgid "Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:70
+#: admin/class-betterdocs-admin.php:242 admin/class-betterdocs-admin.php:242
+msgid "Add New"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:71
+msgid "Add New Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:72
+msgid "New Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:73
+msgid "Edit Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:74
+msgid "View Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:75
+msgid "All Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:76
+msgid "Search Docs"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:78
+msgid "No docs found"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:79
+msgid "No docs found in trash"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:84
+msgid "Add new doc from here"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:127
+#: includes/class-betterdocs-docs-post-type.php:129
+msgid "Docs Categories"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:128
+msgid "Docs Category"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:130
+msgid "Parent Docs Category"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:131
+msgid "Parent Docs Category:"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:132
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:133
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:134
+msgid "Add New Docs Category"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:135
+msgid "New Docs Name"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:136
+#: admin/class-betterdocs-admin.php:244 admin/class-betterdocs-admin.php:244
+msgid "Categories"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:159
+msgid "Docs Tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:160
+msgid "Tag"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:161
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:162
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:163
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:166
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:167
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:168
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:169
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:170
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:171
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:172
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:173
+#: admin/class-betterdocs-admin.php:248 admin/class-betterdocs-admin.php:248
+msgid "Tags"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:316
+#: includes/class-betterdocs-docs-post-type.php:376
+msgid "Order"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:320
+msgid "Category Icon"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:328
+#: includes/class-betterdocs-docs-post-type.php:402
+msgid "Add Image"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:331
+#: includes/class-betterdocs-docs-post-type.php:405
+msgid "Remove Image"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:368
+msgid "Category Id"
+msgstr ""
+
+#: includes/class-betterdocs-docs-post-type.php:385
+msgid "Image"
+msgstr ""
+
+#: includes/class-betterdocs-helpers.php:138
+msgid "About"
+msgstr ""
+
+#: includes/class-betterdocs-helpers.php:138
+msgid "ago"
+msgstr ""
+
+#: admin/class-betterdocs-admin.php:218
+msgid "Quick Setup"
+msgstr ""
+
+#: admin/class-betterdocs-admin.php:223 public/class-betterdocs-public.php:375
+msgid "Settings"
+msgstr ""
+
+#: admin/class-betterdocs-admin.php:239
+msgid "All Articles"
+msgstr ""
+
+#: admin/class-betterdocs-admin.php:380 admin/class-betterdocs-admin.php:391
+msgid "Visit Documentation"
+msgstr ""
+
+#: public/betterdocs-breadcrumbs.php:60
+msgid "Home"
+msgstr ""
+
+#: public/class-betterdocs-public.php:106
+msgid "Copied"
+msgstr ""
+
+#: public/class-betterdocs-public.php:332
+msgid "Table of Contents"
+msgstr ""
+
+#: public/class-betterdocs-public.php:350
+msgid "Copy URL"
+msgstr ""
+
+#: public/betterdocs-tag-template.php:66 public/betterdocs-shortcodes.php:404
+#: public/betterdocs-shortcodes.php:615
+msgid "Sorry, no docs were found."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:499
+msgid "articles"
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:538
+msgid "Search.."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:637
+msgid "Name:"
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:642
+msgid "Email:"
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:647
+msgid "Message:"
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:652
+msgid "Send"
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:673
+msgid "Please enter your name."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:674
+msgid "Enter a valid email address."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:675
+msgid "Please write your message."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:676
+msgid "Message was not sent. Try Again."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:677
+msgid "Thanks! Your message has been sent."
+msgstr ""
+
+#: public/betterdocs-shortcodes.php:684
+#, php-format
+msgid "Feedback message from %s"
+msgstr ""
+
+#: admin/customizer/controls.php:46 admin/customizer/controls.php:433
+#: admin/customizer/controls.php:524 admin/customizer/controls.php:562
+msgid "Reset"
+msgstr ""
+
+#: admin/customizer/controls.php:331
+msgid "Color 1"
+msgstr ""
+
+#: admin/customizer/controls.php:335 admin/customizer/controls.php:345
+#: admin/customizer/controls.php:355 admin/customizer/controls.php:365
+msgid "%"
+msgstr ""
+
+#: admin/customizer/controls.php:341
+msgid "Color 2"
+msgstr ""
+
+#: admin/customizer/controls.php:351
+msgid "Color 3"
+msgstr ""
+
+#: admin/customizer/controls.php:361
+msgid "Color 4"
+msgstr ""
+
+#: admin/customizer/controls.php:371
+msgid "Direction"
+msgstr ""
+
+#: admin/customizer/controls.php:383
+msgid "Angle"
+msgstr ""
+
+#: admin/customizer/controls.php:620
+msgid "Go Pro"
+msgstr ""
+
+#: admin/customizer/defaults.php:165
+msgid "Share This Article :"
+msgstr ""
+
+#: admin/includes/class-betterdocs-settings.php:28
+msgid "BetterDocs Settings"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:38
+msgid "General"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:43
+msgid "General Settings"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:48
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:53
+msgid "Enable Built-in Documentation Page"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:51
+msgid ""
+"<strong>Note:</strong> if you disable built-in documentation page, you can "
+"use shortcode or page builder widgets to design your documentation page."
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:63
+msgid "Documentation Page Title"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:69
+msgid "Documentation Page Slug"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:78
+msgid ""
+"Note: You will need to insert BetterDocs Shortcode inside the page. This "
+"page will be used as docs permalink."
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:82
+msgid "Custom Category Slug"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:88
+msgid "Custom Tag Slug"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:98
+msgid "Layout"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:107
+#: admin/includes/betterdocs-settings-page-helper.php:112
+#: admin/includes/betterdocs-settings-page-helper.php:374
+msgid "Documentation Page"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:117
+msgid "Enable Live Search"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:123
+msgid "Search Result Image"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:129
+msgid "Enable Masonry"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:135
+msgid "Order Docs Post Alphabetically"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:141
+msgid "Order Category Alphabetically"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:147
+msgid "Nested Subcategory"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:153
+msgid "Number of Columns"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:159
+msgid "Number of Posts"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:165
+msgid "Enable Post Count"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:171
+msgid "Enable Explore More Button"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:187
+msgid "Button Text"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:188
+msgid "Explore More"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:194
+#: admin/includes/betterdocs-settings-page-helper.php:199
+msgid "Single Doc"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:204
+msgid "Enable Table of Contents (TOC)"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:220
+msgid "TOC Hierarchy"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:226
+msgid "Enable Sticky TOC"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:232
+msgid "Collapsible TOC on small devices"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:237
+msgid "TOC Supported Heading Tag"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:252
+msgid "Enable Post Title"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:258
+msgid "Title Link Copy To Clipboard"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:264
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:270
+msgid "Enable Category on Breadcrumb"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:276
+msgid "Enable Title on Breadcrumb"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:282
+#: admin/includes/betterdocs-settings-page-helper.php:358
+msgid "Enable Sidebar Category List"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:288
+msgid "Enable Print Icon"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:294
+msgid "Enable Tags"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:300
+msgid "Enable Email Feedback"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:316
+msgid "Email Address"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:319
+msgid "The email address where the feedback form should sent"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:323
+msgid "Show Last Update Time"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:329
+msgid "Enable Navigation"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:335
+msgid "Enable Comment"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:341
+msgid "Enable Credit"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:348
+#: admin/includes/betterdocs-settings-page-helper.php:353
+msgid "Archive Page"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:370
+msgid "Design"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:379
+msgid "Customize BetterDocs"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:388
+#: admin/includes/betterdocs-settings-page-helper.php:392
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:397
+msgid "Category Grid"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:401
+msgid ""
+"<strong>You can use:</strong> [betterdocs_category_grid "
+"post_counter=\"true\" icon=\"true\" masonry=\"true\" column=\"3\" "
+"posts_per_grid=\"5\" nested_subcategory=\"true\" terms=\"term_ID, term_ID\"]"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:405
+msgid "Category Box"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:409
+msgid "<strong>You can use:</strong> [betterdocs_category_box column=\"3\"]"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:413
+msgid "Search Form"
+msgstr ""
+
+#: admin/includes/betterdocs-settings-page-helper.php:420
+msgid "Feedback Form"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-sidebar.php:10
+#, php-format
+msgid "<a rel=\"nofollow\" href=\"%s\" target=\"_blank\">Manage License</a>"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-sidebar.php:12
+#, php-format
+msgid "<a rel=\"nofollow\" href=\"%s\" target=\"_blank\">Upgrade to Pro</a>"
+msgstr ""
+
+#: admin/partials/betterdocs-field-display.php:11
+msgid "Design your Documentation and Article page live with Customizer."
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:8
+#: admin/partials/betterdocs-settings-blocks.php:12
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:11
+msgid ""
+"Get started by spending some time with the documentation to get familiar "
+"with BetterDocs. Build an awesome Knowledge Base for your customers with "
+"ease."
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:20
+msgid "Contribute to BetterDocs"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:23
+msgid ""
+"You can contribute to make BetterDocs better reporting bugs, creating issues,"
+" pull requests at"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:24
+msgid "Report a Bug"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:32
+msgid "Need Help?"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:35
+msgid "Stuck with something? Get help from live chat or support ticket."
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:36
+msgid "Initiate a Chat"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:44
+msgid "Show Your Love"
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:47
+msgid ""
+"We love to have you in BetterDocs family. We are making it more awesome "
+"everyday. Take your 2 minutes to review the plugin and spread the love to "
+"encourage us to keep it going."
+msgstr ""
+
+#: admin/partials/betterdocs-settings-blocks.php:48
+msgid "Leave a Review"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:7
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:11
+msgid "Getting Started"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:12
+msgid ""
+"Easily get started with this easy setup wizard and complete setting up your "
+"Knowledge Base."
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:27
+msgid "Migration"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:31
+msgid ""
+"We detected another Knowledge Base Plugin installed in this site. For "
+"BetterDocs to work efficiently, we will migrate the data from the plugin "
+"listed below, and deactivate the plgugin, to avoid conflict."
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:49
+msgid "Setup Pages"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:58
+msgid "Page Slug"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:65
+msgid "Enable Instant Answer"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:74
+msgid "Create Content"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:78
+msgid "Create Documentation Content"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:79
+msgid ""
+"Let's create some categories and articles. And then assign the articles to "
+"proper categories."
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:103
+msgid "Customize"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:107
+msgid "Customize Everything"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:108
+msgid ""
+"Take control of your settings and customize your documentation page, "
+"articles and archive pages live, with the power of Customizer"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:133
+msgid "Finalize"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:137
+msgid "Great Job!"
+msgstr ""
+
+#: admin/setup-wizard/betterdocs-setup-wizard-config.php:138
+msgid ""
+"Your documentation page is ready! Make sure to add more articles and assign "
+"them to proper categories and you are good to go."
+msgstr ""
+
+#: admin/includes/fields/betterdocs-adv_checkbox.php:11
+msgid "Advanced Design"
+msgstr ""
+
+#: admin/setup-wizard/inc/class-betterdocs-setup-wizard.php:266
+msgid "Previous"
+msgstr ""
+
+#: admin/setup-wizard/inc/class-betterdocs-setup-wizard.php:267
+msgid "Next"
+msgstr ""
+
+#: admin/setup-wizard/inc/class-betterdocs-setup-wizard.php:271
+msgid "What We Collect?"
+msgstr ""
+
+#: admin/setup-wizard/inc/class-betterdocs-setup-wizard.php:274
+msgid "Skip This Step"
+msgstr ""
+
+#: public/partials/template-single/layout-1.php:111
+msgid "Still stuck? How can we help?"
+msgstr ""
+
+#: public/partials/template-single/layout-1.php:116
+msgid "How can we help?"
+msgstr ""
+
+#: public/partials/template-single/layout-1.php:131
+#, php-format
+msgid "Updated on %s"
+msgstr ""
+
+#: public/partials/template-single/layout-1.php:155
+msgid "Powered by "
+msgstr ""
+
+#. Description of the plugin
+msgid "A better documentation and knowledgebase plugin for WordPress"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://betterdocs.co/"
+msgstr ""
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.net"
+msgstr ""

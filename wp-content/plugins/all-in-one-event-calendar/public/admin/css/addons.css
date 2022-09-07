@@ -1,0 +1,72 @@
+.ai1ec-addon {
+	max-width:246px;
+	padding: 6px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	border: 1px solid #CCC;
+	display: inline-block;
+}
+.ai1ec-addon-title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 3px;
+}
+.ai1ec-addon-excerpt {
+	font-size: 11px;
+	height: 32px;
+	overflow: hidden;
+	line-height: 1.5;
+}
+.ai1ec-addon-button {
+	display: inline-block;
+	padding: 3px 6px;
+	margin-top: 6px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	background: #F5F5F5;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.timely-activate-ev-button {
+	background: #d4ab28;
+	border: none;
+	border-radius: 12px;
+	margin-top: 0px;
+	display: inline-block;
+	clear: both;
+	font-weight: bold;
+	padding: 8px 18px;
+	color: #fff;
+	margin-bottom: 0;
+	white-space: nowrap;
+	cursor: pointer;
+	vertical-align: middle;
+	font-size: 14px;
+	user-select: none;
+	line-height: 1.42857143;
+	text-decoration: none;
+}
+.timely-activate-ev-button:hover {
+	color: #fff;
+}
+.timely-activate-ev-img {
+	background-image: url(../img/ev.png);
+	width:250px;
+	height:174px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 25px auto;
+}
+.timely-activate-ev {
+	background: white;
+	padding: 30px 46px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+
+}
+.timely-activate-learn {
+	margin-top:10px;
+	margin-bottom:10px;
+	display: inline-block;
+}

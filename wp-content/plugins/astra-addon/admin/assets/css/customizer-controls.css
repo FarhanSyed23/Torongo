@@ -1,0 +1,162 @@
+#customize-control-astra-settings-archive-sidebar-layout .customizer-text,
+#customize-control-astra-settings-single-page-sidebar-layout .customizer-text,
+#customize-control-astra-settings-single-post-sidebar-layout .customizer-text {
+    display: none;
+}
+
+/**
+ * Typography Control Style
+ */
+.customize-pane-child > li[id*="-font-weight"],
+.customize-pane-child > li[id*="-text-transform"] {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    clear: none;
+}
+
+.customize-pane-child > li[id*="-font-weight"] {
+    padding-right: 5px;
+}
+
+.customize-pane-child > li[id*="-text-transform"] {
+    padding-left: 5px;
+}
+
+.customize-pane-child > #customize-control-astra-settings-font-weight-product-price,
+.customize-pane-child > #customize-control-astra-settings-font-weight-shop-product-price,
+.customize-pane-child > li[id*="-text-transform-post-pagination"] {
+    padding: 0;
+    width: 100%;
+}
+
+.customize-pane-child > li[id*="-text-transform-post-pagination"] select {
+    margin: 0;
+}
+
+/* Astra Customizer Notices */
+.ast-customizer-notice {
+    margin: -20px -12px 5px -12px;
+    padding: 15px;
+    font-size: 14px;
+    font-style: normal;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.ast-customizer-notice a {
+    color: white;
+    font-weight: bold;
+}
+
+.ast-customizer-notice p {
+    padding: 5px;
+}
+
+.accordion-section + .customize-control-ast-description .ast-customizer-notice {
+    margin-top: 0px;
+}
+
+/* Astra Customizer Blog Featured Image sizes */
+#customize-control-astra-settings-blog-archive-image-width:not(.ast-hide),
+#customize-control-astra-settings-blog-archive-image-height:not(.ast-hide),
+#customize-control-astra-settings-blog-single-post-image-width:not(.ast-hide),
+#customize-control-astra-settings-blog-single-post-image-height:not(.ast-hide),
+#customize-control-astra-settings-blog-archive-image-apply-sizes:not(.ast-hide),
+#customize-control-astra-settings-blog-single-post-image-apply-sizes:not(.ast-hide){
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    width: 33%;
+    clear: none;
+    text-align: center;
+    vertical-align: bottom;
+}
+#customize-control-astra-settings-blog-archive-image-width:not(.ast-hide) input[type="number"],
+#customize-control-astra-settings-blog-archive-image-height:not(.ast-hide) input[type="number"],
+#customize-control-astra-settings-blog-single-post-image-width:not(.ast-hide) input[type="number"],
+#customize-control-astra-settings-blog-single-post-image-height:not(.ast-hide) input[type="number"],
+#customize-control-astra-settings-blog-archive-image-apply-sizes:not(.ast-hide) input[type="number"],
+#customize-control-astra-settings-blog-single-post-image-apply-sizes:not(.ast-hide) input[type="number"]{
+    margin-right: 5px;
+    padding: 3px 5px;
+    height: 28px;
+    width: 64px;
+    min-height: 28px;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    #customize-control-astra-settings-blog-archive-image-width:not(.ast-hide) input[type="number"],
+    #customize-control-astra-settings-blog-archive-image-height:not(.ast-hide) input[type="number"],
+    #customize-control-astra-settings-blog-single-post-image-width:not(.ast-hide) input[type="number"],
+    #customize-control-astra-settings-blog-single-post-image-height:not(.ast-hide) input[type="number"],
+    #customize-control-astra-settings-blog-archive-image-apply-sizes:not(.ast-hide) input[type="number"],
+    #customize-control-astra-settings-blog-single-post-image-apply-sizes:not(.ast-hide) input[type="number"]{
+        margin-right: 28px;
+    }
+}
+#customize-control-astra-settings-blog-archive-image-apply-sizes:not(.ast-hide),
+#customize-control-astra-settings-blog-single-post-image-apply-sizes:not(.ast-hide){
+    margin-left: 1%;
+    vertical-align: top;
+}
+#customize-control-astra-settings-blog-archive-image-width .customize-control-title,
+#customize-control-astra-settings-blog-archive-image-height .customize-control-title,
+#customize-control-astra-settings-blog-single-post-image-width .customize-control-title,
+#customize-control-astra-settings-blog-single-post-image-height .customize-control-title {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+}
+body.rtl #customize-control-astra-settings-blog-archive-image-width .customize-control-title,
+body.rtl #customize-control-astra-settings-blog-archive-image-height .customize-control-title,
+body.rtl #customize-control-astra-settings-blog-single-post-image-width .customize-control-title,
+body.rtl #customize-control-astra-settings-blog-single-post-image-height .customize-control-title {
+    margin-right: 10px;
+}
+#customize-control-astra-settings-blog-archive-image-width .customize-control-title:after,
+#customize-control-astra-settings-blog-archive-image-height .customize-control-title:after,
+#customize-control-astra-settings-blog-single-post-image-width .customize-control-title:after,
+#customize-control-astra-settings-blog-single-post-image-height .customize-control-title:after {
+    content: "px";
+    width: 18px;
+    top: 0;
+    left: 64px;
+    position: absolute;
+    display: inline-block;
+    background: #eee;
+    height: 26px;
+    border: 1px solid #DDD;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 26px;
+}
+
+body.rtl #customize-control-astra-settings-blog-archive-image-width .customize-control-title:after,
+body.rtl #customize-control-astra-settings-blog-archive-image-height .customize-control-title:after,
+body.rtl #customize-control-astra-settings-blog-single-post-image-width .customize-control-title:after,
+body.rtl #customize-control-astra-settings-blog-single-post-image-height .customize-control-title:after {
+    right: 64px;
+}
+
+body.rtl #customize-control-astra-settings-mobile-header-logo .customize-control-title {
+    direction: ltr;
+}
+
+#customize-control-astra-settings-blog-archive-image-size-heading .customize-control-title,
+#customize-control-astra-settings-blog-single-post-image-size-heading .customize-control-title {
+    font-size: 14px;
+}
+
+
+#customize-control-astra-settings-above-header-submenu-item-border .ast-border-wrapper,
+#customize-control-astra-settings-below-header-submenu-item-border .ast-border-wrapper{
+    width: 100%;
+}

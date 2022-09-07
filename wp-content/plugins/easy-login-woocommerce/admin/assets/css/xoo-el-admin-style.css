@@ -1,0 +1,269 @@
+.section-title {
+    display: block;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    font-size: 17px;
+    margin: 0 -10px;
+    padding: 8px;
+    background-color: #5e6871;
+    color: #ffffff;
+}
+
+.xoo-main {
+    background-color: #ffffff;
+    padding: 0 10px;
+    max-width: 1000px;
+    flex-grow: 1;
+}
+
+.xoo-container {
+    margin-top: 12px;
+    display: flex;
+}
+
+/*sidebar*/
+.xoo-sidebar {
+    margin-left: 40px;
+    background-color: #fff;
+    display: table;
+    padding: 10px 15px;
+    max-width: 315px;
+    min-width: 315px;
+    position: relative;
+}
+
+.xoo-op-plugin-icon {
+    display: table;
+    float: left;
+}
+
+.xoo-op-plugin-icon span.dashicons {
+    font-size: 36px;
+    display: table;
+    color: #5e6871;
+}
+
+span.xoo-op-plugin-about {
+    display: block;
+    margin-top: 4px;
+}
+
+.xoo-op-plugin-details a {
+    padding-right: 5px;
+}
+
+li.xoo-op-plugin {
+    padding: 14px 0;
+    display: flex;
+    align-items: center;
+}
+
+.xoo-op-plugin-details {
+    margin-left: 10px;
+}
+
+.xoo-op-plugin-head {
+    font-size: 17px;
+    display: block;
+}
+
+.xoo-sidebar-head {
+    display: block;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 7px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+
+ul.xoo-op-list li:first-child {
+    padding-top: 0;
+}
+
+a.xoo-sidebar-toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.xoo-sidebar-show .xoo-other-plugins {
+    display: none;
+}
+
+.xoo-sidebar-show a.xoo-sidebar-toggle {
+    padding: 10px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.xoo-sidebar.xoo-sidebar-show {
+    min-width: 50px;
+    margin-left: 10px;
+}
+
+.xoo-sidebar-head:not(:first-child) {
+    margin-top: 30px;
+}
+
+/* End sidebar */
+.xoo-el-faqs {
+    font-size: 15px;
+}
+
+.xoo-main h2 {
+    display: none;
+}
+
+.prem-images {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+.prem-images img {
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+}
+
+.xoo-wsc-prem .xoo-hero-btns {
+    display: table;
+    margin: 10px auto;
+}
+
+.xoo-wsc-prem .xoo-hero-btns a {
+    margin: 0 10px;
+}
+
+/* Free vs Premium */
+.xoo-fvsp {
+    margin: 30px 0;
+}
+
+.xoo-fvsp-head {
+    display: table;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+table.xoo-fvsp-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    margin-top: 25px;
+}
+
+table.xoo-fvsp-table td {
+    padding: 10px 20px;
+    border: 0;
+    margin: 0;
+}
+
+table.xoo-fvsp-table th {
+    padding: 10px 20px;
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+table.xoo-fvsp-table th span {
+    font-size: 12px;
+}
+
+table.xoo-fvsp-table tbody tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.xfp-yes {
+    color: #3c763d;
+    text-align: center;
+}
+
+.xfp-no {
+    text-align: center;
+    color: #a94442;
+}
+
+.xfp-alert {
+    color: #0000ff;
+}
+
+/**** -- */
+.prem-images h3 {
+    margin: 5px;
+}
+
+.prem-images span {
+    font-size: 16px;
+    margin: 5px 0 10px 5px;
+    display: block;
+}
+
+ul.xoo-aff-select-fields-type li {
+    cursor: not-allowed!important;
+}
+
+span.xoo-aff-prem-note {
+    font-size: 20px;
+    color: #5b9dd9;
+    font-weight: 600;
+    border-bottom: 1px solid #5b9dd9;
+    display: table;
+    padding-bottom: 2px;
+}
+
+.xoo-el-links {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.xoo-el-links a {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+input[name="xoo-el-general-options[m-en-otp-login]"] {
+    display: none;
+}
+
+
+.xoo-el-faqs li > div span {
+    display: block;
+    margin: 7px 0;
+}
+
+ul.xoo-el-faq-sc li:first-child {
+    color: #777;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.xoo-el-faqs li > div > span {
+    font-style: italic;
+}
+
+ul.xoo-el-faq-sc li:not(:first-child) {
+    color: #007cba;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    display: table;
+}
+
+.xoo-outdatedtemplates ul li {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: #ffe3b0;
+}
+.xoo-outdatedtemplates ul li span{
+    margin-right: 5px;
+}
+.xoo-outdatedtemplates{
+    margin-bottom: 10px;
+}

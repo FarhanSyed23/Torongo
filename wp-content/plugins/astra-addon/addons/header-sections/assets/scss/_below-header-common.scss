@@ -1,0 +1,300 @@
+//  add mixins
+@import "mixins";
+
+.ast-below-header {
+    z-index: 3;
+}
+
+.ast-below-header {
+    border-bottom: 1px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    @include ast-transition();
+    
+    .ast-button-wrap {
+        display: none;
+    }
+
+    .astra-search-icon {
+        display: flex;
+    }
+
+    .menu-item-has-children > a:after {
+        @include ast-has-child-menu-item();
+        line-height: normal;
+    }
+
+    .user-select {
+        position: relative;
+    }
+
+    .ast-search-icon {
+        display: block;
+    }
+    /* Search widget. */
+    .widget_search {
+        .search-field,
+        .search-field:focus {
+            width: 100%;
+            padding: .66666em 3em .66666em 1em;
+        }
+    }
+
+    /* Woocommerce Below Header cart*/
+    .ast-addon-cart-wrap {
+        padding: 0 .6em;
+    }
+}
+
+.below-header-section-1 {
+    .ast-search-menu-icon {
+
+        .search-form {
+            right: auto;
+            left: -1em;
+            padding-left: 3em;
+            padding-right: 0;
+        }
+    }
+}
+
+.below-header-user-select {
+    padding-top: 0;
+    align-items: center;
+    .widget{
+        margin: 0 .5em;
+        display: inline-block;
+        vertical-align: middle;
+        p,
+        a {
+            margin-bottom: 0;
+        }
+    }
+    .ast-no-widget-row{
+        .widget-title{
+            text-transform: capitalize;
+        }
+        .no-widget-text{
+            margin:0;
+        }
+    }
+}
+
+.ast-below-header {
+    .below-header-user-select {
+        text-align: center;
+    }
+}
+
+.ast-below-header-wrap {
+    position: relative;
+}
+
+/* Below Header menu li class */
+
+.ast-below-header-menu-items,
+.ast-below-header-custom-menu-items{
+    display: none;
+}
+
+/* Responsive Style */
+.ast-header-break-point {
+
+    /* Hide Below Header for mobile devices  */
+    &.ast-below-header-hide-on-mobile{
+        .ast-below-header-wrap{
+            display: none;
+        }
+    }
+    /* Separate Header CSS */
+    .ast-below-header-section-separated{
+        .ast-below-header-wrap {
+            position: relative;
+        }
+
+        .ast-below-header-actual-nav {
+            display: none;
+            background: #414042;
+            position: absolute;
+            padding: 0 20px;
+            bottom: 0;
+            transform: translateY(100%);
+            left: 0;
+            width: 100%;
+            overflow-y: auto;
+        }
+        
+        .ast-below-header {
+            .ast-button-wrap {
+                display: inline-block;
+
+                .menu-below-header-toggle .mobile-menu {
+                    font-size: 15px;
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        &.ast-below-header-mobile-stack{
+
+            .ast-below-header .ast-container {
+                padding: 0;
+            }
+
+            .below-header-section-1 {
+                z-index: 5;
+            }
+
+            .ast-below-header-section-wrap {
+                flex-direction: column;
+            }
+            .ast-below-header-navigation,
+            .below-header-user-select{
+                width: 100%;
+            }
+            
+            .below-header-section-2 {
+                padding: 1em 0 0 0;
+            }
+            &.ast-swap-below-header-sections .below-header-section-2 {
+                padding: 0 0 1em 0;
+            }
+            
+            .below-header-section-1,
+            .below-header-section-2 {
+                justify-content: center;
+                text-align: left;
+            }
+        }
+    }
+
+    &.ast-header-custom-item-outside{
+        .ast-primary-menu-disabled {
+            &.ast-below-header-merged-responsive {
+                .ast-mobile-menu-buttons {
+                    display: block;
+                }
+            }
+        }
+    }
+    /* Merged Header CSS */
+    .ast-below-header-merged-responsive {
+        .ast-below-header {
+            display: none;
+        }
+
+        /* Below Header menu li class*/
+        .toggle-on .ast-below-header-menu-items,
+        .toggle-on .ast-below-header-custom-menu-items{
+            display: block;
+            width: 100%;
+        }
+
+        .below-header-section-2 {
+            padding-top: .66em;
+            padding-bottom: .66em;
+        }
+    }
+
+    .ast-below-header-menu-items {
+        ul{
+            list-style: none;
+            margin: 0;
+            padding-left: 0;
+            position: relative;
+        }
+        li {
+            list-style: none;
+            position: relative;
+            a {
+                padding: 0 20px;
+                display: inline-block;
+                width: 100%;
+                border-bottom-width: 1px;
+                border-style: solid;
+                border-color: #dadada;
+            }
+        }
+    }
+
+    .ast-below-header-menu-items {
+        &.main-header-menu{
+            border-top: 0;
+        }
+    }
+
+    .ast-below-header-section-wrap {
+        min-height: initial;
+    }
+    .ast-below-header {
+        border-bottom: none;
+    }
+    .ast-below-header-menu {
+        display: block;
+        margin: 0 -20px;
+        border-top-width: 1px;
+        border-style: solid;
+        border-color: #dadada;
+        
+        ul ul {
+            top: 0;
+        }
+    }
+    
+    .menu-item-has-children > a:after {
+        display: none;
+    }
+    
+    .below-header-user-select {        
+        .ast-search-menu-icon .search-field {
+            max-height: initial;
+        }
+
+        .widget{
+            margin: .5em 0;
+            display: block;
+        }
+
+        .ast-addon-cart-wrap{
+            padding: 0 .6em;
+        }
+    }
+    .ast-below-header {
+
+        border-top: 1px solid #eaeaea;
+
+    }
+
+    .menu-below-header-toggle{
+        padding: 0 .5em;
+        width: auto;
+    }
+    .header-main-layout-2{
+        .menu-below-header-toggle{
+            margin-left: 0;
+        }
+    }    
+}
+
+/* EDD cart for Below Header Section 1 */
+.below-header-section-1 {
+    .ast-edd-site-header-cart {
+        &:focus .widget_edd_cart_widget, &:hover .widget_edd_cart_widget {
+            right: auto;
+            left: 0;
+        }
+        .widget_edd_cart_widget{
+            right: -999em;
+            left: auto;
+            &:before, &:after {
+                left: 8px;
+                right: auto;
+            }
+            &:after {
+                margin-left: -2px;
+            }
+        }
+    }
+}

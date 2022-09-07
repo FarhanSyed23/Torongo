@@ -1,0 +1,3853 @@
+# Copyright (C) 2016 WPForms
+# This file is distributed under the same license as the WPForms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms 1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-10T13:57:45+03:00\n"
+"PO-Revision-Date: 2018-10-10 14:30+0300\n"
+"Last-Translator: Nicolas Maillard <nicolas@absoluteweb.net>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: \includes\admin\ajax-actions.php:24
+msgid "Addon deactivated."
+msgstr "Extension désactivée."
+
+#: \includes\admin\ajax-actions.php:26
+#, fuzzy
+#| msgid "Could not deactivate addon. Please deacticate from the Plugins page."
+msgid "Could not deactivate addon. Please deactivate from the Plugins page."
+msgstr ""
+"Impossible de désactiver l&rsquo;extension. Veuillez la désactiver depuis la "
+"page des extensions."
+
+#: \includes\admin\ajax-actions.php:47
+msgid "Addon activated."
+msgstr "Extension activée."
+
+#: \includes\admin\ajax-actions.php:51
+msgid "Could not activate addon. Please activate from the Plugins page."
+msgstr ""
+"Impossible d&rsquo;activer l&rsquo;extension. Veuillez l&rsquo;activer "
+"depuis la page des extensions."
+
+#: \includes\admin\ajax-actions.php:66
+msgid ""
+"Could not install addon. Please download from wpforms.com and install "
+"manually."
+msgstr ""
+"Impossible d&rsquo;installer l&rsquo;extension. Veuillez la télécharger "
+"depuis wpforms.com et l&rsquo;installer manuellement."
+
+#: \includes\admin\ajax-actions.php:124
+msgid "Addon installed."
+msgstr "Extension installée."
+
+#: \includes\admin\ajax-actions.php:240 \includes\admin\ajax-actions.php:285
+#, fuzzy
+#| msgid "Please enter a license key to verify."
+msgid "Please enter a license key."
+msgstr "Veuillez saisir une clé de licence pour vérification."
+
+#: \includes\admin\class-addons.php:91
+msgid "WPForms Addons"
+msgstr "Extensions WPForms"
+
+#: \includes\admin\class-addons.php:93
+msgid "Refresh Addons"
+msgstr "Actualiser les extensions"
+
+#: \includes\admin\class-addons.php:95
+#, fuzzy
+#| msgid "Refresh Addons"
+msgid "Search Addons"
+msgstr "Actualiser les extensions"
+
+#: \includes\admin\class-addons.php:101
+#, fuzzy
+#| msgid ""
+#| "There was an issue retrieving the addons for this site. Please click on "
+#| "the button above the refresh the addons data."
+msgid ""
+"There was an issue retrieving Addons for this site. Please click on the "
+"button above to refresh."
+msgstr ""
+"Il y a eu un problème en récupérant les extensions pour ce site. Cliquer sur "
+"le bouton ci-dessous pour actualiser les données des extensions."
+
+#: \includes\admin\class-addons.php:107
+msgid ""
+"In order to get access to Addons, you need to resolve your license key "
+"errors."
+msgstr ""
+"Afin d&rsquo;avoir accès aux extensions, vous devez résoudre vos erreurs de "
+"clé de licence."
+
+#: \includes\admin\class-addons.php:113
+msgid ""
+"In order to get access to Addons, you need to verify your license key for "
+"WPForms."
+msgstr ""
+"Afin d&rsquo;avoir accès aux extensions, vous devez vérifier votre clé de "
+"licence pour WPForms."
+
+#: \includes\admin\class-addons.php:121
+msgid "Addons have successfully been refreshed."
+msgstr "Les extensions ont correctement été actualisées."
+
+#. translators: %s - refresh addons page URL.
+#: \includes\admin\class-addons.php:134
+#, fuzzy
+#| msgid ""
+#| "Improve your forms with our premium addons. Missing an addon that you "
+#| "think you should be able to see? Click the Refresh Addons button above."
+msgid ""
+"Improve your forms with our premium addons. Missing an addon that you think "
+"you should be able to see? Click the <a href=\"%s\">Refresh Addons</a> "
+"button above."
+msgstr ""
+"Développer vos formulaires avec nos extensions premium. Il manque une "
+"extension que vous pensez être en mesure de voir&nbsp;? Cliquez le bouton "
+"Actualiser les extensions ci-dessous."
+
+#: \includes\admin\class-addons.php:146
+#, fuzzy
+#| msgid "Available Fields"
+msgid "Available Addons"
+msgstr "Champs disponibles"
+
+#: \includes\admin\class-addons.php:195
+msgid "Unlock More Features..."
+msgstr "Débloquer plus de fonctionnalités..."
+
+#. translators: %s - WPForms.com Account page URL.
+#: \includes\admin\class-addons.php:200
+#, fuzzy
+#| msgid ""
+#| "Want to get even more features? Upgrade your WPForms account and unlock "
+#| "the following extensions."
+msgid ""
+"Want to get even more features? <a href=\"%s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Upgrade your WPForms account</a> and unlock the "
+"following extensions."
+msgstr ""
+"Vous voulez davantage de fonctionnalités&nbsp;? Actualisez votre compte "
+"WPForms et débloquez les extensions suivantes."
+
+#: \includes\admin\class-addons.php:242
+#, fuzzy
+#| msgid "Activate"
+msgid "Active"
+msgstr "Activer"
+
+#: \includes\admin\class-addons.php:245
+#, fuzzy
+#| msgid "Addon installed."
+msgid "Not Installed"
+msgstr "Extension installée."
+
+#: \includes\admin\class-addons.php:248
+#, fuzzy
+#| msgid "Deactivate"
+msgid "Inactive"
+msgstr "Désactiver"
+
+#. translators: %s - addon status label.
+#. translators: %s - entry payment status.
+#: \includes\admin\class-addons.php:272
+#: \includes\admin\entries\class-entries-single.php:897
+msgid "Status: %s"
+msgstr ""
+
+#: \includes\admin\class-addons.php:285
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: \includes\admin\class-addons.php:290
+msgid "Activate"
+msgstr "Activer"
+
+#: \includes\admin\class-addons.php:295
+msgid "Install Addon"
+msgstr "Installer une extension"
+
+#: \includes\admin\class-addons.php:298
+msgid "Upgrade Now"
+msgstr "Mise à niveau"
+
+#: \includes\admin\class-license.php:99 \includes\admin\class-license.php:194
+#: \includes\admin\class-license.php:290
+msgid ""
+"There was an error connecting to the remote key API. Please try again later."
+msgstr ""
+"Il y a eu une erreur de connexion distante à la clé API. Veuillez réessayer "
+"ultérieurement."
+
+#: \includes\admin\class-license.php:120
+msgid "Congratulations! This site is now receiving automatic updates."
+msgstr ""
+"Félicitations&nbsp;! Ce site reçoit maintenant les mises à jour automatiques."
+
+#: \includes\admin\class-license.php:213 \includes\admin\class-license.php:411
+msgid ""
+"Your license key for WPForms is invalid. The key no longer exists or the "
+"user associated with the key has been deleted. Please use a different key to "
+"continue receiving automatic updates."
+msgstr ""
+"Votre clé de licence pour WPForms n&rsquo;est pas valide. La clé n&rsquo;"
+"existe plus ou l&rsquo;utilisateur associé à la clé a été supprimé. Veuillez "
+"utiliser une clé différente pour continuer à recevoir les mises à jour "
+"automatiques."
+
+#: \includes\admin\class-license.php:227
+#, fuzzy
+#| msgid ""
+#| "Your license key for WPForms has been disabled. Please use a different "
+#| "key to continue receiving automatic updates."
+msgid ""
+"Your license key for WPForms has expired. Please renew your license key on "
+"WPForms.com to continue receiving automatic updates."
+msgstr ""
+"Votre clé de licence pour WPForms a été désactivée. Veuillez utiliser une "
+"clé différente pour continuer à recevoir les mises à jour automatiques."
+
+#: \includes\admin\class-license.php:241 \includes\admin\class-license.php:402
+msgid ""
+"Your license key for WPForms has been disabled. Please use a different key "
+"to continue receiving automatic updates."
+msgstr ""
+"Votre clé de licence pour WPForms a été désactivée. Veuillez utiliser une "
+"clé différente pour continuer à recevoir les mises à jour automatiques."
+
+#: \includes\admin\class-license.php:257
+msgid "Your key has been refreshed successfully."
+msgstr "Votre clé a été actualisée avec succès."
+
+#: \includes\admin\class-license.php:312
+msgid "You have deactivated the key from this site successfully."
+msgstr "Vous avez désactivé la clé de ce site avec succès."
+
+#. translators: %s - plugin settings page URL.
+#: \includes\admin\class-license.php:357
+msgid ""
+"Please <a href=\"%s\">enter and activate</a> your license key for WPForms to "
+"enable automatic updates."
+msgstr ""
+"Veuillez <a href=\"%s\">saisir et activer</a> votre clé de licence WPForms "
+"pour permettre les mises à jour automatiques."
+
+#. translators: %s - WPForms.com login page URL.
+#: \includes\admin\class-license.php:381
+#, fuzzy
+#| msgid ""
+#| "Your license key for WPForms has expired. <a href=\"%s\" target=\"_blank"
+#| "\">Please click here to renew your license key and continue receiving "
+#| "automatic updates.</a>"
+msgid ""
+"Your license key for WPForms has expired. <a href=\"%s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Please click here to renew your license key and "
+"continue receiving automatic updates.</a>"
+msgstr ""
+"Votre clé de licence pour WPForms a expiré. <a href=\"%s\" target=\"_blank"
+"\">Veuillez cliquer ici pour renouveler votre clé de licence et continuer à "
+"recevoir les mises à jour automatiques.</a>"
+
+#. translators: %s - resume page URL.
+#: \includes\admin\class-upgrades.php:257
+msgid ""
+"WPForms database upgrade is incomplete, click <a href=\"%s\">here</a> to "
+"resume."
+msgstr ""
+
+#. translators: %s - entries upgrade page URL.
+#: \includes\admin\class-upgrades.php:260
+msgid ""
+"WPForms needs to upgrade the database, click <a href=\"%s\">here</a> to "
+"start the upgrade."
+msgstr ""
+
+#: \includes\admin\class-upgrades.php:290
+msgid "WPForms needs to upgrade the database, click the button below to begin."
+msgstr ""
+
+#: \includes\admin\class-upgrades.php:291
+#, fuzzy
+#| msgid "Upgrade Now"
+msgid "Run Upgrade"
+msgstr "Mise à niveau"
+
+#: \includes\admin\class-upgrades.php:294
+msgid ""
+"WPForms database upgrade is incomplete, click the button below to resume."
+msgstr ""
+
+#: \includes\admin\class-upgrades.php:295
+msgid "Resume Upgrade"
+msgstr ""
+
+#: \includes\admin\class-upgrades.php:300
+#, fuzzy
+#| msgid "Upgrade Now"
+msgid "Upgrade"
+msgstr "Mise à niveau"
+
+#: \includes\admin\class-upgrades.php:302
+msgid ""
+"Please do not leave this page or close the browser while the upgrade is in "
+"progress."
+msgstr ""
+
+#. translators: %1$s - total number of entries upgraded; %2$s - total number of entries on site.
+#: \includes\admin\class-upgrades.php:310
+msgid "Updated %1$s of %2$s entries."
+msgstr ""
+
+#: \includes\admin\class-upgrades.php:322
+msgid "No updates are currently needed."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-export.php:207
+#: \includes\admin\entries\class-entries-list-table.php:165
+#: \includes\fields\class-date-time.php:72
+#: \includes\fields\class-date-time.php:129
+#: \includes\fields\class-date-time.php:268
+#: \includes\fields\class-date-time.php:276
+#: \includes\fields\class-date-time.php:367
+msgid "Date"
+msgstr "Date"
+
+#: \includes\admin\entries\class-entries-export.php:208
+#, fuzzy
+#| msgid "Date"
+msgid "Date GMT"
+msgstr "Date"
+
+#: \includes\admin\entries\class-entries-export.php:209
+msgid "ID"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-export.php:345
+#, fuzzy
+#| msgid "You do not have permission"
+msgid "You do not have permission to export entries."
+msgstr "Vous n&rsquo;avez pas d&rsquo;autorisation"
+
+#: \includes\admin\entries\class-entries-export.php:346
+msgid "Error"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:128
+msgid "All"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:129
+msgid "Unread"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:130
+msgid "Starred"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:156
+#: \includes\fields\class-payment-total.php:22
+msgid "Total"
+msgstr "Total"
+
+#: \includes\admin\entries\class-entries-list-table.php:162
+#, fuzzy
+#| msgid "State"
+msgid "Status"
+msgstr "État"
+
+#: \includes\admin\entries\class-entries-list-table.php:167
+#: \includes\admin\entries\class-entries-single.php:1089
+msgid "Actions"
+msgstr "Actions"
+
+#: \includes\admin\entries\class-entries-list-table.php:168
+#, fuzzy
+#| msgid "No fields to display"
+msgid "Change columns to display"
+msgstr "Pas de champs à afficher"
+
+#: \includes\admin\entries\class-entries-list-table.php:222
+#: \includes\admin\entries\class-entries-list-table.php:233
+#: \includes\admin\entries\class-entries-list-table.php:715
+#: \includes\admin\entries\class-entries-list.php:615
+#: \includes\admin\entries\class-entries-list.php:628
+msgid "Field"
+msgstr "Champ"
+
+#: \includes\admin\entries\class-entries-list-table.php:326
+#: \includes\admin\entries\class-entries-single.php:846
+msgid "Unknown"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:328
+#, fuzzy
+#| msgid "Payments"
+msgid "Payment"
+msgstr "Paiements"
+
+#: \includes\admin\entries\class-entries-list-table.php:333
+#: \includes\admin\entries\class-entries-single.php:789
+msgid "Completed"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:345
+msgid "Recurring"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:377
+#, fuzzy
+#| msgid "Invalid entry."
+msgid "Unstar entry"
+msgstr "Entrée non valide."
+
+#: \includes\admin\entries\class-entries-list-table.php:377
+msgid "Star entry"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:382
+msgid "Mark entry unread"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:382
+msgid "Mark entry read"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:412
+msgid "View Form Entry"
+msgstr "Afficher l&rsquo;entrée de formulaire"
+
+#: \includes\admin\entries\class-entries-list-table.php:413
+msgid "View"
+msgstr "Afficher"
+
+#: \includes\admin\entries\class-entries-list-table.php:430
+msgid "Delete Form Entry"
+msgstr "Supprimer cette entrée de formulaire"
+
+#: \includes\admin\entries\class-entries-list-table.php:431
+#: \includes\admin\entries\class-entries-list-table.php:505
+msgid "Delete"
+msgstr "Supprimer "
+
+#: \includes\admin\entries\class-entries-list-table.php:454
+#, fuzzy
+#| msgid "Select a Template"
+msgid "Select a date range"
+msgstr "Sélectionner un modèle"
+
+#: \includes\admin\entries\class-entries-list-table.php:458
+msgid "Filter"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:500
+msgid "Mark Read"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:501
+#: \includes\admin\entries\class-entries-single.php:1073
+msgid "Mark Unread"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:502
+#: \includes\admin\entries\class-entries-single.php:1038
+#: \includes\fields\class-rating.php:225
+msgid "Star"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:503
+#: \includes\admin\entries\class-entries-single.php:1038
+msgid "Unstar"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:504
+msgid "----------"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:562
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entry was successfully marked as read."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:564
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entries were successfully marked as read."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:588
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entry was successfully marked as unread."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:590
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entries were successfully marked as unread."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:614
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entry was successfully starred."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:616
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entries were successfully starred."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:640
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entry was successfully unstarred."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:642
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entries were successfully unstarred."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:661
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entry was successfully deleted."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:663
+#, fuzzy
+#| msgid "Entry successfully deleted."
+msgid "Entries were successfully deleted."
+msgstr "Entrée supprimée avec succès."
+
+#: \includes\admin\entries\class-entries-list-table.php:678
+msgid "Whoops, it appears you do not have any form entries yet."
+msgstr ""
+"Oups, il semble que vous n&rsquo;avez pas encore d&rsquo;entrée de "
+"formulaire."
+
+#: \includes\admin\entries\class-entries-list-table.php:710
+#, fuzzy
+#| msgid "No form ID found"
+msgid "Any form field"
+msgstr "Aucun ID de formulaire trouvé"
+
+#: \includes\admin\entries\class-entries-list-table.php:731
+msgid "contains"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:732
+msgid "does not contain"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list-table.php:733
+msgid "is"
+msgstr "est"
+
+#: \includes\admin\entries\class-entries-list-table.php:734
+msgid "is not"
+msgstr "n&rsquo;est pas"
+
+#: \includes\admin\entries\class-entries-list.php:166
+msgid "Number of entries per page:"
+msgstr "Nombre d&rsquo;entrées par page&nbsp;:"
+
+#: \includes\admin\entries\class-entries-list.php:266
+msgid "All entries marked as read."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:323
+msgid "All entries for the currently selected form were successfully deleted."
+msgstr ""
+
+#. translators: %s - form builder page URL.
+#: \includes\admin\entries\class-entries-list.php:492
+msgid ""
+"Whoops, you haven't created a form yet. Want to <a href=\"%s\">give it a go</"
+"a>?"
+msgstr ""
+"Oups, vous n&rsquo;avez pas encore créé de formulaire. Vous voulez <a href="
+"\"%s\">essayer</a>&nbsp;?"
+
+#: \includes\admin\entries\class-entries-list.php:543 \wpforms-pro.php:421
+msgid "Entries"
+msgstr "Entrées"
+
+#: \includes\admin\entries\class-entries-list.php:572
+msgid "Search"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:602
+msgid "Select the fields to show when viewing the entries list for this form."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:604
+msgid ""
+"Currently columns have not been configured, so we're showing the first 3 "
+"fields."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:707
+#, fuzzy
+#| msgid "Select Groups"
+msgid "Select Form"
+msgstr "Sélectionner les groupes"
+
+#: \includes\admin\entries\class-entries-list.php:717
+msgid "Open form selector"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:743
+#, fuzzy
+#| msgid "Entries"
+msgid "All Entries"
+msgstr "Entrées"
+
+#: \includes\admin\entries\class-entries-list.php:749
+#, fuzzy
+#| msgid "Edit this form"
+msgid "Edit This Form"
+msgstr "Modifier ce formulaire"
+
+#: \includes\admin\entries\class-entries-list.php:754
+#, fuzzy
+#| msgid "Previous"
+msgid "Preview Form"
+msgstr "Précédente"
+
+#: \includes\admin\entries\class-entries-list.php:759
+msgid "Download Export (CSV)"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:764
+msgid "Mark All Read"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-list.php:769
+#, fuzzy
+#| msgid "Delete"
+msgid "Delete All"
+msgstr "Supprimer "
+
+#: \includes\admin\entries\class-entries-single.php:163
+msgid "This entry has been starred."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:180
+msgid "This entry has been unstarred."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:213
+msgid "This entry has been marked unread."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:240
+msgid "Note deleted."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:276
+msgid "Note added."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:310
+#, fuzzy
+#| msgid "Notifications"
+msgid "Notifications were resent!"
+msgstr "Notifications"
+
+#: \includes\admin\entries\class-entries-single.php:328
+#, fuzzy
+#| msgid "Invalid entry."
+msgid "Invalid entry ID."
+msgstr "Entrée non valide."
+
+#: \includes\admin\entries\class-entries-single.php:341
+msgid "Entry not found."
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:354
+#, fuzzy
+#| msgid "No form ID found"
+msgid "Form not found."
+msgstr "Aucun ID de formulaire trouvé"
+
+#: \includes\admin\entries\class-entries-single.php:438
+#, fuzzy
+#| msgid " View Entry"
+msgid "View Entry"
+msgstr "Afficher l&rsquo;entrée"
+
+#: \includes\admin\entries\class-entries-single.php:440
+#, fuzzy
+#| msgid "Back to Entries"
+msgid "Back to All Entries"
+msgstr "Retour aux entrées"
+
+#. translators: %1$s - current number of entry; %2$s - total number of entries.
+#: \includes\admin\entries\class-entries-single.php:447
+msgid "Entry %1$s of %2$s"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:454
+#, fuzzy
+#| msgid "Previous Label"
+msgid "Previous form entry"
+msgstr "Libellé précédent"
+
+#: \includes\admin\entries\class-entries-single.php:458
+#, fuzzy
+#| msgid "Delete Form Entry"
+msgid "Current form entry"
+msgstr "Supprimer cette entrée de formulaire"
+
+#: \includes\admin\entries\class-entries-single.php:460
+#, fuzzy
+#| msgid "Delete Form Entry"
+msgid "Next form entry"
+msgstr "Supprimer cette entrée de formulaire"
+
+#: \includes\admin\entries\class-entries-single.php:514
+msgid "Show Empty Fields"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:514
+#, fuzzy
+#| msgid "Hidden Field"
+msgid "Hide Empty Fields"
+msgstr "Champ caché"
+
+#: \includes\admin\entries\class-entries-single.php:526
+#, fuzzy
+#| msgid "You don't have any fields yet."
+msgid "This entry does not have any fields"
+msgstr "Vous n&rsquo;avez pas encore de champ."
+
+#. translators: %d - field ID.
+#: \includes\admin\entries\class-entries-single.php:543
+msgid "Field ID #%d"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:548
+#, fuzzy
+#| msgid "empty"
+msgid "Empty"
+msgstr "vide"
+
+#: \includes\admin\entries\class-entries-single.php:585
+msgid "Notes"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:592
+#: \includes\admin\entries\class-entries-single.php:607
+#, fuzzy
+#| msgid "Add New"
+msgid "Add Note"
+msgstr "Nouveau"
+
+#: \includes\admin\entries\class-entries-single.php:608
+msgid "Cancel"
+msgstr "Annuler"
+
+#: \includes\admin\entries\class-entries-single.php:616
+#, fuzzy
+#| msgid "No name"
+msgid "No notes."
+msgstr "Aucun nom"
+
+#. translators: %1$s - user link; %2$s - date; %3$s - separator; %4$s - link to delete a note
+#: \includes\admin\entries\class-entries-single.php:653
+msgid "Added by %1$s on %2$s %3$s %4$s"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:657
+#, fuzzy
+#| msgid "Delete"
+msgctxt "Entry: note"
+msgid "Delete"
+msgstr "Supprimer "
+
+#: \includes\admin\entries\class-entries-single.php:695
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Debug Information"
+msgstr "Confirmation"
+
+#: \includes\admin\entries\class-entries-single.php:724
+#, fuzzy
+#| msgid "Entries"
+msgid "Entry Details"
+msgstr "Entrées"
+
+#. translators: %s - entry ID.
+#: \includes\admin\entries\class-entries-single.php:736
+#, fuzzy
+#| msgid "New Entry: "
+msgid "Entry ID: %s"
+msgstr "Nouvelle entrée&nbsp;:"
+
+#: \includes\admin\entries\class-entries-single.php:745
+#, fuzzy
+#| msgid "Submit"
+msgid "Submitted:"
+msgstr "Envoyer"
+
+#: \includes\admin\entries\class-entries-single.php:752
+msgid "Modified:"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:761
+msgid "User:"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:780
+msgid "User IP:"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:788
+#, fuzzy
+#| msgid "State"
+msgid "Status:"
+msgstr "État"
+
+#: \includes\admin\entries\class-entries-single.php:814
+#, fuzzy
+#| msgid "Delete Form Entry"
+msgid "Delete Entry"
+msgstr "Supprimer cette entrée de formulaire"
+
+#: \includes\admin\entries\class-entries-single.php:858
+msgid "Stripe"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:873
+msgid "PayPal Standard"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:886
+#, fuzzy
+#| msgid "Payment Fields"
+msgid "Payment Details"
+msgstr "Champs de paiement"
+
+#. translators: %s - entry payment total.
+#: \includes\admin\entries\class-entries-single.php:907
+#, fuzzy
+#| msgid "Total"
+msgid "Total: %s"
+msgstr "Total"
+
+#. translators: %s - entry payment gateway.
+#: \includes\admin\entries\class-entries-single.php:917
+msgid "Gateway: %s"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:921
+msgctxt "Gateway mode"
+msgid "Test"
+msgstr ""
+
+#. translators: %s - entry payment transaction.
+#: \includes\admin\entries\class-entries-single.php:930
+msgid "Transaction ID: %s"
+msgstr ""
+
+#. translators: %s - entry payment subscription.
+#: \includes\admin\entries\class-entries-single.php:941
+#, fuzzy
+#| msgid "Description"
+msgid "Subscription ID: %s"
+msgstr "Description"
+
+#. translators: %s - entry payment customer.
+#: \includes\admin\entries\class-entries-single.php:953
+msgid "Customer ID: %s"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:962
+msgid "Note:"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:1057
+msgid "Print"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:1062
+msgid "Export (CSV)"
+msgstr ""
+
+#: \includes\admin\entries\class-entries-single.php:1067
+#, fuzzy
+#| msgid "Notifications"
+msgid "Resend Notifications"
+msgstr "Notifications"
+
+#: \includes\admin\entries\class-entries-single.php:1138
+#, fuzzy
+#| msgid "View Entries"
+msgid "Related Entries"
+msgstr "Afficher les entrées"
+
+#: \includes\admin\entries\class-entries-single.php:1143
+msgid "The user who created this entry also submitted the entries below."
+msgstr ""
+
+#: \includes\class-conditional-logic-fields.php:98
+#, fuzzy
+#| msgid "Conditional Logic"
+msgid "Conditionals"
+msgstr "Logique conditionnelle"
+
+#: \includes\class-conditional-logic-fields.php:370
+#, fuzzy
+#| msgid "Enable conditional logic"
+msgid "Entry Notification stopped by conditional logic."
+msgstr "Activer la logique conditionnelle"
+
+#: \includes\class-conditional-logic-fields.php:421
+#, fuzzy
+#| msgid "Enable conditional logic"
+msgid "Entry Confirmation stopped by conditional logic."
+msgstr "Activer la logique conditionnelle"
+
+#: \includes\fields\class-address.php:30 \includes\templates\class-order.php:59
+msgid "Address"
+msgstr "Adresse"
+
+#: \includes\fields\class-address.php:39 \includes\fields\class-phone.php:98
+msgid "US"
+msgstr ""
+
+#: \includes\fields\class-address.php:40 \includes\fields\class-address.php:49
+#: \includes\fields\class-address.php:328
+msgid "Address Line 1"
+msgstr "Adresse ligne 1"
+
+#: \includes\fields\class-address.php:41 \includes\fields\class-address.php:50
+#: \includes\fields\class-address.php:347
+msgid "Address Line 2"
+msgstr "Adresse ligne 2"
+
+#: \includes\fields\class-address.php:42 \includes\fields\class-address.php:51
+#: \includes\fields\class-address.php:368
+msgid "City"
+msgstr "Ville"
+
+#: \includes\fields\class-address.php:43
+#, fuzzy
+#| msgid "Code"
+msgid "Zip Code"
+msgstr "Code"
+
+#: \includes\fields\class-address.php:44
+msgid "State"
+msgstr "État"
+
+#: \includes\fields\class-address.php:48 \includes\fields\class-phone.php:99
+#, fuzzy
+#| msgid "Integrations"
+msgid "International"
+msgstr "Intégrations"
+
+#: \includes\fields\class-address.php:52
+#, fuzzy
+#| msgid "Zip / Postal Code"
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: \includes\fields\class-address.php:53 \includes\fields\class-address.php:386
+msgid "State / Province / Region"
+msgstr "État / Province / Région"
+
+#: \includes\fields\class-address.php:55 \includes\fields\class-address.php:430
+msgid "Country"
+msgstr "Pays"
+
+#: \includes\fields\class-address.php:279
+#, fuzzy
+#| msgid "Select format for the address field."
+msgid "Select scheme format for the address field."
+msgstr "Sélectionner le format pour le champ adresse."
+
+#: \includes\fields\class-address.php:286
+msgid "Scheme"
+msgstr ""
+
+#: \includes\fields\class-address.php:332
+#: \includes\fields\class-address.php:351
+#: \includes\fields\class-address.php:372
+#: \includes\fields\class-address.php:390
+#: \includes\fields\class-address.php:410
+#: \includes\fields\class-address.php:434
+#: \includes\fields\class-date-time.php:134
+#: \includes\fields\class-date-time.php:178
+msgid "Placeholder"
+msgstr "Espace réservé"
+
+#: \includes\fields\class-address.php:336
+#: \includes\fields\class-address.php:355
+#: \includes\fields\class-address.php:376
+#: \includes\fields\class-address.php:394
+#: \includes\fields\class-address.php:414
+#: \includes\fields\class-address.php:438
+msgid "Default Value"
+msgstr "Valeur par défaut"
+
+#: \includes\fields\class-address.php:406
+msgid "ZIP / Postal"
+msgstr "Code postal"
+
+#: \includes\fields\class-date-time.php:22
+msgid "Date / Time"
+msgstr "Date / Heure"
+
+#: \includes\fields\class-date-time.php:59
+#: \includes\fields\class-date-time.php:146
+#: \includes\fields\class-date-time.php:186 \includes\fields\class-phone.php:86
+msgid "Format"
+msgstr "Format"
+
+#: \includes\fields\class-date-time.php:60
+msgid "Select format for the date field."
+msgstr "Sélectionner le format pour le champ date."
+
+#: \includes\fields\class-date-time.php:71
+msgid "Date and Time"
+msgstr "Date et heure"
+
+#: \includes\fields\class-date-time.php:73
+#: \includes\fields\class-date-time.php:173
+#: \includes\fields\class-date-time.php:283
+#: \includes\fields\class-date-time.php:393
+msgid "Time"
+msgstr "Heure"
+
+#: \includes\fields\class-date-time.php:130
+msgid "Advanced date options."
+msgstr "Options avancées de date."
+
+#: \includes\fields\class-date-time.php:150
+#, fuzzy
+#| msgid "Date / Time"
+msgid "Date Picker"
+msgstr "Date / Heure"
+
+#: \includes\fields\class-date-time.php:151
+#, fuzzy
+#| msgid "Dropdown"
+msgid "Date Dropdown"
+msgstr "Liste déroulante"
+
+#: \includes\fields\class-date-time.php:153
+#, fuzzy
+#| msgid "Item Type"
+msgid "Type"
+msgstr "Type d&rsquo;élément"
+
+#: \includes\fields\class-date-time.php:166
+msgid "15 minutes"
+msgstr "15 minutes"
+
+#: \includes\fields\class-date-time.php:167
+#, fuzzy
+#| msgid "30 minute"
+msgid "30 minutes"
+msgstr "30 minutes"
+
+#: \includes\fields\class-date-time.php:168
+msgid "1 hour"
+msgstr "1 heure"
+
+#: \includes\fields\class-date-time.php:174
+#, fuzzy
+#| msgid "Advanced time options"
+msgid "Advanced time options."
+msgstr "Options avancées de temps"
+
+#: \includes\fields\class-date-time.php:194
+msgid "Interval"
+msgstr "Intervalle"
+
+#: \includes\fields\class-date-time.php:453
+msgid "MM"
+msgstr ""
+
+#: \includes\fields\class-date-time.php:454
+msgid "DD"
+msgstr ""
+
+#: \includes\fields\class-date-time.php:455
+msgid "YYYY"
+msgstr ""
+
+#: \includes\fields\class-divider.php:22
+msgid "Section Divider"
+msgstr "Diviseur de section"
+
+#: \includes\fields\class-file-upload.php:30
+msgid "File Upload"
+msgstr "Fichier"
+
+#: \includes\fields\class-file-upload.php:157
+msgid "Allowed File Extensions"
+msgstr "Extensions de fichier autorisés"
+
+#: \includes\fields\class-file-upload.php:158
+msgid "Enter the extensions you would like to allow, comma separated."
+msgstr ""
+
+#: \includes\fields\class-file-upload.php:183
+msgid "Max File Size"
+msgstr "Taille maximum du fichier"
+
+#. translators: %s - max upload size.
+#: \includes\fields\class-file-upload.php:185
+#, fuzzy
+#| msgid ""
+#| "Enter the max file size, in megabytyes, to allow. If left blank, the "
+#| "value defaults to the maximum size the server allows which is "
+msgid ""
+"Enter the max file size, in megabytes, to allow. If left blank, the value "
+"defaults to the maximum size the server allows which is %s."
+msgstr ""
+"Saisir la taille de fichier maximale autorisée, en mégaoctects. Si laissée "
+"vide, la valeur par défaut sera la taille maximale autorisée par le serveur "
+"qui est "
+
+#: \includes\fields\class-file-upload.php:233
+msgid "Store file in WordPress Media Library"
+msgstr ""
+
+#: \includes\fields\class-file-upload.php:234
+msgid ""
+"Check this option to store the final uploaded file in the WordPress Media "
+"Library"
+msgstr ""
+
+#: \includes\fields\class-file-upload.php:324
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+"La taille du fichier envoyé excède celle indiquée dans la directive "
+"<code>upload_max_filesize</code>, dans <code>php.ini</code>."
+
+#: \includes\fields\class-file-upload.php:325
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+"La taille du fichier envoyé excède celle indiquée dans la directive "
+"<code>MAX_FILE_SIZE</code> du formulaire HTML."
+
+#: \includes\fields\class-file-upload.php:326
+msgid "The uploaded file was only partially uploaded."
+msgstr "Le fichier n&rsquo;a été que partiellement envoyé."
+
+#: \includes\fields\class-file-upload.php:327
+msgid "No file was uploaded."
+msgstr "Aucun fichier n&rsquo;a été envoyé."
+
+#: \includes\fields\class-file-upload.php:329
+msgid "Missing a temporary folder."
+msgstr "Un dossier temporaire est manquant."
+
+#: \includes\fields\class-file-upload.php:330
+msgid "Failed to write file to disk."
+msgstr "Échec de l&rsquo;écriture du fichier sur le disque."
+
+#: \includes\fields\class-file-upload.php:331
+msgid "File upload stopped by extension."
+msgstr "L&rsquo;envoi de fichier est arrêté par l&rsquo;extension."
+
+#. translators: %s - error text.
+#: \includes\fields\class-file-upload.php:334
+#, fuzzy
+#| msgid "File upload error. "
+msgid "File upload error. %s"
+msgstr "Erreur lors de l&rsquo;envoi du fichier."
+
+#: \includes\fields\class-file-upload.php:355
+msgid "File exceeds max size allowed"
+msgstr "Le fichier dépasse la taille maximale autorisée"
+
+#: \includes\fields\class-file-upload.php:372
+msgid "File must have an extension."
+msgstr "Le fichier doit avoir une extension."
+
+#: \includes\fields\class-file-upload.php:383
+#: \includes\fields\class-file-upload.php:399
+#: \includes\fields\class-file-upload.php:417 \wpforms-pro.php:222
+msgid "File type is not allowed."
+msgstr "Ce type de fichier n&rsquo;est pas autorisé."
+
+#: \includes\fields\class-hidden.php:22
+msgid "Hidden Field"
+msgstr "Champ caché"
+
+#: \includes\fields\class-html.php:22
+msgid "HTML"
+msgstr "HTML"
+
+#: \includes\fields\class-html.php:121
+msgid "HTML / Code Block"
+msgstr "HTML / Bloc de code"
+
+#: \includes\fields\class-html.php:122
+msgid "Contents of this field are not displayed in the admin area."
+msgstr ""
+"Les contenus de ce champ ne sont pas affichés dans l&rsquo;espace d&rsquo;"
+"administration."
+
+#: \includes\fields\class-page-break.php:25
+#: \includes\fields\class-page-break.php:528
+msgid "Page Break"
+msgstr "Saut de page"
+
+#. translators: %1$s - current step in multi-page form; %2$d - total number of pages.
+#: \includes\fields\class-page-break.php:145
+msgid "Step %1$s of %2$d"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:199
+#: \includes\fields\class-page-break.php:521
+msgid "Previous"
+msgstr "Précédente"
+
+#: \includes\fields\class-page-break.php:284
+msgid "Progress Bar"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:285
+msgid "Circles"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:286
+#, fuzzy
+#| msgid "Connect to"
+msgid "Connector"
+msgstr "Se connecter à"
+
+#: \includes\fields\class-page-break.php:287
+msgid "None"
+msgstr "Aucune"
+
+#: \includes\fields\class-page-break.php:294
+msgid "Progress Indicator"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:295
+msgid ""
+"Select theme for Page Indicator which is displayed at the top of the form."
+msgstr ""
+
+#: \includes\fields\class-page-break.php:320
+msgid "Page Indicator Color"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:321
+msgid "Select the primary color for the Page Indicator theme."
+msgstr ""
+
+#: \includes\fields\class-page-break.php:349
+#, fuzzy
+#| msgid "Form Title"
+msgid "Page Title"
+msgstr "Titre du formulaire"
+
+#: \includes\fields\class-page-break.php:350
+#, fuzzy
+#| msgid "Enter text for Next page button."
+msgid "Enter text for the page title."
+msgstr "Saisir du texte pour le bouton Page suivante."
+
+#: \includes\fields\class-page-break.php:376
+msgid "Next Label"
+msgstr "Libellé suivant"
+
+#: \includes\fields\class-page-break.php:377
+#, fuzzy
+#| msgid "Enter text for Next page button."
+msgid "Enter text for Next page navigation button."
+msgstr "Saisir du texte pour le bouton Page suivante."
+
+#: \includes\fields\class-page-break.php:386
+#: \includes\fields\class-page-break.php:523
+msgid "Next"
+msgstr "Suivante"
+
+#: \includes\fields\class-page-break.php:405
+#, fuzzy
+#| msgid "Previous"
+msgid "Display Previous"
+msgstr "Précédente"
+
+#: \includes\fields\class-page-break.php:406
+msgid "Toggle displaying the Previous page navigation button."
+msgstr ""
+
+#: \includes\fields\class-page-break.php:430
+msgid "Previous Label"
+msgstr "Libellé précédent"
+
+#: \includes\fields\class-page-break.php:431
+#, fuzzy
+#| msgid "Enter text for Previous page button."
+msgid "Enter text for Previous page navigation button."
+msgstr "Saisir du texte pour le bouton Page précédente."
+
+#: \includes\fields\class-page-break.php:476
+msgid "Page Navigation Alignment"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:477
+msgid "Select the alignment for the Next/Previous page navigation buttons"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:487
+msgid "Left"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:488
+msgid "Right"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:489
+msgid "Center"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:490
+msgid "Split"
+msgstr ""
+
+#: \includes\fields\class-page-break.php:527
+#, fuzzy
+#| msgid "First Name"
+msgid "First Page"
+msgstr "Prénom"
+
+#: \includes\fields\class-password.php:22
+#: \includes\fields\class-password.php:69
+#: \includes\fields\class-password.php:293
+msgid "Password"
+msgstr "Mot de Passe"
+
+#: \includes\fields\class-password.php:92
+#: \includes\fields\class-password.php:298
+#, fuzzy
+#| msgid "Password"
+msgid "Confirm Password"
+msgstr "Mot de Passe"
+
+#: \includes\fields\class-password.php:194
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Enable Password Confirmation"
+msgstr "Confirmation"
+
+#: \includes\fields\class-password.php:195
+#, fuzzy
+#| msgid "Check this option to hide the form field label."
+msgid "Check this option to ask users to provide their password twice."
+msgstr "Cocher cette option pour masquer le libellé de champ de formulaire."
+
+#: \includes\fields\class-password.php:233
+#, fuzzy
+#| msgid "Placeholder Text"
+msgid "Confirmation Placeholder Text"
+msgstr "Texte d&rsquo;espace réservé"
+
+#: \includes\fields\class-password.php:234
+#, fuzzy
+#| msgid "Enter text for the form field placeholder."
+msgid "Enter text for the confirmation field placeholder."
+msgstr "Saisir du texte pour l&rsquo;espace réservé de champ de formulaire."
+
+#: \includes\fields\class-password.php:404
+msgid "Field values do not match."
+msgstr ""
+
+#: \includes\fields\class-payment-credit-card.php:22 \wpforms-pro.php:250
+msgid "Credit Card"
+msgstr ""
+
+#: \includes\fields\class-payment-credit-card.php:79
+#: \includes\fields\class-payment-credit-card.php:331
+#, fuzzy
+#| msgid "Numbers"
+msgid "Card Number"
+msgstr "Nombres"
+
+#: \includes\fields\class-payment-credit-card.php:102
+#: \includes\fields\class-payment-credit-card.php:336
+msgid "Security Code"
+msgstr ""
+
+#: \includes\fields\class-payment-credit-card.php:123
+#: \includes\fields\class-payment-credit-card.php:343
+msgid "Name on Card"
+msgstr ""
+
+#: \includes\fields\class-payment-credit-card.php:137
+#: \includes\fields\class-payment-credit-card.php:348
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Expiration"
+msgstr "Confirmation"
+
+#: \includes\fields\class-payment-credit-card.php:269
+#, fuzzy
+#| msgid "Placeholder Text"
+msgid "Card Number Placeholder Text"
+msgstr "Texte d&rsquo;espace réservé"
+
+#: \includes\fields\class-payment-credit-card.php:278
+#, fuzzy
+#| msgid "Placeholder Text"
+msgid "Security Code Placeholder Text"
+msgstr "Texte d&rsquo;espace réservé"
+
+#: \includes\fields\class-payment-credit-card.php:287
+#, fuzzy
+#| msgid "Placeholder Text"
+msgid "Name on Card Placeholder Text"
+msgstr "Texte d&rsquo;espace réservé"
+
+#: \includes\fields\class-payment-credit-card.php:391
+msgid ""
+"This page is insecure. Credit Card field should be used for testing purposes "
+"only."
+msgstr ""
+
+#: \includes\fields\class-payment-dropdown.php:22
+#, fuzzy
+#| msgid "Dropdown"
+msgid "Dropdown Items"
+msgstr "Liste déroulante"
+
+#: \includes\fields\class-payment-dropdown.php:29
+#: \includes\fields\class-payment-multiple.php:29
+#: \includes\templates\class-order.php:72
+msgid "First Item"
+msgstr "Premier élément"
+
+#: \includes\fields\class-payment-dropdown.php:34
+#: \includes\fields\class-payment-multiple.php:35
+#: \includes\templates\class-order.php:76
+msgid "Second Item"
+msgstr "Deuxième élément"
+
+#: \includes\fields\class-payment-dropdown.php:39
+#: \includes\fields\class-payment-multiple.php:41
+#: \includes\templates\class-order.php:80
+msgid "Third Item"
+msgstr "Troisième élément"
+
+#: \includes\fields\class-payment-dropdown.php:223
+msgid "Invalid payment option"
+msgstr "Option de paiement non valide"
+
+#: \includes\fields\class-payment-multiple.php:22
+msgid "Multiple Items"
+msgstr "Plusieurs articles"
+
+#: \includes\fields\class-payment-multiple.php:361
+#, fuzzy
+#| msgid "Invalid payment option"
+msgid "Invalid payment option."
+msgstr "Option de paiement non valide"
+
+#: \includes\fields\class-payment-single.php:22
+#: \includes\fields\class-payment-single.php:68
+msgid "Single Item"
+msgstr "Article seul"
+
+#: \includes\fields\class-payment-single.php:49
+msgid "Enter the price of the item, without a currency symbol."
+msgstr "Saisir le tarif de l&rsquo;élément, sans symbole de devise."
+
+#: \includes\fields\class-payment-single.php:50
+msgid "Item Price"
+msgstr "Élément tarif"
+
+#: \includes\fields\class-payment-single.php:66
+msgid "Select the item type."
+msgstr "Sélectionner le type d&rsquo;élément."
+
+#: \includes\fields\class-payment-single.php:69
+msgid "User Defined"
+msgstr "Défini par l&rsquo;utilisateur"
+
+#: \includes\fields\class-payment-single.php:70
+msgid "Hidden"
+msgstr "Masqué"
+
+#: \includes\fields\class-payment-single.php:72
+msgid "Item Type"
+msgstr "Type d&rsquo;élément"
+
+#. translators: %s - price amount.
+#: \includes\fields\class-payment-single.php:112
+#: \includes\fields\class-payment-single.php:162
+#, fuzzy
+#| msgid "Price"
+msgid "Price: %s"
+msgstr "Tarif"
+
+#: \includes\fields\class-payment-single.php:121
+msgid ""
+"Note: Item type is set to hidden and will not be visible when viewing the "
+"form."
+msgstr ""
+"Remarque&nbsp;: le type d&rsquo;élément est défini à masquer et ne sera pas "
+"visible lorsque le formulaire s&rsquo;affichera."
+
+#: \includes\fields\class-payment-single.php:222
+msgid "Amount mismatch"
+msgstr "Inadéquation du montant"
+
+#: \includes\fields\class-payment-total.php:208 \wpforms-pro.php:246
+#, fuzzy
+#| msgid "Payment Fields"
+msgid "Payment is required."
+msgstr "Champs de paiement"
+
+#: \includes\fields\class-phone.php:22 \includes\templates\class-order.php:51
+#: \includes\templates\class-request-quote.php:55
+msgid "Phone"
+msgstr "Téléphone"
+
+#: \includes\fields\class-phone.php:87
+msgid "Select format for the phone form field"
+msgstr "Sélectionner le format du champ de formulaire de téléphone"
+
+#: \includes\fields\class-rating.php:21
+#, fuzzy
+#| msgid "Marketing"
+msgid "Rating"
+msgstr "Marketing"
+
+#: \includes\fields\class-rating.php:160
+msgid "Scale"
+msgstr ""
+
+#: \includes\fields\class-rating.php:161
+#, fuzzy
+#| msgid "Select a Template"
+msgid "Select rating scale"
+msgstr "Sélectionner un modèle"
+
+#: \includes\fields\class-rating.php:213
+msgid "Icon"
+msgstr ""
+
+#: \includes\fields\class-rating.php:214
+#, fuzzy
+#| msgid "Select a form to view entries"
+msgid "Select icon to display"
+msgstr "Sélectionner un formulaire pour afficher les entrées"
+
+#: \includes\fields\class-rating.php:226
+msgid "Heart"
+msgstr ""
+
+#: \includes\fields\class-rating.php:227
+msgid "Thumb"
+msgstr ""
+
+#: \includes\fields\class-rating.php:228
+msgid "Smiley Face"
+msgstr ""
+
+#: \includes\fields\class-rating.php:244
+msgid "Icon Size"
+msgstr ""
+
+#: \includes\fields\class-rating.php:245
+msgid "Select the size of the rating icon"
+msgstr ""
+
+#: \includes\fields\class-rating.php:256
+msgid "Small"
+msgstr ""
+
+#: \includes\fields\class-rating.php:257
+msgid "Medium"
+msgstr ""
+
+#: \includes\fields\class-rating.php:258
+msgid "Large"
+msgstr ""
+
+#: \includes\fields\class-rating.php:274
+msgid "Icon Color"
+msgstr ""
+
+#: \includes\fields\class-rating.php:275
+#, fuzzy
+#| msgid "Select format for the date field."
+msgid "Select the color for the rating icon"
+msgstr "Sélectionner le format pour le champ date."
+
+#: \includes\fields\class-url.php:22
+msgid "Website / URL"
+msgstr "Site internet / URL"
+
+#: \includes\fields\class-url.php:158
+#, fuzzy
+#| msgid "Please enter a valid URL"
+msgid "Please enter a valid URL."
+msgstr "Merci de saisir une URL valide"
+
+#: \includes\payments\functions.php:23
+#, fuzzy
+#| msgid "US Dollars (USD)"
+msgid "U.S. Dollar"
+msgstr "Dollar US (USD)"
+
+#: \includes\payments\functions.php:31
+msgid "Pound Sterling"
+msgstr ""
+
+#: \includes\payments\functions.php:39
+msgid "Euro"
+msgstr ""
+
+#: \includes\payments\functions.php:47
+msgid "Australian Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:55
+msgid "Brazilian Real"
+msgstr ""
+
+#: \includes\payments\functions.php:63
+msgid "Canadian Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:71
+msgid "Czech Koruna"
+msgstr ""
+
+#: \includes\payments\functions.php:79
+msgid "Danish Krone"
+msgstr ""
+
+#: \includes\payments\functions.php:87
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:95
+msgid "Hungarian Forint"
+msgstr ""
+
+#: \includes\payments\functions.php:103
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: \includes\payments\functions.php:111
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: \includes\payments\functions.php:119
+msgid "Mexican Peso"
+msgstr ""
+
+#: \includes\payments\functions.php:127
+msgid "Norwegian Krone"
+msgstr ""
+
+#: \includes\payments\functions.php:135
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:143
+msgid "Philippine Peso"
+msgstr ""
+
+#: \includes\payments\functions.php:151
+msgid "Polish Zloty"
+msgstr ""
+
+#: \includes\payments\functions.php:159
+msgid "Russian Ruble"
+msgstr ""
+
+#: \includes\payments\functions.php:167
+msgid "Singapore Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:175
+msgid "South African Rand"
+msgstr ""
+
+#: \includes\payments\functions.php:183
+msgid "Swedish Krona"
+msgstr ""
+
+#: \includes\payments\functions.php:191
+msgid "Swiss Franc"
+msgstr ""
+
+#: \includes\payments\functions.php:199
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: \includes\payments\functions.php:207
+msgid "Thai Baht"
+msgstr ""
+
+#: \includes\templates\class-donation.php:21
+msgid "Donation Form"
+msgstr "Formulaire de don"
+
+#: \includes\templates\class-donation.php:23
+msgid ""
+"Start collecting donation payments on your website with this ready-made "
+"Donation form. You can add and remove fields as needed."
+msgstr ""
+"Commencer à collecter des paiements de donation sur votre site avec ce "
+"formulaire de donation prêt à l&rsquo;emploi. Vous pouvez ajouter ou "
+"supprimer des champs à votre convenance."
+
+#: \includes\templates\class-donation.php:28
+#: \includes\templates\class-order.php:28
+msgid "Don&#39;t Forget"
+msgstr "Ne pas oublier"
+
+#: \includes\templates\class-donation.php:29
+#: \includes\templates\class-order.php:29
+msgid "Click the Payments tab to configure your payment provider"
+msgstr ""
+"Cliquer sur l&rsquo;onglet paiements pour configurer votre prestataire de "
+"paiement"
+
+#: \includes\templates\class-donation.php:37
+#: \includes\templates\class-order.php:37
+#: \includes\templates\class-request-quote.php:34
+msgid "Name"
+msgstr "Nom"
+
+#: \includes\templates\class-donation.php:44
+#: \includes\templates\class-order.php:44
+#: \includes\templates\class-request-quote.php:48
+msgid "Email"
+msgstr "Adresse de contact"
+
+#: \includes\templates\class-donation.php:51
+#, fuzzy
+#| msgid "Donation Form"
+msgid "Donation Amount"
+msgstr "Formulaire de don"
+
+#: \includes\templates\class-donation.php:59
+#: \includes\templates\class-order.php:93
+#, fuzzy
+#| msgid "Confirmation Message"
+msgid "Comment or Message"
+msgstr "Message de confirmation"
+
+#: \includes\templates\class-donation.php:67
+#: \includes\templates\class-order.php:101
+#: \includes\templates\class-request-quote.php:71
+msgid "Sending..."
+msgstr ""
+
+#: \includes\templates\class-order.php:21
+msgid "Billing / Order Form"
+msgstr "Formulaire de facturation / commande"
+
+#: \includes\templates\class-order.php:23
+#, fuzzy
+#| msgid ""
+#| "Collect payments for product and service orders with this ready-made form "
+#| "template. You can add and remove fields as needed."
+msgid ""
+"Collect Payments for product and service orders with this ready-made form "
+"template. You can add and remove fields as needed."
+msgstr ""
+"Encaisser des paiements pour les commandes de produits et de services avec "
+"ce modèle de formulaire prêt à l&rsquo;emploi. Vous pouvez ajouter et "
+"supprimer des champs à votre convenance."
+
+#: \includes\templates\class-order.php:68
+#, fuzzy
+#| msgid "Available Fields"
+msgid "Available Items"
+msgstr "Champs disponibles"
+
+#: \includes\templates\class-order.php:88
+msgid "Total Amount"
+msgstr ""
+
+#: \includes\templates\class-request-quote.php:21
+msgid "Request A Quote Form"
+msgstr "Formulaire de demande de devis"
+
+#: \includes\templates\class-request-quote.php:23
+msgid ""
+"Start collecting leads with this pre-made Request a quote form. You can add "
+"and remove fields as needed."
+msgstr ""
+"Collecter des prospects avec ce formulaire de devis prêt à l&rsquo;emploi. "
+"Vous pouvez ajouter et supprimer des champs à votre convenance."
+
+#: \includes\templates\class-request-quote.php:41
+msgid "Business / Organization"
+msgstr ""
+
+#: \includes\templates\class-request-quote.php:63
+#, fuzzy
+#| msgid "Required"
+msgid "Request"
+msgstr "Requis"
+
+#: \wpforms-pro.php:187 \wpforms-pro.php:258
+msgid "Payments"
+msgstr "Paiements"
+
+#: \wpforms-pro.php:189
+#, fuzzy
+#| msgid "Save General Settings"
+msgid "Save Settings"
+msgstr "Enregistrer les réglages généraux"
+
+#: \wpforms-pro.php:220
+#, fuzzy
+#| msgid "Allowed File Extensions"
+msgid "File Extension"
+msgstr "Extensions de fichier autorisés"
+
+#: \wpforms-pro.php:226
+#, fuzzy
+#| msgid "Field Size"
+msgid "File Size"
+msgstr "Taille du champ"
+
+#: \wpforms-pro.php:228
+#, fuzzy
+#| msgid "File exceeds max size allowed"
+msgid "File exceeds max size allowed."
+msgstr "Le fichier dépasse la taille maximale autorisée"
+
+#: \wpforms-pro.php:232
+#, fuzzy
+#| msgid "1 hour"
+msgid "Time (12 hour)"
+msgstr "1 heure"
+
+#: \wpforms-pro.php:234
+msgid "Please enter time in 12-hour AM/PM format (eg 8:45 AM)."
+msgstr ""
+
+#: \wpforms-pro.php:238
+msgid "Time (24 hour)"
+msgstr ""
+
+#: \wpforms-pro.php:240
+msgid "Please enter time in 24-hour format (eg 22:45)."
+msgstr ""
+
+#: \wpforms-pro.php:244
+#, fuzzy
+#| msgid "Payment Fields"
+msgid "Payment Required"
+msgstr "Champs de paiement"
+
+#: \wpforms-pro.php:252
+#, fuzzy
+#| msgid "Please enter a valid number."
+msgid "Please enter a valid credit card number."
+msgstr "Veuillez saisir un nombre valide."
+
+#: \wpforms-pro.php:265
+msgid "Currency"
+msgstr "Devise"
+
+#: \wpforms-pro.php:279
+msgid "Disable User Cookies"
+msgstr ""
+
+#: \wpforms-pro.php:280
+msgid ""
+"Check this to disable user tracking cookies (UUIDs). This will disable the "
+"Related Entries feature and the Form Abandonment/Geolocation addons."
+msgstr ""
+
+#: \wpforms-pro.php:285
+msgid "Disable User Details"
+msgstr ""
+
+#: \wpforms-pro.php:286
+msgid ""
+"Check this to disable storing the IP address and User Agent on all forms. If "
+"unchecked this can be managed on a form by form basis inside the form "
+"settings."
+msgstr ""
+
+#: \wpforms-pro.php:393
+msgid "Disable storing entry information in WordPress"
+msgstr ""
+
+#: \wpforms-pro.php:405
+msgid "Disable storing user details (IP address and user agent)"
+msgstr ""
+
+#. translators: %s - form name.
+#: \wpforms-pro.php:482
+msgid "New %s Entry"
+msgstr "Nouvelle entrée %s"
+
+#: \wpforms-pro.php:492 \wpforms-pro.php:501
+msgid "Notifications"
+msgstr "Notifications"
+
+#: \wpforms-pro.php:493
+#, fuzzy
+#| msgid "Notification"
+msgid "Add New Notification"
+msgstr "Notification"
+
+#: \wpforms-pro.php:505
+msgid "On"
+msgstr "Activer"
+
+#: \wpforms-pro.php:506
+msgid "Off"
+msgstr "Désactiver"
+
+#: \wpforms-pro.php:513
+#, fuzzy
+#| msgid "Notification"
+msgid "Default Notification"
+msgstr "Notification"
+
+#: \wpforms-pro.php:554
+msgid "Send To Email Address"
+msgstr "Envoyer à l&rsquo;adresse de messagerie"
+
+#: \wpforms-pro.php:557
+#, fuzzy
+#| msgid ""
+#| "Enter the email address to receive form entry notifications. For multiple "
+#| "notifications, seperate email addresses with a comma."
+msgid ""
+"Enter the email address to receive form entry notifications. For multiple "
+"notifications, separate email addresses with a comma."
+msgstr ""
+"Saisisser l&rsquo;adresse de messagerie pour recevoir des notifications "
+"d&rsquo;entrée de formulaire. Pour les notifications multiples, séparez les "
+"adresses de messagerie par une virgule."
+
+#: \wpforms-pro.php:574
+msgid "CC"
+msgstr ""
+
+#: \wpforms-pro.php:591
+msgid "Email Subject"
+msgstr "Sujet de l&rsquo;e-mail"
+
+#. translators: %s - form name.
+#: \wpforms-pro.php:594
+#, fuzzy
+#| msgid "New Entry: "
+msgid "New Entry: %s"
+msgstr "Nouvelle entrée&nbsp;:"
+
+#: \wpforms-pro.php:608
+msgid "From Name"
+msgstr "&laquo;&nbsp;Depuis&nbsp;&raquo; nom"
+
+#: \wpforms-pro.php:627
+#, fuzzy
+#| msgid "Email"
+msgid "From Email"
+msgstr "Adresse de contact"
+
+#: \wpforms-pro.php:646
+msgid "Reply-To"
+msgstr "&laquo;&nbsp;Répondre à&nbsp;&raquo;"
+
+#: \wpforms-pro.php:662 \wpforms-pro.php:791
+msgid "Message"
+msgstr "Message"
+
+#. translators: %s - all fields smart tag.
+#: \wpforms-pro.php:674
+msgid "To display all form fields, use the %s Smart Tag."
+msgstr ""
+
+#: \wpforms-pro.php:685
+msgid "Send"
+msgstr ""
+
+#: \wpforms-pro.php:686
+msgid "Don't send"
+msgstr ""
+
+#: \wpforms-pro.php:688
+#, fuzzy
+#| msgid "Notification"
+msgid "this notification if"
+msgstr "Notification"
+
+#: \wpforms-pro.php:689
+#, fuzzy
+#| msgid "Notifications"
+msgid "Email notifications"
+msgstr "Notifications"
+
+#: \wpforms-pro.php:722 \wpforms-pro.php:809
+msgid "Thanks for contacting us! We will be in touch with you shortly."
+msgstr ""
+"Merci de nous avoir contacté&nbsp;! Nous reviendrons vers vous rapidement."
+
+#: \wpforms-pro.php:735
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Confirmations"
+msgstr "Confirmation"
+
+#: \wpforms-pro.php:736
+#, fuzzy
+#| msgid "Notification"
+msgid "Add New Confirmation"
+msgstr "Notification"
+
+#: \wpforms-pro.php:741
+#, fuzzy
+#| msgid "Notification"
+msgid "Default Confirmation"
+msgstr "Notification"
+
+#: \wpforms-pro.php:787
+msgid "Confirmation Type"
+msgstr "Type de confirmation"
+
+#: \wpforms-pro.php:792
+msgid "Show Page"
+msgstr "Afficher la page"
+
+#: \wpforms-pro.php:793
+msgid "Go to URL (Redirect)"
+msgstr "Aller à l&rsquo;URL (redirection)"
+
+#: \wpforms-pro.php:807 \wpforms-pro.php:981
+msgid "Confirmation Message"
+msgstr "Message de confirmation"
+
+#: \wpforms-pro.php:824
+msgid "Automatically scroll to the confirmation message"
+msgstr ""
+
+#: \wpforms-pro.php:843
+msgid "Confirmation Page"
+msgstr "Page de confirmation"
+
+#: \wpforms-pro.php:857
+msgid "Confirmation Redirect URL"
+msgstr "URL de redirection de confirmation"
+
+#: \wpforms-pro.php:873
+#, fuzzy
+#| msgid "User Defined"
+msgid "Use"
+msgstr "Défini par l&rsquo;utilisateur"
+
+#: \wpforms-pro.php:874
+msgid "Don't use"
+msgstr ""
+
+#: \wpforms-pro.php:876
+#, fuzzy
+#| msgid "Notification"
+msgid "this confirmation if"
+msgstr "Notification"
+
+#: \wpforms-pro.php:877
+#, fuzzy
+#| msgid "Confirmation"
+msgid "Form confirmations"
+msgstr "Confirmation"
+
+#. translators: %s - WPForms.com announcement page URL.
+#: \wpforms-pro.php:955
+msgid ""
+"Conditional logic functionality is now included in the core WPForms plugin! "
+"The WPForms Conditional Logic addon can be removed without affecting your "
+"forms. For more details <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">read our announcement</a>."
+msgstr ""
+
+#: \wpforms-pro.php:993
+msgid "Enable conditional logic"
+msgstr "Activer la logique conditionnelle"
+
+#~ msgid "Close"
+#~ msgstr "Fermer"
+
+#~ msgid "Are you sure you want to delete this entry?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer cette entrée&nbsp;?"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this entry?"
+#~ msgid "Are you sure you want to delete ALL entries?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer cette entrée&nbsp;?"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this entry?"
+#~ msgid "Are you sure you want to delete this note?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer cette entrée&nbsp;?"
+
+#, fuzzy
+#~| msgid "-- Select field --"
+#~ msgid "Select fields"
+#~ msgstr "-- Sélectionner champ --"
+
+#~ msgid "Are you sure you want to delete this form?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer ce formulaire&nbsp;?"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this form?"
+#~ msgid "Are you sure you want to duplicate this form?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer ce formulaire&nbsp;?"
+
+#, fuzzy
+#~| msgid "Please select an entry to view."
+#~ msgid "Please select at least one form to import."
+#~ msgstr "Veuillez sélectionner une entrée à visualiser."
+
+#~ msgid "Are you sure you want to disconnect this account?"
+#~ msgstr "Êtes-vous certain de vouloir déconnecter ce compte&nbsp;?"
+
+#, fuzzy
+#~| msgid "Save and Exit"
+#~ msgid "Save and Refresh"
+#~ msgstr "Sauvegarder et quitter"
+
+#, fuzzy
+#~| msgid "Form successfully deleted."
+#~ msgid "Upgrade was successfully completed!"
+#~ msgstr "Formulaire supprimé avec succès."
+
+#, fuzzy
+#~| msgid "Use Template"
+#~ msgid "Use Image"
+#~ msgstr "Utiliser un modèle"
+
+#, fuzzy
+#~| msgid "You do not have permission"
+#~ msgid "You do not have permission."
+#~ msgstr "Vous n&rsquo;avez pas d&rsquo;autorisation"
+
+#~ msgid "No data provided"
+#~ msgstr "Aucune donnée fournie"
+
+#, fuzzy
+#~| msgid "An error occured and the form could not be saved"
+#~ msgid "An error occurred and the form could not be saved"
+#~ msgstr ""
+#~ "Une erreur s&rsquo;est produite et le formulaire ne peut pas être "
+#~ "enregistrée"
+
+#, fuzzy
+#~| msgid "No form ID provided"
+#~ msgid "No form name provided"
+#~ msgstr "Aucun ID de formulaire fourni"
+
+#~ msgid "Error creating form"
+#~ msgstr "Erreur lors de la création du formulaire"
+
+#~ msgid "No form ID provided"
+#~ msgstr "Aucun ID de formulaire fourni"
+
+#~ msgid "Error updating form template"
+#~ msgstr "Erreur lors de la mise à jour du modèle de formulaire"
+
+#~ msgid "AND"
+#~ msgstr "ET"
+
+#, fuzzy
+#~| msgid "Add New Connection"
+#~ msgid "Add New Choices"
+#~ msgstr "Ajouter une nouvelle connexion"
+
+#, fuzzy
+#~| msgid "Add choices for the form field."
+#~ msgid "Add Choices (one per line)"
+#~ msgstr "Ajouter des choix pour le champ de formulaire."
+
+#, fuzzy
+#~| msgid "Show Values"
+#~ msgid "Show presets"
+#~ msgstr "Afficher les valeurs"
+
+#, fuzzy
+#~| msgid "Field Size"
+#~ msgid "Field Locked"
+#~ msgstr "Taille du champ"
+
+#~ msgid "Available Fields"
+#~ msgstr "Champs disponibles"
+
+#~ msgid "No fields available"
+#~ msgstr "Aucun champ disponible"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this connecton?"
+#~ msgid "Are you sure you want to delete this notification?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer cette connexion&nbsp;?"
+
+#, fuzzy
+#~| msgid "Enter a connection nickname"
+#~ msgid "Enter a notification name"
+#~ msgstr "Saisir un pseudo de connexion"
+
+#, fuzzy
+#~| msgid "Confirmation"
+#~ msgid "Eg: User Confirmation"
+#~ msgstr "Confirmation"
+
+#, fuzzy
+#~| msgid "You must provide a connection nickname"
+#~ msgid "You must provide a notification name"
+#~ msgstr "Vous devez fournir un pseudo de connexion"
+
+#~ msgid "Save"
+#~ msgstr "Enregistrer"
+
+#~ msgid "Saving ..."
+#~ msgstr "Sauvegarde…"
+
+#~ msgid "Saved!"
+#~ msgstr "Enregistré&nbsp;!"
+
+#~ msgid "Save and Exit"
+#~ msgstr "Sauvegarder et quitter"
+
+#, fuzzy
+#~| msgid "Show Values"
+#~ msgid "Show Layouts"
+#~ msgstr "Afficher les valeurs"
+
+#, fuzzy
+#~| msgid "Hide Label"
+#~ msgid "Hide Layouts"
+#~ msgstr "Masquer le libellé"
+
+#, fuzzy
+#~| msgid "Select Groups"
+#~ msgid "Select your layout"
+#~ msgstr "Sélectionner les groupes"
+
+#, fuzzy
+#~| msgid "Select Account"
+#~ msgid "Select your column"
+#~ msgstr "Sélectionner le compte"
+
+#~ msgid "Loading"
+#~ msgstr "Chargement en cours"
+
+#~ msgid "Use Template"
+#~ msgstr "Utiliser un modèle"
+
+#~ msgid ""
+#~ "Changing templates on an existing form will DELETE existing form fields. "
+#~ "Are you sure you want apply the new template?"
+#~ msgstr ""
+#~ "Changer les modèles sur un formulaire existant va SUPPRIMER les champs "
+#~ "existants. Êtes-vous certain de vouloir appliquer le nouveau modèle&nbsp;?"
+
+#~ msgid "Exit"
+#~ msgstr "Quitter"
+
+#~ msgid "If you exit without saving, your changes will be lost."
+#~ msgstr "Si vous quittez sans sauvegarder, vos modifications seront perdues."
+
+#~ msgid "Are you sure you want to delete this field?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer ce champ&nbsp;?"
+
+#, fuzzy
+#~| msgid "Are you sure you want to delete this field?"
+#~ msgid "Are you sure you want to duplicate this field?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer ce champ&nbsp;?"
+
+#, fuzzy
+#~| msgid "Please enter a form title."
+#~ msgid "Please enter a form name."
+#~ msgstr "Veuillez saisir un titre de formulaire."
+
+#~ msgid "This item must contain at least one choice."
+#~ msgstr "Cet élément doit contenir au moins un choix."
+
+#~ msgid "empty"
+#~ msgstr "vide"
+
+#, fuzzy
+#~| msgid "empty"
+#~ msgid "not empty"
+#~ msgstr "vide"
+
+#, fuzzy
+#~| msgid "Create a %s"
+#~ msgid "Create new rule"
+#~ msgstr "Créer un %s"
+
+#, fuzzy
+#~| msgid "Add rule group"
+#~ msgid "Add new group"
+#~ msgstr "Ajouter un groupe de règles"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete rule"
+#~ msgstr "Supprimer "
+
+#~ msgid "Show Smart Tags"
+#~ msgstr "Afficher les balises intelligentes"
+
+#~ msgid "Hide Smart Tags"
+#~ msgstr "Masquer les balises intelligentes"
+
+#, fuzzy
+#~| msgid "-- Select field --"
+#~ msgid "-- Select Field --"
+#~ msgstr "-- Sélectionner champ --"
+
+#~ msgid "-- Select Choice --"
+#~ msgstr "-- Sélectionner choix --"
+
+#, fuzzy
+#~| msgid "Entries"
+#~ msgid "Countries"
+#~ msgstr "Entrées"
+
+#, fuzzy
+#~| msgid "Zip / Postal Code"
+#~ msgid "Countries Postal Code"
+#~ msgstr "Code postal"
+
+#, fuzzy
+#~| msgid "State"
+#~ msgid "States"
+#~ msgstr "État"
+
+#, fuzzy
+#~| msgid "Zip / Postal Code"
+#~ msgid "States Postal Code"
+#~ msgstr "Code postal"
+
+#~ msgid "Now editing"
+#~ msgstr "Modification en cours de"
+
+#, fuzzy
+#~| msgid "Previous"
+#~ msgid "Preview"
+#~ msgstr "Précédente"
+
+#, fuzzy
+#~| msgid "Add Form"
+#~ msgid "Embed Form"
+#~ msgstr "Ajouter un formulaire"
+
+#, fuzzy
+#~| msgid "Blank Form"
+#~ msgid "Save Form"
+#~ msgstr "Formulaire vierge"
+
+#, fuzzy
+#~| msgid "Field"
+#~ msgid "Field #"
+#~ msgstr "Champ"
+
+#~ msgid "Fields"
+#~ msgstr "Champs"
+
+#~ msgid "Add Fields"
+#~ msgstr "Ajouter des champs"
+
+#~ msgid "Field Options"
+#~ msgstr "Options du champ"
+
+#~ msgid ""
+#~ "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel="
+#~ "\"setup\">setup your form</a> before you can manage the fields."
+#~ msgstr ""
+#~ "Vous devez <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+#~ "\">configurer votre formulaire</a> avant de pouvoir gérer les champs."
+
+#~ msgid "Submit"
+#~ msgstr "Envoyer"
+
+#~ msgid "Standard Fields"
+#~ msgstr "Champs standards"
+
+#~ msgid "Fancy Fields"
+#~ msgstr "Champs avancés"
+
+#~ msgid "Payment Fields"
+#~ msgstr "Champs de paiement"
+
+#~ msgid "You don't have any fields yet."
+#~ msgstr "Vous n&rsquo;avez pas encore de champ."
+
+#~ msgid "You don't have any fields yet. Add some!"
+#~ msgstr "Vous n&rsquo;avez pas encore de champ. Ajoutez-en&nbsp;!"
+
+#, fuzzy
+#~| msgid "Delete Field"
+#~ msgid "Duplicate Field"
+#~ msgstr "Supprimer le champ"
+
+#~ msgid "Delete Field"
+#~ msgstr "Supprimer le champ"
+
+#~ msgid "Click to edit. Drag to reorder."
+#~ msgstr "Cliquer pour modifier. Glisser pour réordonner."
+
+#~ msgid ""
+#~ "We need to save your progress to continue to the Marketing panel. Is that "
+#~ "OK?"
+#~ msgstr ""
+#~ "Nous avons besoin de sauvegarder votre progression pour continuer sur le "
+#~ "panneau Marketing. Êtes-vous d&rsquo;accord&nbsp;?"
+
+#~ msgid "Are you sure you want to delete this connecton?"
+#~ msgstr "Êtes-vous certain de vouloir supprimer cette connexion&nbsp;?"
+
+#, fuzzy
+#~| msgid "Enter a connection nickname"
+#~ msgid "Enter a %type% nickname"
+#~ msgstr "Saisir un pseudo de connexion"
+
+#~ msgid "Eg: Newsletter Optin"
+#~ msgstr "Ex.&nbsp;: Lettre d&rsquo;information OptIn"
+
+#~ msgid "You must provide a connection nickname"
+#~ msgstr "Vous devez fournir un pseudo de connexion"
+
+#~ msgid "Field required"
+#~ msgstr "Champ obligatoire"
+
+#, fuzzy
+#~| msgid ""
+#~| "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel="
+#~| "\"setup\">setup your form</a> before you can manage the settings."
+#~ msgid ""
+#~ "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel="
+#~ "\"setup\">setup your form</a> before you can manage these settings."
+#~ msgstr ""
+#~ "Vous devez <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+#~ "\">configurer votre formulaire</a> avant de pouvoir gérer les réglages."
+
+#~ msgid "Install Your Marketing Integration"
+#~ msgstr "Installer votre intégration marketing"
+
+#, fuzzy
+#~| msgid ""
+#~| "It seems you do not have any marketing add-ons activated. You can head "
+#~| "over to the <a href=\"%s\">Add-Ons page</a> to install and activate the "
+#~| "add-on for your provider."
+#~ msgid ""
+#~ "It seems you do not have any marketing addons activated. You can head "
+#~ "over to the <a href=\"%s\">Addons page</a> to install and activate the "
+#~ "addon for your provider."
+#~ msgstr ""
+#~ "Il semble que vous n&rsquo;avez aucune extension marketing activée. Vous "
+#~ "pouvez vous rendre sur la <a href=\"%s\">page Extensions</a> pour "
+#~ "installer et activer l&rsquo;extension pour votre fournisseur."
+
+#~ msgid "Select Your Marketing Integration"
+#~ msgstr "Sélectionner votre intégration marketing"
+
+#, fuzzy
+#~| msgid ""
+#~| "Select your email marketing service provider or CRM from the options on "
+#~| "the left. If you don't see your email marketing service listed, then let "
+#~| "us know and we'll do our best to get it added as fast as possible"
+#~ msgid ""
+#~ "Select your email marketing service provider or CRM from the options on "
+#~ "the left. If you don't see your email marketing service listed, then let "
+#~ "us know and we'll do our best to get it added as fast as possible."
+#~ msgstr ""
+#~ "Sélectionner votre fournisseur d&rsquo;e-mail marketing ou CRM depuis les "
+#~ "options sur la gauche. Si vous ne voyez pas votre service d&rsquo;e-mail "
+#~ "marketing listé, faites le nous savoir et nous ferons de notre mieux pour "
+#~ "l&rsquo;ajouter aussi rapidement que possible"
+
+#~ msgid "Settings"
+#~ msgstr "Réglages"
+
+#~ msgid "General"
+#~ msgstr "Général"
+
+#~ msgid ""
+#~ "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel="
+#~ "\"setup\">setup your form</a> before you can manage the settings."
+#~ msgstr ""
+#~ "Vous devez <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+#~ "\">configurer votre formulaire</a> avant de pouvoir gérer les réglages."
+
+#~ msgid "Form Name"
+#~ msgstr "Nom du formulaire"
+
+#~ msgid "Form Description"
+#~ msgstr "Description du formulaire"
+
+#, fuzzy
+#~| msgid "CSS Classes"
+#~ msgid "Form CSS Class"
+#~ msgstr "Classes CSS"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enter CSS class names for the form field container. Class names should "
+#~| "be seperated with spaces."
+#~ msgid ""
+#~ "Enter CSS class names for the form wrapper. Multiple class names should "
+#~ "be separated with spaces."
+#~ msgstr ""
+#~ "Saisir les noms de classe CSS pour le conteneur de champ de formulaire. "
+#~ "Les noms de classe doivent être séparés par des espaces."
+
+#~ msgid "Submit Button Text"
+#~ msgstr "Texte du bouton de soumission"
+
+#, fuzzy
+#~| msgid "Submit Button Text"
+#~ msgid "Submit Button Processing Text"
+#~ msgstr "Texte du bouton de soumission"
+
+#, fuzzy
+#~| msgid "Submit Button Text"
+#~ msgid "Submit Button CSS Class"
+#~ msgstr "Texte du bouton de soumission"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enter CSS class names for the form field container. Class names should "
+#~| "be seperated with spaces."
+#~ msgid ""
+#~ "Enter CSS class names for the form submit button. Multiple names should "
+#~ "be separated with spaces."
+#~ msgstr ""
+#~ "Saisir les noms de classe CSS pour le conteneur de champ de formulaire. "
+#~ "Les noms de classe doivent être séparés par des espaces."
+
+#~ msgid "Enable anti-spam honeypot"
+#~ msgstr "Activer honeypot anti-spam"
+
+#, fuzzy
+#~| msgid "Enable reCAPTCHA"
+#~ msgid "Enable Google invisible reCAPTCHA"
+#~ msgstr "Activer reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Enable reCAPTCHA"
+#~ msgid "Enable Google reCAPTCHA (v2)"
+#~ msgstr "Activer reCAPTCHA"
+
+#~ msgid "Setup"
+#~ msgstr "Configuration"
+
+#~ msgid "Enter your form name here&hellip;"
+#~ msgstr "Saisir votre nom de formulaire ici&hellip;"
+
+#~ msgid ""
+#~ "To speed up the process, you can select from one of our pre-made "
+#~ "templates or start with a <strong><a href=\"#\" class=\"wpforms-trigger-"
+#~ "blank\">blank form.</a></strong>"
+#~ msgstr ""
+#~ "Pour accélérer le processus, vous pouvez choisir l&rsquo;un de nos "
+#~ "modèles prédéfinis ou commencer par un <strong><a href=\"#\" class="
+#~ "\"wpforms-trigger-blank\">formulaire vierge</a>.</strong>"
+
+#~ msgid "Selected"
+#~ msgstr "Sélectionné"
+
+#, fuzzy
+#~| msgid "template"
+#~ msgctxt "Template name"
+#~ msgid "%s template"
+#~ msgstr "modèle"
+
+#, fuzzy
+#~| msgid "Create a %s"
+#~ msgctxt "Template name"
+#~ msgid "Create a %s"
+#~ msgstr "Créer un %s"
+
+#~ msgid "Add Form"
+#~ msgstr "Ajouter un formulaire"
+
+#~ msgid "Insert Form"
+#~ msgstr "Insérer un formulaire"
+
+#~ msgid "Select a form below to insert"
+#~ msgstr "Sélectionner un formulaire à insérer ci-dessous"
+
+#, fuzzy
+#~| msgid "Show form title"
+#~ msgid "Show form name"
+#~ msgstr "Afficher le titre du formulaire"
+
+#~ msgid "Show form description"
+#~ msgstr "Voir la description du formulaire"
+
+#~ msgid "WPForms"
+#~ msgstr "WPForms"
+
+#~ msgid "All Forms"
+#~ msgstr "Tous les formulaires"
+
+#~ msgid "WPForms Builder"
+#~ msgstr "Constructeur WPForms"
+
+#~ msgid "Add New"
+#~ msgstr "Nouveau"
+
+#~ msgid "Form Entries"
+#~ msgstr "Entrées de formulaire"
+
+#~ msgid "WPForms Settings"
+#~ msgstr "Réglages de WPForms"
+
+#, fuzzy
+#~| msgid "WPForms Logs"
+#~ msgid "WPForms Tools"
+#~ msgstr "Journaux WPForms"
+
+#~ msgid "Addons"
+#~ msgstr "Extensions"
+
+#, fuzzy
+#~| msgid "Entry successfully deleted."
+#~ msgid "Settings were successfully saved."
+#~ msgstr "Entrée supprimée avec succès."
+
+#~ msgid "reCAPTCHA"
+#~ msgstr "reCAPTCHA"
+
+#~ msgid "Integrations"
+#~ msgstr "Intégrations"
+
+#, fuzzy
+#~| msgid ""
+#~| "reCAPTCHA is a free service anti-spam service from Google. Its goal is "
+#~| "to protect your website from spam and abuse while letting real people "
+#~| "pass through with ease. <a href=\"http://www.google.com/recaptcha/intro/"
+#~| "index.html\" target=\"_blank\">Visit reCAPTCHA</a> to learn more or sign "
+#~| "up for a free account."
+#~ msgid ""
+#~ "reCAPTCHA is a free anti-spam service from Google which helps to protect "
+#~ "your website from spam and abuse while letting real people pass through "
+#~ "with ease."
+#~ msgstr ""
+#~ "reCAPTCHA est un service gratuit d&rsquo;anti-spam de Google. Son "
+#~ "objectif est de protéger votre site Internet des spams et des abus tout "
+#~ "en laissant passer les vrais visiteurs avec facilité. Pour en savoir plus "
+#~ "ou vous inscrire pour un compte gratuit, <a href=\"http://www.google.com/"
+#~ "recaptcha/intro/index.html\" target=\"_blank\">visitez reCAPTCHA</a>."
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#, fuzzy
+#~| msgid "Your license key provides access to updates and Add-ons. "
+#~ msgid "Your license key provides access to updates and addons."
+#~ msgstr ""
+#~ "Votre clé de licence donne accès aux mises à jour et aux extensions."
+
+#~ msgid "License Key"
+#~ msgstr "Clé de licence"
+
+#~ msgid "Include Form Styling"
+#~ msgstr "Inclure la mise en forme du formulaire"
+
+#~ msgid "Determines which CSS files to load for the site."
+#~ msgstr "Détermine les fichiers CSS à charger pour le site."
+
+#~ msgid "Base and form theme styling"
+#~ msgstr "Mise en forme de base et thème de formulaire"
+
+#~ msgid "Base styling only"
+#~ msgstr "Mise en forme de base uniquement"
+
+#, fuzzy
+#~| msgid "template"
+#~ msgid "Template"
+#~ msgstr "modèle"
+
+#, fuzzy
+#~| msgid "Use Template"
+#~ msgid "HTML Template"
+#~ msgstr "Utiliser un modèle"
+
+#, fuzzy
+#~| msgid "reCAPTCHA"
+#~ msgid "v2 reCAPTCHA"
+#~ msgstr "reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Enable reCAPTCHA"
+#~ msgid "Invisible reCAPTCHA"
+#~ msgstr "Activer reCAPTCHA"
+
+#, fuzzy
+#~| msgid "Deactivate Key"
+#~ msgid "Site Key"
+#~ msgstr "Désactiver la clé"
+
+#, fuzzy
+#~| msgid "Refresh Key"
+#~ msgid "Secret Key"
+#~ msgstr "Actualiser la clé"
+
+#, fuzzy
+#~| msgid "Confirmation Message"
+#~ msgid "Validation Messages"
+#~ msgstr "Message de confirmation"
+
+#~ msgid "Required"
+#~ msgstr "Requis"
+
+#, fuzzy
+#~| msgid "This field is required"
+#~ msgid "This field is required."
+#~ msgstr "Champ obligatoire"
+
+#, fuzzy
+#~| msgid "Website / URL"
+#~ msgid "Website URL"
+#~ msgstr "Site internet / URL"
+
+#~ msgid "Please enter a valid email address."
+#~ msgstr "Veuillez saisir une adresse de messagerie valide."
+
+#, fuzzy
+#~| msgid "Numbers"
+#~ msgid "Number"
+#~ msgstr "Nombres"
+
+#~ msgid "Please enter a valid number."
+#~ msgstr "Veuillez saisir un nombre valide."
+
+#, fuzzy
+#~| msgid "Confirmation Page"
+#~ msgid "Confirm Value"
+#~ msgstr "Page de confirmation"
+
+#, fuzzy
+#~| msgid "WPForms Logs"
+#~ msgid "WPForms Import"
+#~ msgstr "Journaux WPForms"
+
+#, fuzzy
+#~| msgid "Select a form below to insert"
+#~ msgid "Select a WPForms export file."
+#~ msgstr "Sélectionner un formulaire à insérer ci-dessous"
+
+#, fuzzy
+#~| msgid "No field type found"
+#~ msgid "No file chosen"
+#~ msgstr "Aucun type de champ trouvé"
+
+#, fuzzy
+#~| msgid "Activate"
+#~ msgid "Not Active"
+#~ msgstr "Activer"
+
+#, fuzzy
+#~| msgid "Form Name"
+#~ msgid "Form Import"
+#~ msgstr "Nom du formulaire"
+
+#, fuzzy
+#~| msgid "Select a form below to insert"
+#~ msgid "Select the forms you would like to import."
+#~ msgstr "Sélectionner un formulaire à insérer ci-dessous"
+
+#, fuzzy
+#~| msgid "Available Form Fields"
+#~ msgid "Available Forms"
+#~ msgstr "Champs de formulaire disponibles"
+
+#, fuzzy
+#~| msgid "No form ID found"
+#~ msgid "No forms found."
+#~ msgstr "Aucun ID de formulaire trouvé"
+
+#, fuzzy
+#~| msgid "Select Account"
+#~ msgid "Select All"
+#~ msgstr "Sélectionner le compte"
+
+#, fuzzy
+#~| msgid "Welcome to WPForms"
+#~ msgid "Upgrade to WPForms Pro"
+#~ msgstr "Bienvenue sur WPForms"
+
+#~ msgid "Edit"
+#~ msgstr "Modifier"
+
+#, fuzzy
+#~| msgid "Form Entries"
+#~ msgid "Form Export"
+#~ msgstr "Entrées de formulaire"
+
+#, fuzzy
+#~| msgid "Select Groups"
+#~ msgid "Select form(s)"
+#~ msgstr "Sélectionner les groupes"
+
+#, fuzzy
+#~| msgid "You need to create your first form before you can view the entries."
+#~ msgid "You need to create a form before you can use form export."
+#~ msgstr ""
+#~ "Vous avez besoin de créer votre premier formulaire avant de pouvoir "
+#~ "visualiser les entrées."
+
+#, fuzzy
+#~| msgid "You need to create your first form before you can view the entries."
+#~ msgid "You need to create a form before you can generate a template."
+#~ msgstr ""
+#~ "Vous avez besoin de créer votre premier formulaire avant de pouvoir "
+#~ "visualiser les entrées."
+
+#, fuzzy
+#~| msgid "template"
+#~ msgid "Export Template"
+#~ msgstr "modèle"
+
+#, fuzzy
+#~| msgid "Confirmation"
+#~ msgid "System Information"
+#~ msgstr "Confirmation"
+
+#, fuzzy
+#~| msgid "Please use a valid currency format"
+#~ msgid "Please upload a valid .json form export file."
+#~ msgstr "Veuillez saisir un format de devise valide."
+
+#~ msgid "Welcome to WPForms"
+#~ msgstr "Bienvenue sur WPForms"
+
+#, fuzzy
+#~| msgid ""
+#~| "Thank you for choosing WPForms - the most beginner friendly WordPress "
+#~| "contact form plugin. Here's how to get started."
+#~ msgid ""
+#~ "Thank you for choosing WPForms - the most powerful drag & drop WordPress "
+#~ "form builder in the market."
+#~ msgstr ""
+#~ "Merci d&rsquo;avoir choisi WPForms - l&rsquo;extension de formulaire "
+#~ "WordPress la plus accessible aux débutants. Voici comment commencer."
+
+#, fuzzy
+#~| msgid ""
+#~| "WPForms make it easy to create forms in WordPress. You can follow the "
+#~| "video tutorial on the right or read our how to <a href=\"%s\" target="
+#~| "\"_blank\">create your first form guide</a>."
+#~ msgid ""
+#~ "WPForms makes it easy to create forms in WordPress. You can watch the "
+#~ "video tutorial or read our guide on how create your first form."
+#~ msgstr ""
+#~ "WPForms facilite la création des formulaires dans WordPress. Vous pouvez "
+#~ "suivre le tutoriel vidéo sur la droite ou lire notre guide <a href=\"%s\" "
+#~ "target=\"_blank\">créer votre premier formulaire</a>."
+
+#, fuzzy
+#~| msgid "Creating Your First Form"
+#~ msgid "Create Your First Form"
+#~ msgstr "Création de votre premier formulaire"
+
+#, fuzzy
+#~| msgid ""
+#~| "WPForms is both easy to use and extremely powerful. We have tons of "
+#~| "helpful features that allows us to give you everything you need from a "
+#~| "form builder."
+#~ msgid ""
+#~ "WPForms is both easy to use and extremely powerful. We have tons of "
+#~ "helpful features that allow us to give you everything you need from a "
+#~ "form builder."
+#~ msgstr ""
+#~ "WPForms est à la fois facile à utiliser et extrêmement puissant. Nous "
+#~ "avons des tonnes de fonctionnalités utiles qui nous permettent de vous "
+#~ "apporter tout ce dont vous avez attendez d&rsquo;un constructeur de "
+#~ "formulaire."
+
+#, fuzzy
+#~| msgid "Use Template"
+#~ msgid "Form Templates"
+#~ msgstr "Utiliser un modèle"
+
+#, fuzzy
+#~| msgid "Conditional Logic"
+#~ msgid "Smart Conditional Logic"
+#~ msgstr "Logique conditionnelle"
+
+#, fuzzy
+#~| msgid "Notifications"
+#~ msgid "Instant Notifications"
+#~ msgstr "Notifications"
+
+#, fuzzy
+#~| msgid "Payment Fields"
+#~ msgid "Payments Made Easy"
+#~ msgstr "Champs de paiement"
+
+#, fuzzy
+#~| msgid "See all Features"
+#~ msgid "See All Features"
+#~ msgstr "Voir toutes les fonctionnalités"
+
+#, fuzzy
+#~| msgid "Upgrade Now"
+#~ msgid "Upgrade to PRO"
+#~ msgstr "Mise à niveau"
+
+#, fuzzy
+#~| msgid "Form Name"
+#~ msgid "Form Abandonment"
+#~ msgstr "Nom du formulaire"
+
+#, fuzzy
+#~| msgid "Notification"
+#~ msgid "Geolocation"
+#~ msgstr "Notification"
+
+#, fuzzy
+#~| msgid "Notification"
+#~ msgid "Notification 1"
+#~ msgstr "Notification"
+
+#, fuzzy
+#~| msgid "Delete Field"
+#~ msgid "Acceptance Field"
+#~ msgstr "Supprimer le champ"
+
+#, fuzzy
+#~| msgid "Notification"
+#~ msgid "Notification 2"
+#~ msgstr "Notification"
+
+#, fuzzy
+#~| msgid "List Fields"
+#~ msgid "%1$s Field%2$s"
+#~ msgstr "Liste des champs"
+
+#, fuzzy
+#~| msgid "Settings check failed."
+#~ msgid "Single Checkbox Field"
+#~ msgstr "Échec de la vérification des réglages."
+
+#~ msgid "Notification"
+#~ msgstr "Notification"
+
+#~ msgid "Shortcode"
+#~ msgstr "Code court"
+
+#~ msgid "Created"
+#~ msgstr "Créé"
+
+#~ msgid "Edit this form"
+#~ msgstr "Modifier ce formulaire"
+
+#~ msgid "View entries"
+#~ msgstr "Afficher les entrées"
+
+#, fuzzy
+#~| msgid "View Entries"
+#~ msgid "View preview"
+#~ msgstr "Afficher les entrées"
+
+#, fuzzy
+#~| msgid "Delete this form"
+#~ msgid "Duplicate this form"
+#~ msgstr "Supprimer ce formulaire"
+
+#~ msgid "Delete this form"
+#~ msgstr "Supprimer ce formulaire"
+
+#, fuzzy
+#~| msgid "Form successfully deleted."
+#~ msgid "Form was successfully deleted."
+#~ msgstr "Formulaire supprimé avec succès."
+
+#, fuzzy
+#~| msgid "Form successfully deleted."
+#~ msgid "Forms were successfully deleted."
+#~ msgstr "Formulaire supprimé avec succès."
+
+#, fuzzy
+#~| msgid "Security check failed"
+#~ msgid "Security check failed. Please try again."
+#~ msgstr "Le contrôle de sécurité a échoué."
+
+#, fuzzy
+#~| msgid "Form successfully deleted."
+#~ msgid "Form was successfully duplicated."
+#~ msgstr "Formulaire supprimé avec succès."
+
+#, fuzzy
+#~| msgid "Form successfully deleted."
+#~ msgid "Forms were successfully duplicated."
+#~ msgstr "Formulaire supprimé avec succès."
+
+#~ msgid "Number of forms per page:"
+#~ msgstr "Nombre de formulaires par page&nbsp;:"
+
+#~ msgid "Forms Overview"
+#~ msgstr "Vue d&rsquo;ensemble des formulaires"
+
+#~ msgid "Verify Key"
+#~ msgstr "Vérifier la clé"
+
+#~ msgid "Deactivate Key"
+#~ msgstr "Désactiver la clé"
+
+#, fuzzy
+#~| msgid "Your license key type for this site is <strong>%s.</strong>"
+#~ msgid "Your license key type is %s."
+#~ msgstr "Votre type de clé de licence pour ce site est <strong>%s</strong>."
+
+#, fuzzy
+#~| msgid ""
+#~| "If your license has been upgraded or is incorrect, you may force a "
+#~| "refresh."
+#~ msgid ""
+#~ "If your license has been upgraded or is incorrect, <a href=\"#\" id="
+#~ "\"wpforms-setting-license-key-refresh\">click here to force a refresh</a>."
+#~ msgstr ""
+#~ "Si votre licence a été mise à niveau ou est incorrecte, vous pouvez "
+#~ "forcer une actualisation."
+
+#, fuzzy
+#~| msgid "This field is required"
+#~ msgid "this field if"
+#~ msgstr "Champ obligatoire"
+
+#, fuzzy
+#~| msgid "Show Page"
+#~ msgid "Show"
+#~ msgstr "Afficher la page"
+
+#, fuzzy
+#~| msgid "Check this option to hide the form field label."
+#~ msgid "Check this option to enable conditional logic on this field."
+#~ msgstr "Cocher cette option pour masquer le libellé de champ de formulaire."
+
+#, fuzzy
+#~| msgid "Enable conditional logic"
+#~ msgid "Check this option to enable conditional logic."
+#~ msgstr "Activer la logique conditionnelle"
+
+#~ msgid "Add rule group"
+#~ msgstr "Ajouter un groupe de règles"
+
+#~ msgid "WPForms Logs"
+#~ msgstr "Journaux WPForms"
+
+#, fuzzy
+#~| msgid "Hidden Field"
+#~ msgid "Hide empty fields"
+#~ msgstr "Champ caché"
+
+#, fuzzy
+#~| msgid "is not"
+#~ msgid "Hide notes"
+#~ msgstr "n&rsquo;est pas"
+
+#, fuzzy
+#~| msgid "Show Values"
+#~ msgid "Show notes"
+#~ msgstr "Afficher les valeurs"
+
+#, fuzzy
+#~| msgid "Forms Overview"
+#~ msgid "Normal view"
+#~ msgstr "Vue d&rsquo;ensemble des formulaires"
+
+#, fuzzy
+#~| msgid "New Entry: "
+#~ msgid "Entry #%d"
+#~ msgstr "Nouvelle entrée&nbsp;:"
+
+#, fuzzy
+#~| msgid "Forms Overview"
+#~ msgid "WPForms Preview"
+#~ msgstr "Vue d&rsquo;ensemble des formulaires"
+
+#, fuzzy
+#~| msgid "Format"
+#~ msgid "Form"
+#~ msgstr "Format"
+
+#~ msgid "Invalid form."
+#~ msgstr "Formulaire invalide."
+
+#~ msgid "Incorrect reCAPTCHA, please try again."
+#~ msgstr "reCAPTCHA incorrect. Veuillez essayer à nouveau."
+
+#, fuzzy
+#~| msgid "reCAPTCHA Site key"
+#~ msgid "reCAPTCHA is required."
+#~ msgstr "Clé du site ReCaptcha"
+
+#~ msgid "Form has not been submitted, please see the errors below."
+#~ msgstr ""
+#~ "Le formulaire n&rsquo;a pas été soumis, veuillez voir les erreurs ci-"
+#~ "dessous."
+
+#, fuzzy
+#~| msgid "New %s Entry"
+#~ msgctxt "Form name"
+#~ msgid "New %s Entry"
+#~ msgstr "Nouvelle entrée %s"
+
+#, fuzzy
+#~| msgid "New Entry: "
+#~ msgid "Entry ID"
+#~ msgstr "Nouvelle entrée&nbsp;:"
+
+#, fuzzy
+#~| msgid "Form Name"
+#~ msgid "Form ID"
+#~ msgstr "Nom du formulaire"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "User IP Address"
+#~ msgstr "Adresse"
+
+#, fuzzy
+#~| msgid "From Name"
+#~ msgid "User Name"
+#~ msgstr "&laquo;&nbsp;Depuis&nbsp;&raquo; nom"
+
+#, fuzzy
+#~| msgid "Email"
+#~ msgid "User Email"
+#~ msgstr "Adresse de contact"
+
+#, fuzzy
+#~| msgid "Form Name"
+#~ msgid "Author Name"
+#~ msgstr "Nom du formulaire"
+
+#, fuzzy
+#~| msgid "Website / URL"
+#~ msgid "Register URL"
+#~ msgstr "Site internet / URL"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Lost Password URL"
+#~ msgstr "Mot de Passe"
+
+#, fuzzy
+#~| msgid "Display form title"
+#~ msgctxt "Widget"
+#~ msgid "Display a form."
+#~ msgstr "Afficher le titre du formulaire"
+
+#, fuzzy
+#~| msgid "WPForms"
+#~ msgctxt "Widget"
+#~ msgid "WPForms"
+#~ msgstr "WPForms"
+
+#, fuzzy
+#~| msgid "Form Title"
+#~ msgctxt "Widget"
+#~ msgid "Title:"
+#~ msgstr "Titre du formulaire"
+
+#, fuzzy
+#~| msgid "Format"
+#~ msgctxt "Widget"
+#~ msgid "Form:"
+#~ msgstr "Format"
+
+#, fuzzy
+#~| msgid "Delete this form"
+#~ msgctxt "Widget"
+#~ msgid "Select your form"
+#~ msgstr "Supprimer ce formulaire"
+
+#, fuzzy
+#~| msgid "No forms"
+#~ msgctxt "Widget"
+#~ msgid "No forms"
+#~ msgstr "Aucun formulaire"
+
+#, fuzzy
+#~| msgid "Display form title"
+#~ msgctxt "Widget"
+#~ msgid "Display form name"
+#~ msgstr "Afficher le titre du formulaire"
+
+#, fuzzy
+#~| msgid "Display form description"
+#~ msgctxt "Widget"
+#~ msgid "Display form description"
+#~ msgstr "Afficher la description du formulaire"
+
+#~ msgid "(empty)"
+#~ msgstr "(vide)"
+
+#, fuzzy
+#~| msgid "Field"
+#~ msgid "Field ID #"
+#~ msgstr "Champ"
+
+#~ msgid ""
+#~ "Enter text for the form field label. Field labels are recommended and can "
+#~ "be hidden in the Advanced Settings."
+#~ msgstr ""
+#~ "Saisir du texte pour le libellé de champ de formulaire. Les libellés de "
+#~ "champ sont recommandées et peuvent être cachées dans les paramètres "
+#~ "avancés."
+
+#~ msgid "Label"
+#~ msgstr "Libellé"
+
+#~ msgid "Enter text for the form field description."
+#~ msgstr "Saisir du texte pour le champ description de formulaire."
+
+#~ msgid ""
+#~ "Check this option to mark the field required. A form will not submit "
+#~ "unless all required fields are provided."
+#~ msgstr ""
+#~ "Cocher cette option pour marquer le champ comme requis. Un formulaire ne "
+#~ "sera pas soumis à moins que tous les champs obligatoires soient fournis."
+
+#~ msgid "Enter code for the form field."
+#~ msgstr "Saisir du code pour le champ de formulaire."
+
+#~ msgid "Code"
+#~ msgstr "Code"
+
+#~ msgid "Add choices for the form field."
+#~ msgstr "Ajouter des choix pour le champ de formulaire."
+
+#~ msgid "Choices"
+#~ msgstr "Choix"
+
+#~ msgid "Items"
+#~ msgstr "Articles"
+
+#~ msgid "Enter text for the default form field value."
+#~ msgstr "Saisir du texte pour la valeur par défaut du champ de formulaire."
+
+#~ msgid "Select the default form field size."
+#~ msgstr "Sélectionner la taille de champ de formulaire par défaut."
+
+#~ msgid "Field Size"
+#~ msgstr "Taille du champ"
+
+#~ msgid "Advanced Options"
+#~ msgstr "Options avancées"
+
+#~ msgid "Enter text for the form field placeholder."
+#~ msgstr "Saisir du texte pour l&rsquo;espace réservé de champ de formulaire."
+
+#~ msgid "Placeholder Text"
+#~ msgstr "Texte d&rsquo;espace réservé"
+
+#, fuzzy
+#~| msgid ""
+#~| "Enter CSS class names for the form field container. Class names should "
+#~| "be seperated with spaces."
+#~ msgid ""
+#~ "Enter CSS class names for the form field container. Class names should be "
+#~ "separated with spaces."
+#~ msgstr ""
+#~ "Saisir les noms de classe CSS pour le conteneur de champ de formulaire. "
+#~ "Les noms de classe doivent être séparés par des espaces."
+
+#~ msgid "CSS Classes"
+#~ msgstr "Classes CSS"
+
+#~ msgid "Check this option to hide the form field label."
+#~ msgstr "Cocher cette option pour masquer le libellé de champ de formulaire."
+
+#~ msgid "Hide Label"
+#~ msgstr "Masquer le libellé"
+
+#, fuzzy
+#~| msgid "Check this option to hide the form field sib-label."
+#~ msgid "Check this option to hide the form field sub-label."
+#~ msgstr ""
+#~ "Cocher cette option pour masquer la sous-libellé de champ de formulaire."
+
+#~ msgid "Hide Sub-Labels"
+#~ msgstr "Masquer les sous-libellés"
+
+#, fuzzy
+#~| msgid "Select the default form field size."
+#~ msgid "Select the layout for displaying field choices."
+#~ msgstr "Sélectionner la taille de champ de formulaire par défaut."
+
+#, fuzzy
+#~| msgid "Choices"
+#~ msgid "Choice Layout"
+#~ msgstr "Choix"
+
+#, fuzzy
+#~| msgid "Item Type"
+#~ msgid "Post Type"
+#~ msgstr "Type d&rsquo;élément"
+
+#, fuzzy
+#~| msgid "Choices"
+#~ msgid "Dynamic Choices"
+#~ msgstr "Choix"
+
+#~ msgid "You do no have permission."
+#~ msgstr "Vous n&rsquo;avez pas d&rsquo;autorisation."
+
+#~ msgid "No form ID found"
+#~ msgstr "Aucun ID de formulaire trouvé"
+
+#~ msgid "No field type found"
+#~ msgstr "Aucun type de champ trouvé"
+
+#~ msgid "Checkboxes"
+#~ msgstr "Cases à cocher"
+
+#~ msgid "First Choice"
+#~ msgstr "Premier choix"
+
+#~ msgid "Second Choice"
+#~ msgstr "Deuxième choix"
+
+#~ msgid "Third Choice"
+#~ msgstr "Troisième choix"
+
+#~ msgid "Show Values"
+#~ msgstr "Afficher les valeurs"
+
+#~ msgid "Check this to manually set form field values."
+#~ msgstr ""
+#~ "Cocher ceci pour définir manuellement les valeurs de champ de formulaire."
+
+#, fuzzy
+#~| msgid ""
+#~| "Note: Item type is set to hidden and will not be visible when viewing "
+#~| "the form."
+#~ msgid ""
+#~ "Showing the first 20 choices.<br> All %d choices will be displayed when "
+#~ "viewing the form."
+#~ msgstr ""
+#~ "Remarque&nbsp;: le type d&rsquo;élément est défini à masquer et ne sera "
+#~ "pas visible lorsque le formulaire s&rsquo;affichera."
+
+#, fuzzy
+#~| msgid "Confirmation"
+#~ msgid "Confirm Email"
+#~ msgstr "Confirmation"
+
+#, fuzzy
+#~| msgid "Confirmation"
+#~ msgid "Enable Email Confirmation"
+#~ msgstr "Confirmation"
+
+#~ msgid "First"
+#~ msgstr "Prénom"
+
+#~ msgid "Middle"
+#~ msgstr "Second prénom"
+
+#~ msgid "Last"
+#~ msgstr "Nom"
+
+#~ msgid "Select format to use for the name form field"
+#~ msgstr "Sélectionner le format à utiliser pour le champ de formulaire nom"
+
+#~ msgid "Simple"
+#~ msgstr "Simple"
+
+#~ msgid "First Last"
+#~ msgstr "Prénom Nom"
+
+#~ msgid "First Middle Last"
+#~ msgstr "Prénom Second prénom Nom"
+
+#~ msgid "Name field advanced options."
+#~ msgstr "Options avancées de champ nom."
+
+#~ msgid "First Name"
+#~ msgstr "Prénom"
+
+#~ msgid "First name field advanced options."
+#~ msgstr "Options avancées de champ prénom."
+
+#~ msgid "Middle Name"
+#~ msgstr "Second prénom"
+
+#~ msgid "Middle name field advanced options."
+#~ msgstr "Options avancées de champ second prénom."
+
+#~ msgid "Last Name"
+#~ msgstr "Nom"
+
+#~ msgid "Last name field advanced options."
+#~ msgstr "Options avancées de champ nom."
+
+#~ msgid "Numbers"
+#~ msgstr "Nombres"
+
+#~ msgid "Multiple Choice"
+#~ msgstr "Choix multiple"
+
+#~ msgid "Dropdown"
+#~ msgstr "Liste déroulante"
+
+#~ msgid "Single Line Text"
+#~ msgstr "Ligne de texte"
+
+#~ msgid "Paragraph Text"
+#~ msgstr "Paragraphe de texte"
+
+#, fuzzy
+#~| msgid "Connect to"
+#~ msgid "Connecticut"
+#~ msgstr "Se connecter à"
+
+#, fuzzy
+#~| msgid "Disconnect "
+#~ msgid "Wisconsin"
+#~ msgstr "Déconnecter"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgid "France"
+#~ msgstr "Annuler"
+
+#, fuzzy
+#~| msgid "Numbers"
+#~ msgid "November"
+#~ msgstr "Nombres"
+
+#, fuzzy
+#~| msgid "No form ID found"
+#~ msgid "No forms found"
+#~ msgstr "Aucun ID de formulaire trouvé"
+
+#, fuzzy
+#~| msgid "Add Form"
+#~ msgid "Add your form"
+#~ msgstr "Ajouter un formulaire"
+
+#, fuzzy
+#~| msgid "Display form title"
+#~ msgid "Display Form Name"
+#~ msgstr "Afficher le titre du formulaire"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "No"
+#~ msgstr "Aucune"
+
+#, fuzzy
+#~| msgid "Display form description"
+#~ msgid "Display Form Description"
+#~ msgstr "Afficher la description du formulaire"
+
+#, fuzzy
+#~| msgid "Display form description"
+#~ msgid "Would you like to display the forms description?"
+#~ msgstr "Afficher la description du formulaire"
+
+#, fuzzy
+#~| msgid "Connect to"
+#~ msgid "Connection"
+#~ msgstr "Se connecter à"
+
+#~ msgid "You do not have permission"
+#~ msgstr "Vous n&rsquo;avez pas d&rsquo;autorisation"
+
+#, fuzzy
+#~| msgid "Full"
+#~ msgctxt "Name field label"
+#~ msgid "%s (Full)"
+#~ msgstr "Complet"
+
+#, fuzzy
+#~| msgid "First"
+#~ msgctxt "Name field label"
+#~ msgid "%s (First)"
+#~ msgstr "Prénom"
+
+#, fuzzy
+#~| msgid "Middle"
+#~ msgctxt "Name field label"
+#~ msgid "%s (Middle)"
+#~ msgstr "Second prénom"
+
+#, fuzzy
+#~| msgid "First Last"
+#~ msgctxt "Name field label"
+#~ msgid "%s (Last)"
+#~ msgstr "Prénom Nom"
+
+#~ msgid "Select Account"
+#~ msgstr "Sélectionner le compte"
+
+#~ msgid "Add New Account"
+#~ msgstr "Ajouter un nouveau compte"
+
+#~ msgid "Select List"
+#~ msgstr "Sélectionner une liste"
+
+#~ msgid "Select Groups"
+#~ msgstr "Sélectionner les groupes"
+
+#~ msgid ""
+#~ "We also noticed that you have some segments in your list. You can select "
+#~ "specific list segments below if needed. This is optional."
+#~ msgstr ""
+#~ "Nous avons également remarqué que vous avez certains segments dans votre "
+#~ "liste. Vous pouvez sélectionner une liste spécifique de segments ci-"
+#~ "dessous si nécessaire. Ceci est optionnel."
+
+#~ msgid "List Fields"
+#~ msgstr "Liste des champs"
+
+#~ msgid "Available Form Fields"
+#~ msgstr "Champs de formulaire disponibles"
+
+#, fuzzy
+#~| msgid "Disconnect "
+#~ msgid "this connection if"
+#~ msgstr "Déconnecter"
+
+#, fuzzy
+#~| msgid "Add New"
+#~ msgctxt "Provider Type"
+#~ msgid "Add New %s"
+#~ msgstr "Nouveau"
+
+#~ msgid "Missing data"
+#~ msgstr "Donnée manquante"
+
+#~ msgid "Connection missing"
+#~ msgstr "Connexion manquante"
+
+#, fuzzy
+#~| msgid "Connected on: "
+#~ msgctxt "Connection date"
+#~ msgid "Connected on: %s"
+#~ msgstr "Connecté sur&nbsp;:"
+
+#, fuzzy
+#~| msgid "Disconnect "
+#~ msgid "Disconnect"
+#~ msgstr "Déconnecter"
+
+#, fuzzy
+#~| msgid "Connect to"
+#~ msgid "Connect to %s"
+#~ msgstr "Se connecter à"
+
+#, fuzzy
+#~| msgid "Getting started with WPForms"
+#~ msgid "Integrate %s with WPForms"
+#~ msgstr "Guide de démarrage de WPForms"
+
+#~ msgid "Connected"
+#~ msgstr "Connecté"
+
+#, fuzzy
+#~| msgid "Add New Account"
+#~ msgctxt "New Provider Account"
+#~ msgid "Add New Account"
+#~ msgstr "Ajouter un nouveau compte"
+
+#~ msgid ""
+#~ "Please fill out all of the fields below to add your new provider account."
+#~ msgstr ""
+#~ "Veuillez remplir tous les champs ci-dessous pour ajouter votre nouveau "
+#~ "compte de fournisseur."
+
+#, fuzzy
+#~| msgid ""
+#~| "Please fill out all of the fields below to add your new provider account."
+#~ msgid ""
+#~ "Please fill out all of the fields below to register your new Constant "
+#~ "Contact account."
+#~ msgstr ""
+#~ "Veuillez remplir tous les champs ci-dessous pour ajouter votre nouveau "
+#~ "compte de fournisseur."
+
+#, fuzzy
+#~| msgid "Connected"
+#~ msgid "Connect"
+#~ msgstr "Connecté"
+
+#, fuzzy
+#~| msgid "Website / URL"
+#~ msgid "A Website or Blog"
+#~ msgstr "Site internet / URL"
+
+#~ msgid "Blank Form"
+#~ msgstr "Formulaire vierge"
+
+#~ msgid ""
+#~ "The blank form allows you to create any type of form using our drag & "
+#~ "drop builder."
+#~ msgstr ""
+#~ "Le formulaire vierge permet de créer n&rsquo;importe quel type de "
+#~ "formulaire à l&rsquo;aide de notre constructeur par glisser / déposer."
+
+#~ msgid "Simple Contact Form"
+#~ msgstr "Formulaire de contact simple"
+
+#~ msgid ""
+#~ "Allow your users to contact you with this simple contact form. You can "
+#~ "add and remove fields as needed."
+#~ msgstr ""
+#~ "Permet à vos visiteurs de vous contacter depuis ce simple formulaire de "
+#~ "contact. Vous pouvez ajouter et supprimer des champs à votre convenance."
+
+#~ msgid "Newsletter Signup Form"
+#~ msgstr "Formulaire d’inscription à une lettre d&rsquo;information"
+
+#~ msgid ""
+#~ "Add subscribers and grow your email list with this newsletter signup "
+#~ "form. You can add and remove fields as needed."
+#~ msgstr ""
+#~ "Aquérir des abonnés et faire croître votre liste d&rsquo;e-mails avec ce "
+#~ "formulaire d&rsquo;inscription de lettre d&rsquo;information. Vous pouvez "
+#~ "ajouter et supprimer des champs à votre convenance."
+
+#~ msgid ""
+#~ "Click the marketing tab to configure your newsletter service provider"
+#~ msgstr ""
+#~ "Cliquer sur l&rsquo;onglet marketing pour configurer votre fournisseur de "
+#~ "service de lettre d&rsquo;information"
+
+#, fuzzy
+#~| msgid "Donation Form"
+#~ msgid "Suggestion Form"
+#~ msgstr "Formulaire de don"
+
+#, fuzzy
+#~| msgid ""
+#~| "Allow your users to contact you with this simple contact form. You can "
+#~| "add and remove fields as needed."
+#~ msgid ""
+#~ "Ask your users for suggestions with this simple form template. You can "
+#~ "add and remove fields as needed."
+#~ msgstr ""
+#~ "Permet à vos visiteurs de vous contacter depuis ce simple formulaire de "
+#~ "contact. Vous pouvez ajouter et supprimer des champs à votre convenance."
+
+#, fuzzy
+#~| msgid "Email Subject"
+#~ msgid "Subject"
+#~ msgstr "Sujet de l&rsquo;e-mail"
+
+#, fuzzy
+#~| msgid "New Entry: "
+#~ msgctxt "Form name"
+#~ msgid "New Entry: %s"
+#~ msgstr "Nouvelle entrée&nbsp;:"
+
+#~ msgid ""
+#~ "Collect payments for product and service orders with this ready-made form "
+#~ "template. You can add and remove fields as needed."
+#~ msgstr ""
+#~ "Encaisser des paiements pour les commandes de produits et de services "
+#~ "avec ce modèle de formulaire prêt à l&rsquo;emploi. Vous pouvez ajouter "
+#~ "et supprimer des champs à votre convenance."
+
+#, fuzzy
+#~| msgid "Unlock More Features..."
+#~ msgid "Unlock Pre-Made Form Templates"
+#~ msgstr "Débloquer plus de fonctionnalités..."
+
+#, fuzzy
+#~| msgid "See all Features"
+#~ msgid "is a PRO Feature"
+#~ msgstr "Voir toutes les fonctionnalités"
+
+#~ msgid "Install Your Payment Integration"
+#~ msgstr "Installer votre intégration de paiement"
+
+#, fuzzy
+#~| msgid ""
+#~| "It seems you do not have any payment add-ons activated. You can head "
+#~| "over to the <a href=\"%s\">Add-Ons page</a> to install and activate the "
+#~| "add-on for your payment service."
+#~ msgid ""
+#~ "It seems you do not have any payment addons activated. You can head over "
+#~ "to the <a href=\"%s\">Addons page</a> to install and activate the addon "
+#~ "for your payment service."
+#~ msgstr ""
+#~ "Il semble que vous n&rsquo;avez aucun module de paiement activé. Vous "
+#~ "pouvez vous rendre sur la <a href=\"%s\">page Extensions</a> pour "
+#~ "installer et activer l&rsquo;extension pour votre service de paiement."
+
+#~ msgid "Select Your Payment Integration"
+#~ msgstr "Sélectionner votre intégration de paiement"
+
+#, fuzzy
+#~| msgid ""
+#~| "Select your email payment provider provider from the options on the "
+#~| "left. If you don't see your payment service listed, then let us know and "
+#~| "we'll do our best to get it added as fast as possible"
+#~ msgid ""
+#~ "Select your payment provider from the options on the left. If you don't "
+#~ "see your payment service listed, then let us know and we'll do our best "
+#~ "to get it added as fast as possible."
+#~ msgstr ""
+#~ "Sélectionner votre fournisseur d&rsquo;e-mail de paiement depuis les "
+#~ "options sur la gauche. Si vous ne voyez pas votre service de paiement "
+#~ "listé, faites le nous savoir et nous ferons de notre mieux pour l&rsquo;"
+#~ "ajouter aussi rapidement que possible"
+
+#, fuzzy
+#~| msgid "Please deactivate WPForms Lite before activating WPForms"
+#~ msgid "Please deactivate WPForms Lite before activating WPForms."
+#~ msgstr "Veuillez désactiver WPForms Lite avant d&rsquo;activer WPForms"
+
+#~ msgid "https://wpforms.com"
+#~ msgstr "https://wpforms.com"
+
+#~ msgid ""
+#~ "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form "
+#~ "builder to create your WordPress forms."
+#~ msgstr ""
+#~ "Extension de formulaire de contact WordPress accessible aux débutants. "
+#~ "Utiliser notre constructeur de formulaire par glisser / déposer pour "
+#~ "créer vos formulaires WordPress."
+
+#~ msgid "No form title provided"
+#~ msgstr "Aucun titre de formulaire fourni"
+
+#~ msgid ""
+#~ "You need to <a href=\"#\" class=\"wpforms-panel-switch\" data-panel="
+#~ "\"setup\">setup your form</a> before you can manage these options."
+#~ msgstr ""
+#~ "Vous devez <a href=\"#\" class=\"wpforms-panel-switch\" data-panel=\"setup"
+#~ "\">configurer votre formulaire</a> avant de pouvoir gérer ces options."
+
+#~ msgid "Hide form title and description area"
+#~ msgstr "Masquer la zone de titre et de description du formulaire"
+
+#~ msgid "Last Previous Label"
+#~ msgstr "Libellé dernière précédente"
+
+#~ msgid "No Addons Available for WPForms Basic License"
+#~ msgstr "Aucune extension disponible pour la licence basique de WPForms"
+
+#~ msgid ""
+#~ "WPForms Basic license does not come with premium extensions at this "
+#~ "point. Please upgrade your account to unlock the features below."
+#~ msgstr ""
+#~ "La licence basique de WPForms ne comporte pas d&rsquo;extensions premium "
+#~ "à ce stade. Veuillez mettre à jour votre compte pour déverrouiller les "
+#~ "fonctionnalités ci-dessous."
+
+#~ msgid "There are no active forms."
+#~ msgstr "Il n&rsquo;y a pas de formulaire actif."
+
+#~ msgid "Advanced"
+#~ msgstr "Avancé"
+
+#~ msgid "General settings updated."
+#~ msgstr "Réglages généraux enregistrés."
+
+#~ msgid "License Key Type"
+#~ msgstr "Type de clé de licence"
+
+#~ msgid "reCAPTCHA Secret key"
+#~ msgstr "Clé secrète ReCaptcha"
+
+#~ msgid "Settings updated."
+#~ msgstr "Réglages enregistrés."
+
+#~ msgid "Determines which currency to use for payments."
+#~ msgstr "Détermine quelle devise utiliser pour les paiements."
+
+#~ msgid ""
+#~ "You do not have any marketing add-ons activated. You can head over to the "
+#~ "<a href=\"%s\">Add-Ons page</a> to install and activate the add-on for "
+#~ "your provider."
+#~ msgstr ""
+#~ "Vous n&rsquo;avez aucune extension marketing activée. Vous pouvez vous "
+#~ "rendre sur la <a href=\"%s\">page Extensions</a> pour installer et "
+#~ "activer l&rsquo;extension pour votre fournisseur."
+
+#~ msgid "Getting Started"
+#~ msgstr "Guide de démarrage"
+
+#~ msgid "What's New"
+#~ msgstr "Quoi de neuf"
+
+#~ msgid ""
+#~ "Use the tips below to get started using WPForms. You will be up and "
+#~ "running in no time."
+#~ msgstr ""
+#~ "Utiliser les conseils suivants pour commencer à utiliser WPForms. Vous "
+#~ "serez opérationnel en un rien de temps."
+
+#~ msgid ""
+#~ "But in reality, the process is so intuitive that you can just start by "
+#~ "going to <a href=\"%s\">WPForms - > Add New</a>."
+#~ msgstr ""
+#~ "Mais en réalité, le processus est si intuitif que vous pouvez simplement "
+#~ "commencer en vous rendant sur <a href=\"%s\">WPForms - > Nouveau</a>."
+
+#~ msgid "See all WPForms Features"
+#~ msgstr "Voir toutes les fonctionnalités de WPForms"
+
+#~ msgid "edit"
+#~ msgstr "modifier"
+
+#~ msgid "Unable to process the form entry."
+#~ msgstr "Impossible de traiter l&rsquo;entrée de formulaire."
+
+#~ msgid "Process this form if"
+#~ msgstr "Traiter ce formulaire si"
+
+#~ msgid "ZIP"
+#~ msgstr "Code postal"
+
+#~ msgid "New"
+#~ msgstr "Créer"
+
+#~ msgid "Check this to manual set form field values."
+#~ msgstr ""
+#~ "Cocher ceci pour définir manuellement les valeurs de champ de formulaire."
+
+#~ msgid "1 minute"
+#~ msgstr "1 minute"
+
+#~ msgid "Page Break "
+#~ msgstr "Saut de page "
+
+#~ msgid "Add item choices for the form field."
+#~ msgstr "Ajouter un élément de choix pour le champ de formulaire."
+
+#~ msgid "Click the payments tab to configure your payment provider"
+#~ msgstr ""
+#~ "Cliquer sur l&rsquo;onglet paiements pour configurer votre prestataire de "
+#~ "paiement"
